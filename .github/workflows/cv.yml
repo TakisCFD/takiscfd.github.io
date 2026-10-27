@@ -1,0 +1,48 @@
+name: Build public CV
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-cv.txt
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt -r requirements-cv.txt
+
+      - name: Generate publication data from BibTeX
+        run: python scripts/import_publications.py
+
+      - name: Install minimal XeLaTeX dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y \
+            texlive-xetex texlive-latex-extra texlive-fonts-recommended fonts-texgyre
+
+      - name: Build public CV
+        run: python scripts/build_public_cv.py --engine xelatex
+
+      - name: Upload generated CV
+        uses: actions/upload-artifact@v4
+        with:
+          name: panagiotis-tsoutsanis-public-cv
+          path: |
+            assets/files/panagiotis-tsoutsanis-public-cv.pdf
+            assets/files/panagiotis-tsoutsanis-public-cv.tex

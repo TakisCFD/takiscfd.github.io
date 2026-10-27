@@ -9,7 +9,7 @@
   width: 2400
   height: 1612
   source_url: ''
-  credit: Animation supplied by Panagiotis Tsoutsanis
+  credit: ''
   research_path: /research/high-order-methods/
   wide: true
 - id: near-wall-flow
@@ -23,7 +23,7 @@
   type: video
   award: ''
   source_url: ''
-  credit: Animation supplied by Panagiotis Tsoutsanis
+  credit: ''
 - id: cylinder-wake
   title: Cylinder wake
   caption: An evolving wake behind a cylinder, shown through three-dimensional structures and a planar flow visualisation.
@@ -35,7 +35,7 @@
   type: video
   award: ''
   source_url: ''
-  credit: Animation supplied by Panagiotis Tsoutsanis
+  credit: ''
 - id: interface-evolution
   title: Interface evolution
   caption: 'An evolving interface shown in two panels: density-gradient magnitude above and density below, with
@@ -49,17 +49,18 @@
   type: video
   award: ''
   source_url: ''
-  credit: Animation supplied by Panagiotis Tsoutsanis
+  credit: ''
 - id: three-dimensional-interface
   type: video
   title: Three-dimensional interface evolution
-  caption: Evolving three-dimensional interfaces above a coloured flow section, with the original plotted scales retained.
+  caption: Evolving three-dimensional interfaces above a coloured flow section, with the original plotted scales
+    retained.
   url: /assets/videos/three-dimensional-interface.mp4
   poster: /assets/images/video/three-dimensional-interface-poster.png
   width: 1600
   height: 800
   wide: true
-  credit: Animation supplied by Panagiotis Tsoutsanis
+  credit: ''
   research_path: /research/turbulence-multiphase/
 - id: aircraft-top-view
   type: video
@@ -70,7 +71,7 @@
   width: 1280
   height: 1138
   wide: true
-  credit: Animation supplied by Panagiotis Tsoutsanis
+  credit: ''
   research_path: /research/turbulence-multiphase/
 - id: shock-bubble
   title: Shock wave interaction with cavitation bubble
@@ -79,7 +80,7 @@
   award: ARCHER2 2021 · Winning Video
   url: https://www.youtube.com/watch?v=WNRggplDTos
   source_url: https://www.archer2.ac.uk/about/gallery/2021-image-comp/
-  credit: Panagiotis Tsoutsanis · UCNS3D
+  credit: ''
   research_path: /research/turbulence-multiphase/
 - id: kelvin-helmholtz
   title: Supersonic Kelvin–Helmholtz instability
@@ -89,5 +90,5 @@
   award: ARCHER 2017 · Winning Early Career Researcher Entry
   url: https://www.youtube.com/watch?v=mq1q7QAFEZM
   source_url: https://www.archer2.ac.uk/about/gallery/winners
-  credit: Panagiotis Tsoutsanis · UCNS3D
+  credit: ''
   research_path: /research/high-speed-flows/

@@ -1,0 +1,1619 @@
+- id: tong2026hybridfinitevolume
+  title: A hybrid finite-volume reconstruction framework for efficient high-order shock-capturing on unstructured
+    meshes
+  authors: Yiren Tong and Panagiotis Tsoutsanis
+  year: 2026
+  type: journal
+  venue: Computers & Fluids
+  citation_details: 308, 106988
+  url: https://doi.org/10.1016/j.compfluid.2026.106988
+  doi_url: https://doi.org/10.1016/j.compfluid.2026.106988
+  preprint_url: https://arxiv.org/abs/2510.25906
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tong2026hybridfinitevolume.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: uminski2026emood
+  title: 'eMOOD: Entropy-Based Multidimensional Optimal Order Detection for High-Order Shock-Capturing Finite-Volume
+    Schemes'
+  authors: Michał Umiński, Panagiotis Tsoutsanis, Ahmed A Sheikh Al-Shabab, and Alan S. Dawes
+  year: 2026
+  type: preprint
+  venue: arXiv preprint
+  citation_details: ''
+  url: https://arxiv.org/abs/2610.20133
+  doi_url: https://doi.org/10.48550/arXiv.2610.20133
+  preprint_url: https://arxiv.org/abs/2610.20133
+  pdf: https://arxiv.org/pdf/2610.20133
+  code: ''
+  bibtex_url: /assets/bibtex/uminski2026emood.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: tsoutsanis2026exascale
+  title: 'Towards Heterogeneous Exascale CFD with a Single Fortran Code Base: OpenMP Target Acceleration of the
+    High-Order Unstructured Solver UCNS3D'
+  authors: Panagiotis Tsoutsanis, Michal Uminski, Christopher Day, and David Henty
+  year: 2026
+  type: preprint
+  venue: arXiv preprint
+  citation_details: ''
+  url: https://arxiv.org/abs/2609.07387
+  doi_url: ''
+  preprint_url: https://arxiv.org/abs/2609.07387
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2026exascale.bib
+  topics:
+  - HPC and GPUs
+  - High-order methods
+  - UCNS3D
+  selected: true
+  conference: false
+- id: sheikhalshabab2025modularmultifidelityapproach
+  title: A Modular Multifidelity Approach for Multiphysics Oleo-Pneumatic Shock Absorber Simulations
+  authors: Ahmed A. Sheikh Al-Shabab, Paulo A. S. F. Silva, Bojan Grenko, Panagiotis Tsoutsanis, and Martin Skote
+  year: 2025
+  type: conference
+  venue: Proceedings of the Cambridge Unsteady Flow Symposium 2024
+  citation_details: 137–151
+  url: https://doi.org/10.1007/978-3-031-69035-8_8
+  doi_url: https://doi.org/10.1007/978-3-031-69035-8_8
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/sheikhalshabab2025modularmultifidelityapproach.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: true
+  event_year: '2024'
+- id: adebayo2025reviewdiffuseinterface
+  title: A Review of Diffuse Interface-Capturing Methods for Compressible Multiphase Flows
+  authors: Ebenezer Mayowa Adebayo, Panagiotis Tsoutsanis, and Karl W. Jenkins
+  year: 2025
+  type: journal
+  venue: Fluids
+  citation_details: 10(4), 93
+  url: https://doi.org/10.3390/fluids10040093
+  doi_url: https://doi.org/10.3390/fluids10040093
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/adebayo2025reviewdiffuseinterface.bib
+  topics:
+  - Multiphase flow
+  selected: false
+  conference: false
+- id: tsoutsanis2025adda
+  title: Arbitrary-order unstructured finite-volume methods for implicit large eddy simulation of turbulent flows
+    with adaptive dissipation/dispersion adjustment (ADDA)
+  authors: Panagiotis Tsoutsanis and Xesus Nogueira
+  year: 2025
+  type: journal
+  venue: Journal of Computational Physics
+  citation_details: 523, 113653
+  url: https://doi.org/10.1016/j.jcp.2024.113653
+  doi_url: https://doi.org/10.1016/j.jcp.2024.113653
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2025adda.bib
+  topics:
+  - High-order methods
+  - Turbulence
+  selected: true
+  conference: false
+- id: silva2024comprehensivecfdinvestigation
+  title: A comprehensive CFD investigation of tip vortex trajectory in shrouded wind turbines using compressible
+    RANS solver
+  authors: Paulo A.S.F. Silva, Panagiotis Tsoutsanis, Jerson R.P. Vaz, and Marianela M. Macias
+  year: 2024
+  type: journal
+  venue: Energy
+  citation_details: 294, 130929
+  url: https://doi.org/10.1016/j.energy.2024.130929
+  doi_url: https://doi.org/10.1016/j.energy.2024.130929
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/silva2024comprehensivecfdinvestigation.bib
+  topics:
+  - Wind energy
+  selected: false
+  conference: false
+- id: feriaalanis2024mixedelastohydrodynamic
+  title: A Mixed-Elastohydrodynamic Lubrication Model of a Capped-T-Ring Seal with a Sectioned Multi-Material Film
+    Thickness in Landing Gear Shock Absorber Applications
+  authors: Aaron Feria Alanis, Ahmed A. Sheikh Al-Shabab, Antonis F. Antoniadis, Panagiotis Tsoutsanis, and Martin
+    Skote
+  year: 2024
+  type: journal
+  venue: Fluids
+  citation_details: 9(12), 271
+  url: https://www.mdpi.com/2311-5521/9/12/271
+  doi_url: https://doi.org/10.3390/fluids9120271
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/feriaalanis2024mixedelastohydrodynamic.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: false
+- id: alshabab2024multifidelityframeworkoleo
+  title: A Multifidelity Framework For Oleo-Pneumatic Shock Absorber Simulations
+  authors: A.A.S. Al-Shabab, P. A.S.F. Silva, P. Tsoutsanis, and M. Skote
+  year: 2024
+  type: conference presentation
+  venue: Cambridge Unsteady Flow Symposium
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/alshabab2024multifidelityframeworkoleo.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: true
+- id: nogueira2024adaptiveviscositymethods
+  title: Adaptive Viscosity Methods for Turbulent Compressible Flow Computations
+  authors: Xesús Nogueira, Javier Fernández Fidalgo, Luis Ramírez, and Panagiotis Tsoutsanis
+  year: 2024
+  type: conference presentation
+  venue: ECCOMAS 2024 Congress
+  citation_details: ''
+  url: https://eccomas2024.org/event/contribution/f74e4a05-aaef-11ee-ac5b-000c29ddfc0c
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/nogueira2024adaptiveviscositymethods.bib
+  topics:
+  - Turbulence
+  selected: false
+  conference: true
+- id: tsoutsanis2024adaptivelytunedhigh
+  title: Adaptively Tuned High-Order Methods for iLES
+  authors: Panagiotis Tsoutsanis, Lin Fu, and Xesus Nogueira
+  year: 2024
+  type: conference
+  venue: 'ECCOMAS Congress 2024: 9th European Congress on Computational Methods in Applied Sciences and Engineering'
+  citation_details: ''
+  url: https://www.scipedia.com/public/Tsoutsanis_et_al_2024a
+  doi_url: https://doi.org/10.23967/eccomas.2024.040
+  preprint_url: ''
+  pdf: https://www.scipedia.com/wd/images/f/fd/Draft_Sanchez_Pinedo_451098062pap_2381.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2024adaptivelytunedhigh.bib
+  topics:
+  - High-order methods
+  - Turbulence
+  selected: false
+  conference: true
+- id: tsoutsanis2024addaptivenumericalframework
+  title: ADDAptive Numerical Framework for iLES of Compressible Flows
+  authors: P. Tsoutsanis
+  year: 2024
+  type: conference presentation
+  venue: HONOM 2024 Conference
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2024addaptivenumericalframework.bib
+  topics:
+  - Turbulence
+  selected: false
+  conference: true
+- id: adebayo2024applicationcentralweighted
+  title: Application of Central-Weighted Essentially Non-Oscillatory Finite-Volume Interface-Capturing Schemes for
+    Modeling Cavitation Induced by an Underwater Explosion
+  authors: Ebenezer Mayowa Adebayo, Panagiotis Tsoutsanis, and Karl W. Jenkins
+  year: 2024
+  type: journal
+  venue: Fluids
+  citation_details: 9(2), 33
+  url: https://doi.org/10.3390/fluids9020033
+  doi_url: https://doi.org/10.3390/fluids9020033
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/adebayo2024applicationcentralweighted.bib
+  topics:
+  - High-order methods
+  - Multiphase flow
+  selected: false
+  conference: false
+- id: sheikhalshabab2024automatedflowphysics
+  title: Automated Flow Physics Identification and Classification in Multiphysics Multifidelity Simulations
+  authors: Ahmed A. Sheikh Al-Shabab, Paulo A. S. F. Silva, Panagiotis Tsoutsanis, and Martin Skote
+  year: 2024
+  type: conference
+  venue: 'ECCOMAS Congress 2024: 9th European Congress on Computational Methods in Applied Sciences and Engineering'
+  citation_details: ''
+  url: https://www.scipedia.com/public/Al-Shabab_et_al_2024a
+  doi_url: https://doi.org/10.23967/eccomas.2024.072
+  preprint_url: ''
+  pdf: https://www.scipedia.com/wd/images/f/f6/Draft_Sanchez_Pinedo_486507820pap_1693.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/sheikhalshabab2024automatedflowphysics.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: true
+- id: silva2024comparativestudyorifice
+  title: 'Comparative Study of Orifice Shapes on Shock Absorber: Impact on Energy Dissipation and Cavitation'
+  authors: Paulo A. S. F. Silva, Ahmed A. Sheikh Al-Shabab, Panagiotis Tsoutsanis, and Martin Skote
+  year: 2024
+  type: conference
+  venue: 'ECCOMAS Congress 2024: 9th European Congress on Computational Methods in Applied Sciences and Engineering'
+  citation_details: ''
+  url: https://www.scipedia.com/public/Silva_et_al_2024b
+  doi_url: https://doi.org/10.23967/eccomas.2024.073
+  preprint_url: ''
+  pdf: https://www.scipedia.com/wd/images/f/f8/Draft_Sanchez_Pinedo_302341218pap_1987.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/silva2024comparativestudyorifice.bib
+  topics:
+  - Multiphase flow
+  - Multiphysics
+  selected: false
+  conference: true
+- id: wei2024computationalanalysishigh
+  title: Computational Analysis of a High-Compression Hydraulic Landing Gear System for Enhanced Aircraft Safety
+  authors: Y. Wei and P. Tsoutsanis
+  year: 2024
+  type: conference presentation
+  venue: 19th OpenFoam Conference
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/wei2024computationalanalysishigh.bib
+  topics:
+  - Aerodynamics
+  - Multiphysics
+  selected: false
+  conference: true
+- id: piovesan2024dynamicswirldistortion
+  title: Dynamic swirl distortion characteristics in S-shaped diffusers using UCNS3D and time-resolved, stereo PIV
+    methods
+  authors: Tommaso Piovesan, Matteo Migliorini, Pavlos K. Zachos, and Panagiotis Tsoutsanis
+  year: 2024
+  type: conference
+  venue: AIAA SCITECH 2024 Forum
+  citation_details: ''
+  url: https://doi.org/10.2514/6.2024-1196
+  doi_url: https://doi.org/10.2514/6.2024-1196
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/piovesan2024dynamicswirldistortion.bib
+  topics:
+  - Aerodynamics
+  - Research software
+  - UCNS3D
+  selected: false
+  conference: true
+- id: maltsev2024highorderhybrid
+  title: High-order hybrid DG-FV framework for compressible multi-fluid problems on unstructured meshes
+  authors: Vadim Maltsev, Martin Skote, and Panagiotis Tsoutsanis
+  year: 2024
+  type: journal
+  venue: Journal of Computational Physics
+  citation_details: 502, 112819
+  url: https://doi.org/10.1016/j.jcp.2024.112819
+  doi_url: https://doi.org/10.1016/j.jcp.2024.112819
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/maltsev2024highorderhybrid.bib
+  topics:
+  - High-order methods
+  - Multiphase flow
+  selected: false
+  conference: false
+- id: silva2024studyorificedesign
+  title: Study of Orifice Design on Oleo-Pneumatic Shock Absorber
+  authors: Paulo A. S. F. Silva, Ahmed A. Sheikh Al-Shabab, Panagiotis Tsoutsanis, and Martin Skote
+  year: 2024
+  type: journal
+  venue: Fluids
+  citation_details: 9(5), 108
+  url: https://doi.org/10.3390/fluids9050108
+  doi_url: https://doi.org/10.3390/fluids9050108
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/silva2024studyorificedesign.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: false
+- id: sheikhalshabab2024unsteadymultiphasesimulation
+  title: Unsteady Multiphase Simulation of Oleo-Pneumatic Shock Absorber Flow
+  authors: Ahmed A. Sheikh Al-Shabab, Bojan Grenko, Paulo A. S. F. Silva, Antonis F. Antoniadis, Panagiotis Tsoutsanis,
+    and Martin Skote
+  year: 2024
+  type: journal
+  venue: Fluids
+  citation_details: 9(3), 68
+  url: https://doi.org/10.3390/fluids9030068
+  doi_url: https://doi.org/10.3390/fluids9030068
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/sheikhalshabab2024unsteadymultiphasesimulation.bib
+  topics:
+  - Multiphase flow
+  - Multiphysics
+  selected: false
+  conference: false
+- id: maltsev2023hybriddgfv
+  title: A hybrid DG/FV framework for gas-gas and gas-liquid compressible flows
+  authors: Vadim Maltsev, Martin Skote, and Panagiotis Tsoutsanis
+  year: 2023
+  type: conference presentation
+  venue: CFC 2023 Conference
+  citation_details: ''
+  url: https://cfc2023.iacm.info/event/contribution/22f331e2-334f-11ed-8e5b-000c29ddfc0c
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/maltsev2023hybriddgfv.bib
+  topics:
+  - Multiphase flow
+  selected: false
+  conference: true
+- id: feriaalanis2023mixedelastohydrodynamiclubrication
+  title: A Mixed-Elastohydrodynamic Lubrication Model of a Capped-T-ring Seal Based on a Modified Reynolds Equation
+  authors: Aaron Feria Alanis, Martin Skote, Panagiotis Tsoutsanis, and Antonis Foivos Antoniadis
+  year: 2023
+  type: conference presentation
+  venue: CFC 2023 Conference
+  citation_details: ''
+  url: https://cfc2023.iacm.info/event/contribution/92a1822e-48a6-11ed-9b3c-000c29ddfc0c
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/feriaalanis2023mixedelastohydrodynamiclubrication.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: true
+- id: tsoutsanis2023relaxedposteriorimood
+  title: A relaxed a posteriori MOOD algorithm for multicomponent compressible flows using high-order finite-volume
+    methods on unstructured meshes
+  authors: Panagiotis Tsoutsanis, Machavolu Sai Santosh Pavan Kumar, and Pericles S. Farmakis
+  year: 2023
+  type: journal
+  venue: Applied Mathematics and Computation
+  citation_details: 437, 127544
+  url: https://doi.org/10.1016/j.amc.2022.127544
+  doi_url: https://doi.org/10.1016/j.amc.2022.127544
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2023relaxedposteriorimood.bib
+  topics:
+  - High-order methods
+  - Multiphase flow
+  selected: false
+  conference: false
+- id: tsoutsanis2023shortnote3d
+  title: A short note on a 3D spectral analysis for turbulent flows on unstructured meshes
+  authors: Panagiotis Tsoutsanis, Xesus Nogueira, and Lin Fu
+  year: 2023
+  type: journal
+  venue: Journal of Computational Physics
+  citation_details: 474, 111804
+  url: https://doi.org/10.1016/j.jcp.2022.111804
+  doi_url: https://doi.org/10.1016/j.jcp.2022.111804
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2023shortnote3d.bib
+  topics:
+  - Turbulence
+  selected: false
+  conference: false
+- id: yuan2023adaptivefilteringhybrid
+  title: Adaptive Filtering for Hybrid DG-FV methods for Turbulent flows on Unstructured Meshes
+  authors: Dean Yuan, Panagiotis Tsoutsanis, and Xesus Nogueira
+  year: 2023
+  type: conference presentation
+  venue: CFC 2023 Conference
+  citation_details: ''
+  url: https://cfc2023.iacm.info/event/contribution/1844a0ab-38c8-11ed-8e5b-000c29ddfc0c
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/yuan2023adaptivefilteringhybrid.bib
+  topics:
+  - Turbulence
+  selected: false
+  conference: true
+- id: tsoutsanis2023automaticdissipationdispersion
+  title: Automatic Dissipation/Dispersion Control for High-Order Finite-Volume Schemes using Unstructured Meshes
+    for Turbulent Flows
+  authors: Panagiotis Tsoutsanis, Dean Yuan, and Xesus Nogueira
+  year: 2023
+  type: conference presentation
+  venue: CFC 2023 Conference
+  citation_details: ''
+  url: https://cfc2023.iacm.info/event/contribution/1a714b46-3348-11ed-8e5b-000c29ddfc0c
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2023automaticdissipationdispersion.bib
+  topics:
+  - High-order methods
+  - Turbulence
+  selected: false
+  conference: true
+- id: maltsev2023hybriddiscontinuousgalerkin
+  title: Hybrid discontinuous Galerkin-finite volume techniques for compressible flows on unstructured meshes
+  authors: Vadim Maltsev, Dean Yuan, Karl W. Jenkins, Martin Skote, and Panagiotis Tsoutsanis
+  year: 2023
+  type: journal
+  venue: Journal of Computational Physics
+  citation_details: 473, 111755
+  url: https://doi.org/10.1016/j.jcp.2022.111755
+  doi_url: https://doi.org/10.1016/j.jcp.2022.111755
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/maltsev2023hybriddiscontinuousgalerkin.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: sheikhalshabab2023multiphysicsmulti
+  title: Multi-Physics and Multi-Fidelity Considerations in Oleo-Pneumatic Shock Absorber Orifice Flow
+  authors: Ahmed A. Sheikh Al-Shabab, Bojan Grenko, Antonis Antoniadis, Panagiotis Tsoutsanis, and Martin Skote
+  year: 2023
+  type: conference presentation
+  venue: CFC 2023 Conference
+  citation_details: ''
+  url: https://cfc2023.iacm.info/event/contribution/2a8ddc78-489c-11ed-9b3c-000c29ddfc0c
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/sheikhalshabab2023multiphysicsmulti.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: true
+- id: yuan2023numericalinvestigationinviscid
+  title: Numerical Investigation of the Inviscid Taylor-Green Vortex Using an Adaptive Filtering Method for a Modal
+    Discontinuous Galerkin Method
+  authors: Dean Yuan, Karl W. Jenkins, and Panagiotis Tsoutsanis
+  year: 2023
+  type: journal
+  venue: International Journal of Computational Fluid Dynamics
+  citation_details: 37(6), 522–540
+  url: https://doi.org/10.1080/10618562.2024.2329775
+  doi_url: https://doi.org/10.1080/10618562.2024.2329775
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/yuan2023numericalinvestigationinviscid.bib
+  topics:
+  - High-order methods
+  - Turbulence
+  selected: false
+  conference: false
+- id: silva2023tipvortexinteraction
+  title: Tip-vortex interaction on Shrouded Wind-Turbines
+  authors: Paulo Silva, Panagiotis Tsoutsanis, and Karl Jenkins
+  year: 2023
+  type: conference presentation
+  venue: CFC 2023 Conference
+  citation_details: ''
+  url: https://cfc2023.iacm.info/event/contribution/2b310242-38d2-11ed-8e5b-000c29ddfc0c
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/silva2023tipvortexinteraction.bib
+  topics:
+  - Wind energy
+  selected: false
+  conference: true
+- id: tsoutsanis2022posteriorimoodlimiting
+  title: A posteriori MOOD limiting approach for multicomponent flows on unstructured meshes
+  authors: P. Tsoutsanis and P. S. Farmakis
+  year: 2022
+  type: conference
+  venue: 'ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering'
+  citation_details: ''
+  url: https://www.scipedia.com/public/Tsoutsanis_Farmakis_2022a
+  doi_url: https://doi.org/10.23967/eccomas.2022.026
+  preprint_url: ''
+  pdf: https://www.scipedia.com/wd/images/2/29/Draft_Sanchez_Pinedo_478894486809_paper.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2022posteriorimoodlimiting.bib
+  topics:
+  - High-order methods
+  - Multiphase flow
+  selected: false
+  conference: true
+- id: fernandezfidalgo2022adaptivedissipationweno
+  title: An adaptive-dissipation WENO scheme for the numerical simulation of compressible turbulent flows
+  authors: Javier Fernandez-Fidalgo, Luis Ramirez, P. Tsoutsanis, Ignasi Colominas, and Xesus Nogueira
+  year: 2022
+  type: conference presentation
+  venue: HONOM 2022 Conference
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/fernandezfidalgo2022adaptivedissipationweno.bib
+  topics:
+  - High-order methods
+  - Turbulence
+  selected: false
+  conference: true
+- id: adebayo2022applicationinterfacecapturing
+  title: Application of interface capturing schemes on multiphase/multicomponent compressible flow of underwater
+    explosion
+  authors: E. M. Adebayo, P. Tsoutsanis, and K. W. Jenkins
+  year: 2022
+  type: conference
+  venue: 'ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering'
+  citation_details: ''
+  url: https://www.scipedia.com/public/Adebayo_et_al_2022a
+  doi_url: https://doi.org/10.23967/eccomas.2022.052
+  preprint_url: ''
+  pdf: https://www.scipedia.com/wd/images/3/3d/Draft_Sanchez_Pinedo_665866853268_paper.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/adebayo2022applicationinterfacecapturing.bib
+  topics:
+  - Multiphase flow
+  selected: false
+  conference: true
+- id: ma2022bladeresolvedcfd
+  title: Blade-Resolved CFD Simulations of a Periodic Array of NREL 5 MW Rotors with and without Towers
+  authors: Lun Ma, Pierre-Luc Delafin, Panagiotis Tsoutsanis, Antonis Antoniadis, and Takafumi Nishino
+  year: 2022
+  type: journal
+  venue: Wind
+  citation_details: 2(1), 51–67
+  url: https://doi.org/10.3390/wind2010004
+  doi_url: https://doi.org/10.3390/wind2010004
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/ma2022bladeresolvedcfd.bib
+  topics:
+  - Aerodynamics
+  - Wind energy
+  selected: false
+  conference: false
+- id: maltsev2022highordermethods
+  title: 'High-order methods for diffuse-interface models in compressible multi-medium flows: A review'
+  authors: V. Maltsev, M. Skote, and P. Tsoutsanis
+  year: 2022
+  type: journal
+  venue: Physics of Fluids
+  citation_details: 34(2), 021301
+  url: https://doi.org/10.1063/5.0077314
+  doi_url: https://doi.org/10.1063/5.0077314
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/maltsev2022highordermethods.bib
+  topics:
+  - High-order methods
+  - Multiphase flow
+  selected: false
+  conference: false
+- id: maltsev2022hybridfinitevolume
+  title: Hybrid Finite-Volume/Discontinuous Galerkin framework for the solution of Multiphysics problems using unstructured
+    meshes
+  authors: V. Maltsev, P. Tsoutsanis, and M. Skote
+  year: 2022
+  type: conference
+  venue: 'ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering'
+  citation_details: ''
+  url: https://www.scipedia.com/public/Maltsev_et_al_2022a
+  doi_url: https://doi.org/10.23967/eccomas.2022.140
+  preprint_url: ''
+  pdf: https://www.scipedia.com/wd/images/9/9d/Draft_Sanchez_Pinedo_259645516250_paper.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/maltsev2022hybridfinitevolume.bib
+  topics:
+  - High-order methods
+  - Multiphysics
+  selected: false
+  conference: true
+- id: yuan2022hybridhighorder
+  title: Hybrid High-Order Finite Volume/Discontinuous Galerkin Methods for Turbulent Flows
+  authors: Dean Yuan, Panagiotis Tsoutsanis, and Karl W. Jenkins
+  year: 2022
+  type: conference
+  venue: 'ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering'
+  citation_details: ''
+  url: https://www.scipedia.com/public/Yuan_et_al_2022a
+  doi_url: https://doi.org/10.23967/eccomas.2022.141
+  preprint_url: ''
+  pdf: https://www.scipedia.com/wd/images/9/92/Draft_Sanchez_Pinedo_699299225258_paper.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/yuan2022hybridhighorder.bib
+  topics:
+  - High-order methods
+  - Turbulence
+  selected: false
+  conference: true
+- id: silva2022numericalinvestigationfull
+  title: Numerical investigation of full helicopter with and without the ground effect
+  authors: Paulo A. S. F. Silva, Panagiotis Tsoutsanis, and Antonios F. Antoniadis
+  year: 2022
+  type: journal
+  venue: Aerospace Science and Technology
+  citation_details: 122, 107401
+  url: https://doi.org/10.1016/j.ast.2022.107401
+  doi_url: https://doi.org/10.1016/j.ast.2022.107401
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/silva2022numericalinvestigationfull.bib
+  topics:
+  - Aerodynamics
+  selected: false
+  conference: false
+- id: sheikhalshabab2022numericalinvestigationoleo
+  title: 'Numerical Investigation of Oleo-Pneumatic Shock Absorber: A Multifidelity Approach'
+  authors: Ahmed A. Sheikh Al-Shabab, Bojan Grenko, Dimitrios Vitlaris, Panagiotis Tsoutsanis, Antonis F. Antoniadis,
+    and Martin Skote
+  year: 2022
+  type: conference
+  venue: 'ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering'
+  citation_details: ''
+  url: https://www.scipedia.com/public/Sheikh_Al-Shabab_et_al_2022a
+  doi_url: https://doi.org/10.23967/eccomas.2022.201
+  preprint_url: ''
+  pdf: https://www.scipedia.com/wd/images/4/4c/Draft_Sanchez_Pinedo_172619029657_paper.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/sheikhalshabab2022numericalinvestigationoleo.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: true
+- id: sheikhalshabab2022numericalinvestigationorifice
+  title: Numerical Investigation of Orifice Nearfield Flow Development in Oleo-Pneumatic Shock Absorbers
+  authors: Ahmed A. Sheikh Al-Shabab, Bojan Grenko, Dimitrios Vitlaris, Panagiotis Tsoutsanis, Antonios F. Antoniadis,
+    and Martin Skote
+  year: 2022
+  type: journal
+  venue: Fluids
+  citation_details: 7(2), 54
+  url: https://doi.org/10.3390/fluids7020054
+  doi_url: https://doi.org/10.3390/fluids7020054
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/sheikhalshabab2022numericalinvestigationorifice.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: false
+- id: antoniadis2022ucns3d
+  title: 'UCNS3D: An open-source high-order finite-volume unstructured CFD solver'
+  authors: Antonis F. Antoniadis, Dimitris Drikakis, Pericles S. Farmakis, Lin Fu, Ioannis Kokkinakis, Xesús Nogueira,
+    Paulo A. S. F. Silva, Martin Skote, Vladimir Titarev, and Panagiotis Tsoutsanis
+  year: 2022
+  type: journal
+  venue: Computer Physics Communications
+  citation_details: 279, 108453
+  url: https://doi.org/10.1016/j.cpc.2022.108453
+  doi_url: https://doi.org/10.1016/j.cpc.2022.108453
+  preprint_url: ''
+  pdf: ''
+  code: https://github.com/ucns3d-team/UCNS3D
+  bibtex_url: /assets/bibtex/antoniadis2022ucns3d.bib
+  topics:
+  - High-order methods
+  - Research software
+  - UCNS3D
+  selected: true
+  conference: false
+- id: tsoutsanis2022ucns3dhighorder
+  title: UCNS3D:A High-Order Finite-Volume CFD solver for Compressible flows
+  authors: P. Tsoutsanis
+  year: 2022
+  type: conference presentation
+  venue: SHARK FV 2022 Conference
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2022ucns3dhighorder.bib
+  topics:
+  - High-order methods
+  - Research software
+  - UCNS3D
+  selected: false
+  conference: true
+- id: silva2022unstructuredhighorder
+  title: Unstructured high-order solutions of hovering rotors with and without ground effect
+  authors: Paulo A. S. F. Silva, Panagiotis Tsoutsanis, Antonis F. Antoniadis, and Karl W. Jenkins
+  year: 2022
+  type: conference
+  venue: 'ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering'
+  citation_details: ''
+  url: https://www.scipedia.com/public/A._S._F._Silva_et_al_2022a
+  doi_url: https://doi.org/10.23967/eccomas.2022.283
+  preprint_url: ''
+  pdf: https://www.scipedia.com/wd/images/d/db/Draft_Sanchez_Pinedo_645656781365_paper.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/silva2022unstructuredhighorder.bib
+  topics:
+  - High-order methods
+  - Aerodynamics
+  selected: false
+  conference: true
+- id: fernandezfidalgo2021reduceddissipationweno
+  title: A reduced-dissipation WENO scheme with automatic dissipation adjustment
+  authors: Javier Fernández-Fidalgo, Luis Ramírez, Panagiotis Tsoutsanis, Ignasi Colominas, and Xesús Nogueira
+  year: 2021
+  type: journal
+  venue: Journal of Computational Physics
+  citation_details: 425, 109749
+  url: https://doi.org/10.1016/j.jcp.2020.109749
+  doi_url: https://doi.org/10.1016/j.jcp.2020.109749
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/fernandezfidalgo2021reduceddissipationweno.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: tsoutsanis2021arbitraryhighorder
+  title: Arbitrary high order central non-oscillatory schemes on mixed-element unstructured meshes
+  authors: Panagiotis Tsoutsanis and Michael Dumbser
+  year: 2021
+  type: journal
+  venue: Computers & Fluids
+  citation_details: 225, 104961
+  url: https://doi.org/10.1016/j.compfluid.2021.104961
+  doi_url: https://doi.org/10.1016/j.compfluid.2021.104961
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2021arbitraryhighorder.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: tsoutsanis2021cwenofinitevolume
+  title: CWENO Finite-Volume Interface Capturing Schemes for Multicomponent Flows Using Unstructured Meshes
+  authors: Panagiotis Tsoutsanis, Ebenezer Mayowa Adebayo, Adrian Carriba Merino, Agustin Perez Arjona, and Martin
+    Skote
+  year: 2021
+  type: journal
+  venue: Journal of Scientific Computing
+  citation_details: 89(3), 64
+  url: https://doi.org/10.1007/s10915-021-01673-y
+  doi_url: https://doi.org/10.1007/s10915-021-01673-y
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2021cwenofinitevolume.bib
+  topics:
+  - High-order methods
+  - Multiphase flow
+  selected: false
+  conference: false
+- id: vasilopoulos2021largeeddysimulation
+  title: Large eddy simulation of dispersion of hazardous materials released from a fire accident around a cubical
+    building
+  authors: Konstantinos Vasilopoulos, Ioannis Lekakis, Ioannis E. Sarris, and Panagiotis Tsoutsanis
+  year: 2021
+  type: journal
+  venue: Environmental Science and Pollution Research
+  citation_details: 28(36), 50363–50377
+  url: https://doi.org/10.1007/s11356-021-13604-3
+  doi_url: https://doi.org/10.1007/s11356-021-13604-3
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/vasilopoulos2021largeeddysimulation.bib
+  topics:
+  - Turbulence
+  - Environmental flows
+  selected: false
+  conference: false
+- id: alshabab2021multiphysicsunsteadysimulation
+  title: Multiphysics Unsteady Simulation of an Oleo Pneumatic Shock Absorber
+  authors: A. A. S. Al-Shabab, Z. Liu, P. Tsoutsanis, A. F. Antoniadis, and M. Skote
+  year: 2021
+  type: conference presentation
+  venue: 14th World Congress on Computational Mechanics and ECCOMAS Congress 2020
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/alshabab2021multiphysicsunsteadysimulation.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: true
+- id: sheikhalshabab2021setupvalidation
+  title: 'Numerical Investigation of Oleo-Pneumatic Shock Absorber: Setup and Validation'
+  authors: Ahmed A. Sheikh Al-Shabab, Dimitrios Vitlaris, Zhonglu Lin, Bojan Grenko, Panagiotis Tsoutsanis, Antonis
+    Antoniadis, and Martin Skote
+  year: 2021
+  type: conference
+  venue: 14th World Congress on Computational Mechanics and ECCOMAS Congress 2020
+  citation_details: ''
+  url: https://www.scipedia.com/public/Al-Shabab_et_al_2021a
+  doi_url: https://doi.org/10.23967/wccm-eccomas.2020.231
+  preprint_url: ''
+  pdf: https://www.scipedia.com/wd/images/f/fe/Draft_Content_630417823p4526.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/sheikhalshabab2021setupvalidation.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: true
+- id: liu2021numericalsimulationoleo
+  title: 'Numerical Simulation of Oleo Pneumatic Shock Absorber: Validation and Case Setup'
+  authors: Z. Liu, A. A. S. Al-Shabab, P. Tsoutsanis, A. F. Antoniadis, and M. Skote
+  year: 2021
+  type: conference presentation
+  venue: 14th World Congress on Computational Mechanics and ECCOMAS Congress 2020
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/liu2021numericalsimulationoleo.bib
+  topics:
+  - Multiphysics
+  selected: false
+  conference: true
+- id: silva2021simplemultiplereference
+  title: Simple multiple reference frame for high-order solution of hovering rotors with and without ground effect
+  authors: Paulo A.S.F. Silva, Panagiotis Tsoutsanis, and Antonis F. Antoniadis
+  year: 2021
+  type: journal
+  venue: Aerospace Science and Technology
+  citation_details: 111, 106518
+  url: https://doi.org/10.1016/j.ast.2021.106518
+  doi_url: https://doi.org/10.1016/j.ast.2021.106518
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/silva2021simplemultiplereference.bib
+  topics:
+  - High-order methods
+  - Aerodynamics
+  selected: false
+  conference: false
+- id: lin2021withdrawneffectsheat
+  title: 'Withdrawn: Effects of Heat-Conductive Obstacles on Conjugate Heat Transfer of Backward-Facing Step Flow'
+  authors: Zhonglu Lin, Ahmed A. Al-Shabab, Dimitrios Vitlaris, Panagiotis Tsoutsanis, Antonis Antoniadis, and Martin
+    Skote
+  year: 2021
+  type: conference
+  venue: AIAA Scitech 2021 Forum
+  citation_details: ''
+  url: https://doi.org/10.2514/6.2021-2007
+  doi_url: https://doi.org/10.2514/6.2021-2007
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/lin2021withdrawneffectsheat.bib
+  topics:
+  - Thermal flows
+  selected: false
+  conference: true
+  status: withdrawn
+- id: ricci2020hoveringrotorsolutions
+  title: Hovering rotor solutions by high-order methods on unstructured grids
+  authors: Francesco Ricci, Paulo A.S.F. Silva, Panagiotis Tsoutsanis, and Antonis F. Antoniadis
+  year: 2020
+  type: journal
+  venue: Aerospace Science and Technology
+  citation_details: 97, 105648
+  url: https://doi.org/10.1016/j.ast.2019.105648
+  doi_url: https://doi.org/10.1016/j.ast.2019.105648
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/ricci2020hoveringrotorsolutions.bib
+  topics:
+  - High-order methods
+  - Aerodynamics
+  selected: false
+  conference: false
+- id: farmakis2020wenoschemesunstructured
+  title: WENO schemes on unstructured meshes using a relaxed a posteriori MOOD limiting approach
+  authors: Pericles S. Farmakis, Panagiotis Tsoutsanis, and Xesús Nogueira
+  year: 2020
+  type: journal
+  venue: Computer Methods in Applied Mechanics and Engineering
+  citation_details: 363, 112921
+  url: https://doi.org/10.1016/j.cma.2020.112921
+  doi_url: https://doi.org/10.1016/j.cma.2020.112921
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/farmakis2020wenoschemesunstructured.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: vasilopoulos2019assessmentairflow
+  title: Assessment of air flow distribution and hazardous release dispersion around a single obstacle using Reynolds-averaged
+    Navier-Stokes equations
+  authors: Konstantinos Vasilopoulos, Ioannis E. Sarris, and Panagiotis Tsoutsanis
+  year: 2019
+  type: journal
+  venue: Heliyon
+  citation_details: 5(4), e01482
+  url: https://doi.org/10.1016/j.heliyon.2019.e01482
+  doi_url: https://doi.org/10.1016/j.heliyon.2019.e01482
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/vasilopoulos2019assessmentairflow.bib
+  topics:
+  - Environmental flows
+  selected: false
+  conference: false
+- id: silva2019computationalaerodynamicssolutions
+  title: Computational Aerodynamics Solutions of Hovering Rotors by high-order schemes on unstructured grids
+  authors: P. A.S.F. Silva, F. Ricci, P. Tsoutsanis, K. W. Jenkins, and A. F. Antoniadis
+  year: 2019
+  type: conference presentation
+  venue: UK FLUIDS 2019
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/silva2019computationalaerodynamicssolutions.bib
+  topics:
+  - High-order methods
+  - Aerodynamics
+  selected: false
+  conference: true
+- id: vasilopoulos2019dieselpoolfire
+  title: Diesel Pool Fire Incident Inside an Urban Street Canyon
+  authors: Konstantinos Vasilopoulos, Ioannis E. Sarris, Ioannis Lekakis, and Panagiotis Tsoutsanis
+  year: 2019
+  type: conference
+  venue: Proceedings of the 1st International Conference on Numerical Modelling in Engineering
+  citation_details: 339–350
+  url: https://doi.org/10.1007/978-981-13-2273-0_26
+  doi_url: https://doi.org/10.1007/978-981-13-2273-0_26
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/vasilopoulos2019dieselpoolfire.bib
+  topics:
+  - Environmental flows
+  selected: false
+  conference: true
+  event_year: '2018'
+- id: shamakina2019optimisationhove2
+  title: Optimisation of the Higher-Order Finite-Volume Unstructured Code Enhancement for Compressible Turbulent
+    Flows
+  authors: A. Shamakina and Panagiotis Tsoutsanis
+  year: 2019
+  type: report
+  venue: Partnership for Advanced Computing in Europe (PRACE)
+  citation_details: ''
+  url: https://prace-ri.eu/wp-content/uploads/WP288.pdf
+  doi_url: ''
+  preprint_url: ''
+  pdf: https://prace-ri.eu/wp-content/uploads/WP288.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/shamakina2019optimisationhove2.bib
+  topics:
+  - High-order methods
+  - Turbulence
+  selected: false
+  conference: false
+- id: tsoutsanis2019stencilselectionalgorithms
+  title: Stencil selection algorithms for WENO schemes on unstructured meshes
+  authors: Panagiotis Tsoutsanis
+  year: 2019
+  type: journal
+  venue: 'Journal of Computational Physics: X'
+  citation_details: 4, 100037
+  url: https://doi.org/10.1016/j.jcpx.2019.100037
+  doi_url: https://doi.org/10.1016/j.jcpx.2019.100037
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2019stencilselectionalgorithms.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: singh2018multifidelityapproach
+  title: A Multi-Fidelity Approach for Aerodynamic Performance Computations of Formation Flight
+  authors: Diwakar Singh, Antonios F. Antoniadis, Panagiotis Tsoutsanis, Hyo-Sang Shin, Antonios Tsourdos, Samuel
+    Mathekga, and Karl W. Jenkins
+  year: 2018
+  type: journal
+  venue: Aerospace
+  citation_details: 5(2), 66
+  url: https://doi.org/10.3390/aerospace5020066
+  doi_url: https://doi.org/10.3390/aerospace5020066
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/singh2018multifidelityapproach.bib
+  topics:
+  - Aerodynamics
+  selected: false
+  conference: false
+- id: vasilopoulos2018computationalassessmenthazardous
+  title: Computational Assessment of the Hazardous Release Dispersion from a Diesel Pool Fire in a Complex Building’s
+    Area
+  authors: Konstantinos Vasilopoulos, Michalis Mentzos, Ioannis E. Sarris, and Panagiotis Tsoutsanis
+  year: 2018
+  type: journal
+  venue: Computation
+  citation_details: 6(4), 65
+  url: https://doi.org/10.3390/computation6040065
+  doi_url: https://doi.org/10.3390/computation6040065
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/vasilopoulos2018computationalassessmenthazardous.bib
+  topics:
+  - Environmental flows
+  selected: false
+  conference: false
+- id: tsoutsanis2018extendedboundslimiter
+  title: Extended bounds limiter for high-order finite-volume schemes on unstructured meshes
+  authors: Panagiotis Tsoutsanis
+  year: 2018
+  type: journal
+  venue: Journal of Computational Physics
+  citation_details: 362, 69–94
+  url: https://doi.org/10.1016/j.jcp.2018.02.009
+  doi_url: https://doi.org/10.1016/j.jcp.2018.02.009
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2018extendedboundslimiter.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: farmakis2018highorderaccurate
+  title: High-Order Accurate Reconstruction Scheme for the Rayleigh-Taylor and Richtmyer-Meshkov Instabilities Using
+    Arbitrary Unstructured Meshes
+  authors: Pericles S. Farmakis and Panagiotis Tsoutsanis
+  year: 2018
+  type: conference
+  venue: 11th Panhellenic Conference on Fluid Mechanics
+  citation_details: ''
+  url: https://flow2018.mech.uowm.gr/wp-content/uploads/2018/11/19.-HIGH-ORDER-ACCURATE-RECONSTRUCTION-SCHEME-FOR-THE-RAYLEIGH-TAYLOR-AND-RICHTMYER-MESHKOV-INSTABILITIES-USING-ARBITARILY-UNSTRCTURED-MESHES.pdf
+  doi_url: ''
+  preprint_url: ''
+  pdf: https://flow2018.mech.uowm.gr/wp-content/uploads/2018/11/19.-HIGH-ORDER-ACCURATE-RECONSTRUCTION-SCHEME-FOR-THE-RAYLEIGH-TAYLOR-AND-RICHTMYER-MESHKOV-INSTABILITIES-USING-ARBITARILY-UNSTRCTURED-MESHES.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/farmakis2018highorderaccurate.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: true
+- id: tsoutsanis2018improvementcomputationalperformance
+  title: Improvement of the computational performance of a parallel unstructured WENO finite volume CFD code for
+    Implicit Large Eddy Simulation
+  authors: Panagiotis Tsoutsanis, Antonis F. Antoniadis, and Karl W. Jenkins
+  year: 2018
+  type: journal
+  venue: Computers & Fluids
+  citation_details: 173, 157–170
+  url: https://doi.org/10.1016/j.compfluid.2018.03.012
+  doi_url: https://doi.org/10.1016/j.compfluid.2018.03.012
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2018improvementcomputationalperformance.bib
+  topics:
+  - High-order methods
+  - Turbulence
+  - HPC and GPUs
+  selected: false
+  conference: false
+- id: simmonds2018lowmachnumber
+  title: Low-Mach number treatment for Finite-Volume schemes on unstructured meshes
+  authors: Nicholas Simmonds, Panagiotis Tsoutsanis, Antonis F. Antoniadis, Karl W. Jenkins, and Adrian Gaylard
+  year: 2018
+  type: journal
+  venue: Applied Mathematics and Computation
+  citation_details: 336, 368–393
+  url: https://doi.org/10.1016/j.amc.2018.04.076
+  doi_url: https://doi.org/10.1016/j.amc.2018.04.076
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/simmonds2018lowmachnumber.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: antoniadis2017assessmenthighorder
+  title: Assessment of high-order finite volume methods on unstructured meshes for RANS solutions of aeronautical
+    configurations
+  authors: Antonis F. Antoniadis, Panagiotis Tsoutsanis, and Dimitris Drikakis
+  year: 2017
+  type: journal
+  venue: Computers & Fluids
+  citation_details: 146, 86–104
+  url: https://doi.org/10.1016/j.compfluid.2017.01.002
+  doi_url: https://doi.org/10.1016/j.compfluid.2017.01.002
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/antoniadis2017assessmenthighorder.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: simmonds2017completebodyaerodynamic
+  title: Complete Body Aerodynamic Study of three Vehicles
+  authors: Nicholas Simmonds, John Pitman, Panagiotis Tsoutsanis, Karl Jenkins, Adrian Gaylard, and Wilko Jansen
+  year: 2017
+  type: report
+  venue: SAE International
+  citation_details: 2017-01-1529
+  url: https://doi.org/10.4271/2017-01-1529
+  doi_url: https://doi.org/10.4271/2017-01-1529
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/simmonds2017completebodyaerodynamic.bib
+  topics:
+  - Aerodynamics
+  selected: false
+  conference: false
+- id: antoniadis2017improvementcomputationalperformance
+  title: Improvement of the Computational Performance of a Parallel Unstructured WENO Finite Volume CFD code on
+    Knights Landing Processors
+  authors: A. F. Antoniadis, K.W. Jenkins, and P. Tsoutsanis
+  year: 2017
+  type: conference presentation
+  venue: ParCFD conference
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/antoniadis2017improvementcomputationalperformance.bib
+  topics:
+  - High-order methods
+  - HPC and GPUs
+  selected: false
+  conference: true
+- id: yi2017improvingcuringcycle
+  title: Improving the Curing Cycle Time through the Numerical Modeling of air Flow in Industrial Continuous Convection
+    Ovens
+  authors: Yuan Yi, Konstantinos Salonitis, Panagiotis Tsoutsanis, Lampros Litos, and John Patsavelas
+  year: 2017
+  type: conference
+  venue: Procedia CIRP
+  citation_details: 63, 499–504
+  url: https://doi.org/10.1016/j.procir.2017.03.167
+  doi_url: https://doi.org/10.1016/j.procir.2017.03.167
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/yi2017improvingcuringcycle.bib
+  topics:
+  - Thermal flows
+  selected: false
+  conference: true
+- id: tsoutsanis2017knlperformance
+  title: 'KNL Performance Comparison: UCNS3D'
+  authors: Panagiotis Tsoutsanis and Antonios Antoniadis
+  year: 2017
+  type: report
+  venue: ARCHER
+  citation_details: ''
+  url: https://www.archer.ac.uk/community/benchmarks/archer-knl/KNL_perf_UCNS3D.pdf
+  doi_url: ''
+  preprint_url: ''
+  pdf: https://www.archer.ac.uk/community/benchmarks/archer-knl/KNL_perf_UCNS3D.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2017knlperformance.bib
+  topics:
+  - HPC and GPUs
+  - UCNS3D
+  selected: false
+  conference: false
+- id: tsoutsanis2016highorderfinite
+  title: A high-order finite-volume method for atmospheric flows on unstructured grids
+  authors: Panagiotis Tsoutsanis and Dimitris Drikakis
+  year: 2016
+  type: journal
+  venue: Journal of Coupled Systems and Multiscale Dynamics
+  citation_details: 4(3), 170–186
+  url: https://doi.org/10.1166/jcsmd.2016.1104
+  doi_url: https://doi.org/10.1166/jcsmd.2016.1104
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2016highorderfinite.bib
+  topics:
+  - High-order methods
+  - Environmental flows
+  selected: false
+  conference: false
+- id: srinivasan2016adaptivemeshrefinement
+  title: Adaptive mesh refinement techniques for high-order finite-volume WENO scheme
+  authors: Harshavardhana Srinivasan and Panagiotis Tsoutsanis
+  year: 2016
+  type: conference
+  venue: Proceedings of the VII European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS
+    Congress 2016)
+  citation_details: 2883–2899
+  url: https://doi.org/10.7712/100016.2003.8544
+  doi_url: https://doi.org/10.7712/100016.2003.8544
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/srinivasan2016adaptivemeshrefinement.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: true
+- id: tsoutsanis2016addressingchallengesimplementation
+  title: Addressing the Challenges of Implementation of High-Order Finite-Volume Schemes for Atmospheric Dynamics
+    on Unstructured Meshes
+  authors: Panagiotis Tsoutsanis and Dimitris Drikakis
+  year: 2016
+  type: conference
+  venue: Proceedings of the VII European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS
+    Congress 2016)
+  citation_details: 684–708
+  url: https://doi.org/10.7712/100016.1846.8406
+  doi_url: https://doi.org/10.7712/100016.1846.8406
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2016addressingchallengesimplementation.bib
+  topics:
+  - High-order methods
+  - Environmental flows
+  selected: false
+  conference: true
+- id: simmonds2016fullvehicleaero
+  title: Full Vehicle Aero-Thermal Cooling Drag Sensitivity Analysis for Various Radiator Pressure Drops
+  authors: Nicholas Simmonds, Panagiotis Tsoutsanis, Dimitris Drikakis, Adrian Gaylard, and Wilko Jansen
+  year: 2016
+  type: report
+  venue: SAE International
+  citation_details: 2016-01-1578
+  url: https://doi.org/10.4271/2016-01-1578
+  doi_url: https://doi.org/10.4271/2016-01-1578
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/simmonds2016fullvehicleaero.bib
+  topics:
+  - Thermal flows
+  selected: false
+  conference: false
+- id: simmonds2016implementationlowmach
+  title: Implementation of a low-Mach number modification for High-Order Finite-Volume Schemes for Arbitrary Hybrid
+    Unstructured Meshes
+  authors: Nicholas Simmonds, Panagiotis Tsoutsanis, and Adrian Gaylard
+  year: 2016
+  type: conference
+  venue: Proceedings of the VII European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS
+    Congress 2016)
+  citation_details: 2900–2915
+  url: https://doi.org/10.7712/100016.2004.8545
+  doi_url: https://doi.org/10.7712/100016.2004.8545
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/simmonds2016implementationlowmach.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: true
+- id: ponweiser2016optimisingucns3d
+  title: Optimising UCNS3D, a High-Order finite-Volume WENO Scheme Code for arbitrary unstructured Meshes
+  authors: Thomas Ponweiser and Panagiotis Tsoutsanis
+  year: 2016
+  type: report
+  venue: Partnership for Advanced Computing in Europe (PRACE)
+  citation_details: ''
+  url: https://prace-ri.eu/wp-content/uploads/WP222.pdf
+  doi_url: ''
+  preprint_url: ''
+  pdf: https://prace-ri.eu/wp-content/uploads/WP222.pdf
+  code: ''
+  bibtex_url: /assets/bibtex/ponweiser2016optimisingucns3d.bib
+  topics:
+  - High-order methods
+  - UCNS3D
+  selected: false
+  conference: false
+- id: ciarella2015multifidelitymulti
+  title: A Multi-Fidelity, Multi-Disciplinary Analysis and Optimization Framework for the Design of Morphing UAV
+    Wing
+  authors: Andrea Ciarella, Christos Tsotskas, Marco Hahn, Noud Werter, Roeland De Breuker, Chris Beaverstock, Michael
+    I. Friswell, Yosheph Yang, Serkan Özgen, Antonios Antoniadis, Dimitris Drikakis, and Panagiotis Tsoutsanis
+  year: 2015
+  type: conference
+  venue: 16th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference
+  citation_details: ''
+  url: https://doi.org/10.2514/6.2015-2326
+  doi_url: https://doi.org/10.2514/6.2015-2326
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/ciarella2015multifidelitymulti.bib
+  topics:
+  - Aerodynamics
+  selected: false
+  conference: true
+- id: drikakis2015azureadvancedcfd
+  title: 'Azure: An Advanced CFD Software Suite Based on High-Resolution and High-Order Methods'
+  authors: Dimitris Drikakis, Antonios F. Antoniadis, Panagiotis Tsoutsanis, Ioannis Kokkinakis, and Zeeshan A.
+    Rana
+  year: 2015
+  type: conference
+  venue: 53rd AIAA Aerospace Sciences Meeting
+  citation_details: ''
+  url: https://doi.org/10.2514/6.2015-0813
+  doi_url: https://doi.org/10.2514/6.2015-0813
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/drikakis2015azureadvancedcfd.bib
+  topics:
+  - High-order methods
+  - Research software
+  selected: false
+  conference: true
+- id: tsoutsanis2015comparisonstructuredunstructured
+  title: Comparison of structured- and unstructured-grid, compressible and incompressible methods using the vortex
+    pairing problem
+  authors: Panagiotis Tsoutsanis, Ioannis W. Kokkinakis, László Könözsy, Dimitris Drikakis, Robin J.R. Williams,
+    and David L. Youngs
+  year: 2015
+  type: journal
+  venue: Computer Methods in Applied Mechanics and Engineering
+  citation_details: 293, 207–231
+  url: https://doi.org/10.1016/j.cma.2015.04.010
+  doi_url: https://doi.org/10.1016/j.cma.2015.04.010
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2015comparisonstructuredunstructured.bib
+  topics: []
+  selected: false
+  conference: false
+- id: kokkinakis2015highordermethods
+  title: High-order methods for hypersonic shock wave turbulent boundary layer interaction
+  authors: Ioannis W. Kokkinakis, Antonios F. Antoniadis, Dimitris Drikakis, Panagiotis Tsoutsanis, and Zeeshan
+    A. Rana
+  year: 2015
+  type: conference
+  venue: 20th AIAA International Space Planes and Hypersonic Systems and Technologies Conference
+  citation_details: 262–280
+  url: https://doi.org/10.2514/6.2015-3524
+  doi_url: https://doi.org/10.2514/6.2015-3524
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/kokkinakis2015highordermethods.bib
+  topics:
+  - High-order methods
+  - Turbulence
+  - Aerodynamics
+  selected: false
+  conference: true
+- id: antoniadis2015numericalaccuracyrans
+  title: Numerical Accuracy in RANS Computations of High-Lift Multi-element Airfoil and Aircraft Configurations
+  authors: Antonis F. Antoniadis, Panagiotis Tsoutsanis, and Dimitris Drikakis
+  year: 2015
+  type: conference
+  venue: 53rd AIAA Aerospace Sciences Meeting
+  citation_details: ''
+  url: https://doi.org/10.2514/6.2015-0317
+  doi_url: https://doi.org/10.2514/6.2015-0317
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/antoniadis2015numericalaccuracyrans.bib
+  topics:
+  - Aerodynamics
+  selected: false
+  conference: true
+- id: antoniadis2014highorderrans
+  title: High-order RANS Solutions for Full Aircraft and High-Lift Devices
+  authors: A. F. Antoniadis, P. Tsoutsanis, and D. Drikakis
+  year: 2014
+  type: conference presentation
+  venue: Proceeding of the Royal Aeronautical Society Applied Aerodynamics Conference
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/antoniadis2014highorderrans.bib
+  topics:
+  - High-order methods
+  - Aerodynamics
+  selected: false
+  conference: true
+- id: tsoutsanis2014wenoschemesarbitrary
+  title: WENO schemes on arbitrary unstructured meshes for laminar, transitional and turbulent flows
+  authors: Panagiotis Tsoutsanis, Antonios Foivos Antoniadis, and Dimitris Drikakis
+  year: 2014
+  type: journal
+  venue: Journal of Computational Physics
+  citation_details: 256, 254–276
+  url: https://doi.org/10.1016/j.jcp.2013.09.002
+  doi_url: https://doi.org/10.1016/j.jcp.2013.09.002
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2014wenoschemesarbitrary.bib
+  topics:
+  - High-order methods
+  - Turbulence
+  selected: false
+  conference: false
+- id: antoniadis2012highorderschemes
+  title: High-order Schemes on Mixed-element Unstructured Grids for Aerodynamic Flows
+  authors: Antonios Antoniadis, Panagiotis Tsoutsanis, and Dimitrios Drikakis
+  year: 2012
+  type: conference
+  venue: 42nd AIAA Fluid Dynamics Conference and Exhibit
+  citation_details: ''
+  url: https://doi.org/10.2514/6.2012-2833
+  doi_url: https://doi.org/10.2514/6.2012-2833
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/antoniadis2012highorderschemes.bib
+  topics:
+  - High-order methods
+  - Aerodynamics
+  selected: false
+  conference: true
+- id: tsoutsanis2012largeeddysimulation
+  title: Large eddy simulation of turbulent flows on 3D hybrid unstructured meshes
+  authors: P. Tsoutsanis, D. Drikakis, and J. Lelieveld
+  year: 2012
+  type: conference presentation
+  venue: ECCOMAS 2012 Congress
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2012largeeddysimulation.bib
+  topics:
+  - Turbulence
+  selected: false
+  conference: true
+- id: tsoutsanis2012modellingatmosphericflows
+  title: Modelling atmospheric flows on 3D hybrid unstructured meshes using high-order methods
+  authors: P. Tsoutsanis, D. Drikakis, and J. Lelieveld
+  year: 2012
+  type: conference presentation
+  venue: 3rd International EULAG Workshop
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2012modellingatmosphericflows.bib
+  topics:
+  - High-order methods
+  - Environmental flows
+  selected: false
+  conference: true
+- id: tsoutsanis2011wenoschemesarbitrary
+  title: WENO schemes on arbitrary mixed-element unstructured meshes in three space dimensions
+  authors: P. Tsoutsanis, V.A. Titarev, and D. Drikakis
+  year: 2011
+  type: journal
+  venue: Journal of Computational Physics
+  citation_details: 230(4), 1585–1601
+  url: https://doi.org/10.1016/j.jcp.2010.11.023
+  doi_url: https://doi.org/10.1016/j.jcp.2010.11.023
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2011wenoschemesarbitrary.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: titarev2010wenoschemesmixed
+  title: WENO Schemes for Mixed-Element Unstructured Meshes
+  authors: V. A. Titarev, P. Tsoutsanis, and D. Drikakis
+  year: 2010
+  type: journal
+  venue: Communications in Computational Physics
+  citation_details: 8(3), 585–609
+  url: https://doi.org/10.4208/cicp.040909.080110a
+  doi_url: https://doi.org/10.4208/cicp.040909.080110a
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/titarev2010wenoschemesmixed.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: false
+- id: tsoutsanis2009wenomethods3d
+  title: WENO Methods on 3D Unstructured Hexahedral Meshes
+  authors: P. Tsoutsanis, V. Titarev, and D. Drikakis
+  year: 2009
+  type: conference presentation
+  venue: HONOM2009 ECCOMAS Thematic Conference
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2009wenomethods3d.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: true
+- id: tsoutsanis2008veryhighorder
+  title: Very High-Order Godunov-Type Methods on Unstructured Hexahedral Meshes in Three Space Dimensions
+  authors: P. Tsoutsanis, V. Titarev, and D. Drikakis
+  year: 2008
+  type: conference presentation
+  venue: ECCOMAS 2008 Congress
+  citation_details: ''
+  url: ''
+  doi_url: ''
+  preprint_url: ''
+  pdf: ''
+  code: ''
+  bibtex_url: /assets/bibtex/tsoutsanis2008veryhighorder.bib
+  topics:
+  - High-order methods
+  selected: false
+  conference: true

@@ -11,17 +11,15 @@ permissions:
   contents: read
 
 concurrency:
-  group: github-pages
+  group: github-pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     permissions:
       contents: read
       pages: read
-
     steps:
       - name: Check out source
         uses: actions/checkout@v6
@@ -50,6 +48,18 @@ jobs:
       - name: Generate publication data from BibTeX
         run: python scripts/import_publications.py
 
+      - name: Verify publication data was generated
+        run: |
+          python - <<'PY'
+          import yaml
+          from pathlib import Path
+          path = Path('_data/publications.yml')
+          records = yaml.safe_load(path.read_text(encoding='utf-8')) if path.is_file() else []
+          if not isinstance(records, list) or len(records) < 80:
+              raise SystemExit(f'Expected at least 80 publication records, found {len(records) if isinstance(records, list) else 0}.')
+          print(f'Publication data contains {len(records)} records.')
+          PY
+
       - name: Validate website content
         run: python scripts/validate_content.py --for-publish
 
@@ -63,14 +73,25 @@ jobs:
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
         run: |
           ruby -ryaml -e 'File.write("_config.deploy.yml", {"url" => ENV.fetch("PAGES_ORIGIN"), "baseurl" => ENV.fetch("PAGES_BASE_PATH")}.to_yaml)'
-          JEKYLL_ENV=production bundle exec jekyll build \
-            --strict_front_matter \
-            --config _config.yml,_config.deploy.yml
+          JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter --config _config.yml,_config.deploy.yml
+
+      - name: Verify publications rendered into the website
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          page = Path('_site/publications/index.html')
+          text = page.read_text(encoding='utf-8') if page.is_file() else ''
+          count = text.count('data-publication')
+          if count < 80:
+              raise SystemExit(f'Expected at least 80 rendered publications, found {count}.')
+          print(f'Rendered Publications page contains {count} records.')
+          PY
 
       - name: Check generated pages and internal references
         run: python scripts/check_site.py _site
 
       - name: Upload website
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
@@ -79,15 +100,12 @@ jobs:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
-
     permissions:
       pages: write
       id-token: write
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Deploy website
         id: deployment

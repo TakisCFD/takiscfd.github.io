@@ -15,7 +15,7 @@ description: Scientific images and animations from computational fluid dynamics 
     <a class="gallery-image-link" href="{{ item.image | relative_url | escape }}" data-gallery-open data-caption="{{ item.caption | escape }}" data-credit="{{ item.credit | escape }}" data-title="{{ item.title | escape }}" aria-label="Enlarge: {{ item.title | escape }}"><img src="{{ item.image | relative_url | escape }}" alt="{{ item.alt | escape }}" loading="lazy"{% if item.width and item.height %} width="{{ item.width }}" height="{{ item.height }}"{% endif %}></a>
     <figcaption>
       <p class="overline">{{ item.category | escape }}</p><h2>{{ item.title | escape }}</h2><p>{{ item.caption | escape }}</p>
-      <p class="image-credit">{{ item.credit | escape }}{% if item.source_url and item.source_url != '' %} · <a href="{{ item.source_url | escape }}" target="_blank" rel="noopener noreferrer">Source image ↗</a>{% endif %}</p>
+      {% if item.credit and item.credit != '' or item.source_url and item.source_url != '' %}<p class="image-credit">{% if item.credit and item.credit != '' %}{{ item.credit | escape }}{% endif %}{% if item.credit and item.credit != '' and item.source_url and item.source_url != '' %} · {% endif %}{% if item.source_url and item.source_url != '' %}<a href="{{ item.source_url | escape }}" target="_blank" rel="noopener noreferrer">Source image ↗</a>{% endif %}</p>{% endif %}
       {% if item.project_path and item.project_path != '' %}<a class="text-link" href="{{ item.project_path | relative_url | escape }}">Related research →</a>{% endif %}
       {% if item.original_url and item.original_url != '' %}<a class="text-link" href="{{ item.original_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer">Original figure · PDF ↗</a>{% endif %}
     </figcaption>
@@ -39,7 +39,7 @@ description: Scientific images and animations from computational fluid dynamics 
       {% if item.award and item.award != '' %}<p class="overline">{{ item.award | escape }}</p>{% endif %}
       <h3>{{ item.title | escape }}</h3>
       <p id="animation-caption-{{ item.id | escape }}">{{ item.caption | escape }}</p>
-      <p class="image-credit">{{ item.credit | escape }}</p>
+      {% if item.credit and item.credit != '' %}<p class="image-credit">{{ item.credit | escape }}</p>{% endif %}
       <div class="publication-links">
         {% if item.type == 'video' %}<a href="{{ item.url | relative_url | escape }}" download>Download animation · MP4</a>{% endif %}
         {% if item.source_url and item.source_url != '' %}<a href="{{ item.source_url | escape }}" target="_blank" rel="noopener noreferrer">Award record ↗</a>{% endif %}
