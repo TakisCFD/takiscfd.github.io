@@ -1,0 +1,5 @@
+---
+layout: null
+---
+User-agent: *
+{% if site.indexable and jekyll.environment == 'production' %}Allow: /{% else %}Disallow: /{% endif %}

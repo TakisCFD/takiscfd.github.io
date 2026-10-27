@@ -1,0 +1,7 @@
+<div class="publication-controls" id="publication-controls" hidden>
+  <label class="search-field">Search records<input id="publication-search" type="search" placeholder="Title, author or venue" autocomplete="off"></label>
+  <label>Year<select id="publication-year"><option value="">All years</option>{% assign years = include.records | map: 'year' | uniq | sort | reverse %}{% for year in years %}<option value="{{ year }}">{{ year }}</option>{% endfor %}</select></label>
+  <label>Type<select id="publication-type"><option value="">All types</option>{% assign types = include.records | map: 'type' | uniq | sort %}{% for type in types %}<option value="{{ type | escape }}">{{ type | capitalize }}</option>{% endfor %}</select></label>
+  <label>Topic<select id="publication-topic"><option value="">All topics</option>{% assign all_topics = '' | split: ',' %}{% for pub in include.records %}{% assign all_topics = all_topics | concat: pub.topics %}{% endfor %}{% assign all_topics = all_topics | uniq | sort %}{% for topic in all_topics %}<option value="{{ topic | escape }}">{{ topic }}</option>{% endfor %}</select></label>
+</div>
+<div class="collection-toolbar"><p id="publication-count" role="status" aria-live="polite">{{ include.records.size }} records</p><a class="text-link" href="{{ '/assets/bibtex/publications.bib' | relative_url }}" download>Download full bibliography</a></div>

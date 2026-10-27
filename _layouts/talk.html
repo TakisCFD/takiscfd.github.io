@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<a class="back-link" href="{{ '/talks/' | relative_url }}">← All talks</a>
+<header class="page-intro">
+  <p class="overline">{{ page.talk_type | default: 'Seminar' | escape }}</p>
+  <h1>{{ page.title | escape }}</h1>
+  <p>{% if page.event_url and page.event_url != '' %}<a href="{{ page.event_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer">{{ page.event | escape }} ↗</a>{% else %}{{ page.event | escape }}{% endif %}{% if page.location and page.location != '' %} · {{ page.location | escape }}{% endif %}</p>
+  {% include talk-date.html talk=page %}
+</header>
+<div class="prose">{{ content }}</div>
+{% assign has_materials = false %}
+{% if page.slides_url and page.slides_url != '' %}{% assign has_materials = true %}{% endif %}
+{% if page.recording_url and page.recording_url != '' %}{% assign has_materials = true %}{% endif %}
+{% if has_materials %}
+<div class="actions">
+  {% if page.slides_url and page.slides_url != '' %}<a class="button button-primary" href="{{ page.slides_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer" data-goatcounter-click="slides-{{ page.slug | escape }}">Slides ↗</a>{% endif %}
+  {% if page.recording_url and page.recording_url != '' %}<a class="button" href="{{ page.recording_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer" data-goatcounter-click="recording-{{ page.slug | escape }}">Recording ↗</a>{% endif %}
+</div>
+{% endif %}

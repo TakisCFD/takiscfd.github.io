@@ -1,0 +1,14 @@
+---
+title: Research students & alumni
+description: Research supervision across PhD, EngD, MPhil and MRes programmes, with current students and alumni.
+---
+<header class="page-intro"><p class="overline">Research supervision</p><h1>Research students and alumni</h1><p>Research supervisees across PhD, EngD, MPhil and MRes programmes, and the topics connecting their work.</p><p>Explore <a href="{{ '/teaching/' | relative_url }}#msc-topics-heading">MSc research topics</a> on the teaching page.</p></header>
+{% assign current = site.data.people | where: 'status', 'current' %}
+{% assign alumni = site.data.people | where: 'status', 'alumni' %}
+{% if site.data.people.size > 0 %}
+{% if current.size > 0 %}<section class="section first-section"><h2>Current research students</h2><div class="people-grid">{% for person in current %}{% include person.html person=person %}{% endfor %}</div></section>{% endif %}
+{% if alumni.size > 0 %}<section class="section"><h2>Alumni</h2><div class="people-grid">{% for person in alumni %}{% include person.html person=person %}{% endfor %}</div></section>{% endif %}
+{% else %}
+<section class="prose empty-state"><h2>Research supervision and collaboration</h2><p>For enquiries about doctoral research, postdoctoral collaboration or related opportunities, please get in touch with a brief description of your interests and background.</p><p class="quiet">Individual researcher and alumni profiles have not yet been added to this collection.</p></section>
+{% endif %}
+{% include contact.html %}

@@ -1,0 +1,8 @@
+<article class="person">
+  {% if include.person.photo and include.person.photo != '' %}<img class="person-photo" src="{{ include.person.photo | relative_url }}" alt="{{ include.person.name | escape }}" loading="lazy" width="120" height="120">{% endif %}
+  <div><p class="overline">{{ include.person.role }}</p><h3>{% if include.person.profile_url and include.person.profile_url != '' %}<a href="{{ include.person.profile_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer">{{ include.person.name }}</a>{% else %}{{ include.person.name }}{% endif %}</h3>
+  {% if include.person.years and include.person.years != '' %}<p class="person-years">{{ include.person.years }}</p>{% endif %}<p>{{ include.person.research_topic }}</p>
+  {% if include.person.thesis_url and include.person.thesis_url != '' %}<p><a href="{{ include.person.thesis_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer">Thesis or project ↗</a></p>{% endif %}
+  {% if include.person.first_destination and include.person.first_destination != '' %}<p class="person-destination"><span>First destination:</span> {{ include.person.first_destination }}</p>{% endif %}
+  </div>
+</article>

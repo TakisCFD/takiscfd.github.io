@@ -1,0 +1,54 @@
+---
+title: Gallery
+description: Scientific images and animations from computational fluid dynamics research.
+---
+<header class="page-intro"><p class="overline">Gallery</p><h1>See the science</h1><p>Images and animations provide an accessible entrance to the flow physics and numerical methods behind a simulation.</p></header>
+<nav class="gallery-jump-links" aria-label="Gallery sections"><a href="#images-heading">Images ↓</a><a href="#animations-heading">Animations ↓</a></nav>
+<section aria-labelledby="images-heading">
+<div class="section-heading"><h2 id="images-heading">Research images</h2></div>
+{% assign categories = site.data.gallery | map: 'category' | uniq %}
+<div class="filter-buttons" id="gallery-filters" aria-label="Gallery categories" hidden><button type="button" data-gallery-filter="" aria-pressed="true">All images</button>{% for category in categories %}<button type="button" data-gallery-filter="{{ category | escape }}" aria-pressed="false">{{ category | escape }}</button>{% endfor %}</div>
+<p class="sr-only" id="gallery-count" role="status" aria-live="polite"></p>
+<div class="gallery-grid">
+  {% for item in site.data.gallery %}
+  <figure class="gallery-item" data-gallery-category="{{ item.category | escape }}">
+    <a class="gallery-image-link" href="{{ item.image | relative_url | escape }}" data-gallery-open data-caption="{{ item.caption | escape }}" data-credit="{{ item.credit | escape }}" data-title="{{ item.title | escape }}" aria-label="Enlarge: {{ item.title | escape }}"><img src="{{ item.image | relative_url | escape }}" alt="{{ item.alt | escape }}" loading="lazy"{% if item.width and item.height %} width="{{ item.width }}" height="{{ item.height }}"{% endif %}></a>
+    <figcaption>
+      <p class="overline">{{ item.category | escape }}</p><h2>{{ item.title | escape }}</h2><p>{{ item.caption | escape }}</p>
+      <p class="image-credit">{{ item.credit | escape }}{% if item.source_url and item.source_url != '' %} · <a href="{{ item.source_url | escape }}" target="_blank" rel="noopener noreferrer">Source image ↗</a>{% endif %}</p>
+      {% if item.project_path and item.project_path != '' %}<a class="text-link" href="{{ item.project_path | relative_url | escape }}">Related research →</a>{% endif %}
+      {% if item.original_url and item.original_url != '' %}<a class="text-link" href="{{ item.original_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer">Original figure · PDF ↗</a>{% endif %}
+    </figcaption>
+  </figure>
+  {% endfor %}
+</div>
+</section>
+
+{% if site.data.animations.size > 0 %}
+<section class="section" aria-labelledby="animations-heading">
+  <div class="section-heading"><div><p class="overline">Scientific animations</p><h2 id="animations-heading">Research in motion</h2></div></div>
+  <p>Flow evolution and numerical comparisons, alongside award-winning UCNS3D animations.</p>
+  <div class="animation-grid">
+    {% for item in site.data.animations %}
+    <article class="animation-card{% if item.wide %} animation-featured{% endif %}">
+      {% if item.type == 'video' %}
+      <video class="research-video" controls playsinline preload="none" poster="{{ item.poster | relative_url | escape }}" width="{{ item.width }}" height="{{ item.height }}" aria-label="{{ item.title | escape }}" aria-describedby="animation-caption-{{ item.id | escape }}"><source src="{{ item.url | relative_url | escape }}" type="video/mp4"><p><a href="{{ item.url | relative_url | escape }}">Open the animation</a></p></video>
+      {% else %}
+      <a class="animation-play" href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="Watch {{ item.title | escape }}" data-goatcounter-click="animation-{{ item.id | escape }}"><span aria-hidden="true">▶</span><span>Watch animation ↗</span></a>
+      {% endif %}
+      {% if item.award and item.award != '' %}<p class="overline">{{ item.award | escape }}</p>{% endif %}
+      <h3>{{ item.title | escape }}</h3>
+      <p id="animation-caption-{{ item.id | escape }}">{{ item.caption | escape }}</p>
+      <p class="image-credit">{{ item.credit | escape }}</p>
+      <div class="publication-links">
+        {% if item.type == 'video' %}<a href="{{ item.url | relative_url | escape }}" download>Download animation · MP4</a>{% endif %}
+        {% if item.source_url and item.source_url != '' %}<a href="{{ item.source_url | escape }}" target="_blank" rel="noopener noreferrer">Award record ↗</a>{% endif %}
+        {% if item.research_path and item.research_path != '' %}<a href="{{ item.research_path | relative_url | escape }}">Related research →</a>{% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<dialog class="image-dialog" id="image-dialog" aria-labelledby="dialog-title"><div class="dialog-toolbar"><h2 id="dialog-title"></h2><button class="dialog-close" id="dialog-close" type="button" aria-label="Close image">Close ×</button></div><img id="dialog-image" alt=""><p id="dialog-caption"></p><p class="image-credit" id="dialog-credit"></p></dialog>

@@ -1,0 +1,90 @@
+# Main settings for the TakisCFD personal GitHub Pages site.
+title: "Panagiotis Tsoutsanis"
+description: "High-order numerical methods, turbulence and high-performance computing for complex fluid flows."
+url: "https://takiscfd.github.io"
+baseurl: "" # Personal site repository: takiscfd.github.io
+github_username: "TakisCFD"
+lang: en-GB
+timezone: Europe/London
+indexable: false # Change to true when the final site is ready for search engines.
+
+profile:
+  name: "Panagiotis Tsoutsanis"
+  familiar_name: "Takis"
+  role: "Professor of Computational Fluid Dynamics"
+  institution: "Cranfield University"
+  email: "panagiotis.tsoutsanis@cranfield.ac.uk"
+  portrait: "/assets/images/takis-tsoutsanis.png"
+  cv: "/assets/files/panagiotis-tsoutsanis-public-cv.pdf"
+  institutional_url: "https://www.cranfield.ac.uk/people/professor-panagiotis-tsoutsanis-814715"
+  orcid: "https://orcid.org/0000-0003-3139-9766"
+  scholar: "https://scholar.google.com/citations?hl=en&user=0tuYVpAAAAAJ"
+
+software:
+  name: "UCNS3D"
+  url: "https://ucns3d.com/"
+  repository: "https://github.com/ucns3d-team/UCNS3D"
+  description: "Open-source high-order CFD on unstructured meshes."
+
+analytics:
+  enabled: false
+  goatcounter_code: "" # Public site code only, e.g. my-academic-site. Never an API token.
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+  talks:
+    output: true
+    permalink: /talks/:name/
+  news:
+    output: true
+    permalink: /news/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: article
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CONTENT_NEEDED.md
+  - SOURCE_NOTES.md
+  - EDITING.md
+  - AGENTS.md
+  - requirements.txt
+  - requirements-cv.txt
+  - scripts
+  - tests
+  - examples
+  - .github
+  - .openai
+  - .venv
+  - vendor
+  - _config.deploy.yml
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge

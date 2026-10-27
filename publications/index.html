@@ -1,0 +1,8 @@
+---
+title: Publications
+description: Journal articles, conference contributions, technical reports and preprints in computational fluid dynamics.
+---
+<header class="page-intro"><p class="overline">Publications</p><h1>Research publications</h1><p>Journal articles, conference contributions, technical reports and preprints spanning numerical methods, turbulent flows and research software.</p><div class="profile-links"><a href="{{ '/conferences/' | relative_url }}">Conference contributions →</a><a href="{{ site.profile.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="{{ site.profile.orcid }}" target="_blank" rel="noopener noreferrer">ORCID ↗</a></div></header>
+{% include publication-controls.html records=site.data.publications %}
+<section aria-label="Publication collection" id="publication-list">{% for pub in site.data.publications %}{% include publication.html pub=pub %}{% endfor %}</section>
+<p class="empty-message" id="publication-empty" hidden>No records match these filters. Try another term, year, type or topic.</p>

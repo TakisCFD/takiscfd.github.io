@@ -1,0 +1,10 @@
+# Append a completed record to _data/gallery.yml.
+- id: "unique-image-name"
+  title: "Image title"
+  category: "Flow visualisations"
+  image: "/assets/images/your-image.png"
+  alt: "Describe what a reader should understand from the image."
+  caption: "What it shows, with verified conditions or methods if useful."
+  credit: "Creator name"
+  source_url: ""
+  project_path: "/research/high-order-methods/"

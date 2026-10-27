@@ -1,0 +1,285 @@
+- year: 2023-24
+  course: MSc in CFD
+  topic: CFD modelling of H₂ deflagrations in enclosures
+- year: 2023-24
+  course: MSc in CFD
+  topic: Decomposition of an organic pollutant by photocatalysis within a Taylor–Couette flow reactor
+- year: 2023-24
+  course: MSc in CFD
+  topic: CFD modelling of liquid springs for landing gear
+- year: 2023-24
+  course: MSc in CFD
+  topic: Advancing hypersonic modelling with high-order methods using UCNS3D
+- year: 2023-24
+  course: MSc in CFD
+  topic: Effects of bleed-plenum geometry on boundary-layer formation
+- year: 2023-24
+  course: MSc in CFD
+  topic: High-fidelity CFD modelling of stealth intakes
+- year: 2023-24
+  course: MSc in ACE
+  topic: 'Finite-element analysis: correlation between simulation and experimental testing'
+- year: 2023-24
+  course: MSc in ACE
+  topic: Creation and calibration of different types of soil
+- year: 2023-24
+  course: MSc in ACE
+  topic: Development and application of bleed control for supersonic intakes using UCNS3D
+- year: 2023-24
+  course: MSc in ACE
+  topic: Mesh generation for numerical simulation in aerodynamics
+- year: 2023-24
+  course: MSc in ACE
+  topic: CFD modelling of liquid springs
+- year: 2022-23
+  course: MSc in CFD
+  topic: 'CFD simulation of a closing valve through space- and time-dependent porosity convection: a preliminary
+    study for fluid–structure interaction in two-phase flows'
+- year: 2022-23
+  course: MSc in CFD
+  topic: Using CFD to assess the hydrodynamic impact of the implementation and strategic placement of flow injection
+    over a flapped rudder
+- year: 2022-23
+  course: MSc in ACE
+  topic: RANS modelling of HiFIRE hypersonic geometry
+- year: 2022-23
+  course: MSc in CFD
+  topic: Numerical simulation of cavitation on rotors
+- year: 2022-23
+  course: MSc in CFD
+  topic: Impact of numerical schemes and grid design on oil–gas interface monitoring in landing-gear shock absorbers
+- year: 2022-23
+  course: MSc in CFD
+  topic: Cavitation modelling for landing-gear shock absorbers
+- year: 2022-23
+  course: MSc in CFD
+  topic: Assessment of high-order Godunov-type numerical methods in the strong-shock regime
+- year: 2021-22
+  course: MSc in CFD
+  topic: AMR for CFD modelling of sonic booms for supersonic civil airliners
+- year: 2021-22
+  course: MSc in CFD
+  topic: Development of new robust Riemann solvers for high-speed flows for nuclear fusion
+- year: 2021-22
+  course: MSc in CFD
+  topic: Optimisation of existing Riemann solvers for high-speed flows found in nuclear fusion
+- year: 2021-22
+  course: MSc in CFD
+  topic: Target-design modelling for nuclear fusion using high-order finite-volume WENO methods
+- year: 2021-22
+  course: MSc in CFD
+  topic: Target-design modelling for nuclear fusion using the MOOD framework with UCNS3D
+- year: 2021-22
+  course: MSc in CFD
+  topic: Sonic-boom prediction for civil supersonic cruisers using RANS simulations
+- year: 2020-21
+  course: MSc in CFD
+  topic: Cooling optimisation for battery electric vehicles through duct-shape optimisation
+- year: 2020-21
+  course: MSc in CFD
+  topic: Adjoint optimisation of constraining flows pertinent to motorsport racing
+- year: 2020-21
+  course: MSc in CFD
+  topic: Numerical calculation and evaluation of extrapolation coefficients used in speed-powering predictions based
+    on model tests
+- year: 2020-21
+  course: MSc in CFD
+  topic: Cooling optimisation for battery electric vehicles through duct-size optimisation
+- year: 2019-20
+  course: MSc in CFD
+  topic: In situ visualisation for massively parallel simulations using UCNS3D
+- year: 2019-20
+  course: MSc in CFD
+  topic: High-order discretisation optimisation for the ADIGMA flow solver
+- year: 2019-20
+  course: MSc in CFD
+  topic: CFD modelling of rapid aircraft-cabin decompression using inviscid Euler equations
+- year: 2019-20
+  course: MSc in CFD
+  topic: Ducting optimisation for battery electric vehicles using the SAE body model
+- year: 2019-20
+  course: MSc in CFD
+  topic: Development of multiphysics models for liquid–gas compressible flows
+- year: 2019-20
+  course: MSc in CFD
+  topic: Development of multiphysics models for gases using a compressible-flow solver for landing-gear shock absorbers
+- year: 2019-20
+  course: MSc in CFD
+  topic: CFD for fish-farm modelling
+- year: 2019-20
+  course: MSc in CFD
+  topic: Development of high-order discretisation for a Python traffic-flow modelling tool using high-resolution
+    numerical methods
+- year: 2019-20
+  course: MSc in CFD
+  topic: CFD investigation of the directional stability of high-speed craft
+- year: 2018-19
+  course: MSc in CFD
+  topic: CFD simulation of rapid and explosive aircraft decompression
+- year: 2018-19
+  course: MSc in CFD
+  topic: Development of a Python traffic-flow modelling tool using high-resolution numerical methods
+- year: 2017-18
+  course: MSc in CFD
+  topic: CFD simulation of the first stage of a deflector-jet servo-valve at nominal and reduced temperatures
+- year: 2017-18
+  course: MSc in CFD
+  topic: High-order a posteriori limited reconstruction for Rayleigh–Taylor and Richtmyer–Meshkov flows
+- year: 2017-18
+  course: MSc in CFD
+  topic: A single rotating reference frame in a high-resolution CFD solver
+- year: 2017-18
+  course: MSc in CFD
+  topic: Application of hybrid LES–RANS methods to a realistic car model in realistic on-road conditions
+- year: 2017-18
+  course: MSc in CFD
+  topic: Influence of wheel modelling for the DrivAer model under realistic motorway conditions
+- year: 2017-18
+  course: MSc in CFD
+  topic: Numerical simulation of the estate DrivAer model under realistic motorway conditions
+- year: 2016-17
+  course: MSc in CFD
+  topic: A simple rotated-hybrid HLL–HLLC Riemann solver for curing carbuncle and shock instability on high-order
+    unstructured meshes for supersonic and hypersonic flows
+- year: 2016-17
+  course: MSc in CFD
+  topic: Numerical investigation of flow past a generic notchback geometry under side-wind conditions
+- year: 2016-17
+  course: MSc in CFD
+  topic: Computational investigation of severe crosswind influence on the fastback DrivAer car model using DDES
+- year: 2016-17
+  course: MSc in CFD
+  topic: CFD simulation of the interaction between a ship airwake and a helicopter
+- year: 2016-17
+  course: MSc in CFD
+  topic: Aerodynamic effects of accreted ice shapes on a NACA 0012 aerofoil using CFD
+- year: 2016-17
+  course: MSc in CFD
+  topic: Aerodynamic investigation of the DrivAer car model using DDES
+- year: 2015-16
+  course: MSc in CFD
+  topic: The impact of unsteadiness on uncertainty in automotive aerodynamic simulation using OpenFOAM
+- year: 2015-16
+  course: MSc in CFD
+  topic: CFD analysis of mass-burning-rate and ventilation coupling in confined and ventilated enclosures
+- year: 2015-16
+  course: MSc in CFD
+  topic: Analysis and comparison of dynamic parameters of an aerofoil undergoing plunging, pitching and flapping
+    motion
+- year: 2015-16
+  course: MSc in CFD
+  topic: Assessment of AMR techniques using unstructured meshes for RANS simulations
+- year: 2015-16
+  course: MSc in CFD
+  topic: Assessment of scale-resolving turbulence-modelling approaches with implicit subgrid-scale models for CFD
+    simulations of flow over bluff bodies
+- year: 2015-16
+  course: MSc in CFD
+  topic: CFD simulation of interaction between a ship airwake and an aircraft
+- year: 2015-16
+  course: MSc in CFD
+  topic: Development and optimisation of a medical device for decontamination and sterilisation of indoor spaces
+- year: 2015-16
+  course: MSc in CFD
+  topic: Improving accuracy and computation time for hydrofoil simulations for the America's Cup at NUMECA International
+- year: 2014-15
+  course: MSc in CFD
+  topic: Evaluation of the Spalart correction term for different turbulence models
+- year: 2014-15
+  course: MSc in CFD
+  topic: Impact of curvature correction on wingtip-vortex flow
+- year: 2014-15
+  course: MSc in CFD
+  topic: Implementation of the Chien low-Re k–ε turbulence model in UCNS3D
+- year: 2014-15
+  course: MSc in CFD
+  topic: Implementation of the Wilcox k–ω turbulence model in UCNS3D
+- year: 2014-15
+  course: MSc in CFD
+  topic: Slope limiters for higher-order methods on unstructured grids
+- year: 2014-15
+  course: MSc in CFD
+  topic: Simulation of two-dimensional unsteady flow past a heated cylinder in a laminar vortex-shedding regime,
+    Re = 80–140
+- year: 2014-15
+  course: MSc in CFD
+  topic: 'Aerodynamic performance prediction using a sweeping method: improving the efficiency of RANS near stall'
+- year: 2013-14
+  course: MSc in CFD
+  topic: Effects of numerical discretisation in vortical flows
+- year: 2013-14
+  course: MSc in CFD
+  topic: Performance assessment of a higher-order scheme turbulence model for automotive flow
+- year: 2013-14
+  course: MSc in CFD
+  topic: Drag prediction of a full aircraft configuration using higher-order methods
+- year: 2013-14
+  course: MSc in CFD
+  topic: Modern parallelisation strategies for CFD applications
+- year: 2013-14
+  course: MSc in CFD
+  topic: Low-Reynolds-number separation around aerofoils
+- year: 2013-14
+  course: MSc in CFD
+  topic: Design-of-experiments-based optimisation for hydrofoils
+- year: 2013-14
+  course: MSc in CFD
+  topic: Turbulent mixing in a gas-turbine combustor using high-order discretisation methods
+- year: 2013-14
+  course: MSc in CFD
+  topic: Impact of numerics on turbulent mixing in a dry low-NOx gas-turbine-unit combustor
+- year: 2013-14
+  course: MSc in CFD
+  topic: Assessment of high-order CFD methods against experimental flow measurements for automotive applications
+- year: 2013-14
+  course: MSc in CFD
+  topic: Numerical study of shock-wave/boundary-layer interaction at Mach 5
+- year: 2013-14
+  course: MSc in CFD
+  topic: Detailed description of the vortex topology inside simplified wheelhouses
+- year: 2012-13
+  course: MSc in CFD
+  topic: Investigation of high-order schemes on unstructured grids for shock-wave/turbulent-boundary-layer interaction
+    flows
+- year: 2012-13
+  course: MSc in CFD
+  topic: Numerical simulation of the HyShot-2 scramjet configuration using high-order schemes
+- year: 2012-13
+  course: MSc in CFD
+  topic: Drag evaluation on a Windsor body with wheels within wheel housings
+- year: 2012-13
+  course: MSc in CFD
+  topic: Interaction of a Formula 1 car front wing and an exposed wheel
+- year: 2012-13
+  course: MSc in CFD
+  topic: Aerodynamic force modification through base roughness
+- year: 2023-24
+  course: MSc in CFD
+  topic: Sloshing effects in a cryogenic hydrogen-storage tank for commercial aircraft
+- year: 2023-24
+  course: MSc in CFD
+  topic: Air–hydrogen mixing modelling in a dry low-NOx GTU combustor
+- year: 2022-23
+  course: MSc in ACE
+  topic: CFD analysis of a supersonic civil airliner
+- year: 2021-22
+  course: MSc in ACE
+  topic: Fluid–structure interaction of rapid aircraft decompression in a civil airliner
+- year: 2021-22
+  course: MSc in CFD
+  topic: CFD modelling of the SpaceX heavy launch vehicle with high-order Euler methods using UCNS3D
+- year: 2021-22
+  course: MSc in CFD
+  topic: CFD modelling of the SpaceX heavy launch vehicle with RANS models
+- year: 2020-21
+  course: MSc in CFD
+  topic: CFD modelling of COVID spread in university lecture theatres and analysis of ventilation impact
+- year: 2019-20
+  course: MSc in ACE
+  topic: Rapid aircraft-decompression modelling
+- year: 2019-20
+  course: MSc in CFD
+  topic: Influence of F1 wheel design under the 2021 FIA rules
+- year: 2019-20
+  course: MSc in CFD
+  topic: 'F1 race-car aerodynamics: front-wing design under the 2021 FIA rules'

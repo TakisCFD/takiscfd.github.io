@@ -1,0 +1,4 @@
+# Verified against the official PyPI project records on 2026-10-27.
+# The importer deliberately uses bibtexparser's stable v1 API.
+bibtexparser==1.4.3
+PyYAML==6.0.3

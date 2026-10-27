@@ -1,0 +1,1548 @@
+% Generated from the website's public data only. Edit the public YAML/BibTeX
+% source if you want changes to survive the next generator run.
+% Portable compilation: put portrait.png next to this file (optional), then run
+% xelatex -no-shell-escape -interaction=nonstopmode panagiotis-tsoutsanis-public-cv.tex
+% twice. No shell escape or external template inputs are needed.
+% TeX Gyre Pagella is used when available; Latin Modern is the portable fallback.
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,left=22mm,right=22mm,top=23mm,bottom=23mm,
+            headheight=14pt,headsep=6mm,footskip=11mm]{geometry}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \IfFileExists{tgpagella.sty}{\usepackage{tgpagella}}{\usepackage{lmodern}}
+\else
+  \usepackage{fontspec}
+  \defaultfontfeatures{Ligatures=TeX}
+  \IfFontExistsTF{TeX Gyre Pagella}
+    {\setmainfont{TeX Gyre Pagella}}
+    {\setmainfont{Latin Modern Roman}[SmallCapsFont={Latin Modern Roman Caps}]}
+  \setsansfont{Latin Modern Sans}
+\fi
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{needspace}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[unicode]{hyperref}
+\usepackage{bookmark}
+\definecolor{Ink}{HTML}{203039}
+\definecolor{Teal}{HTML}{245D60}
+\definecolor{Muted}{HTML}{58666D}
+\definecolor{Rule}{HTML}{C8D3D3}
+\hypersetup{colorlinks=true,urlcolor=Teal,linkcolor=Teal,
+            pdfauthor={Panagiotis Tsoutsanis},
+            pdftitle={Panagiotis Tsoutsanis -- Academic CV},
+            pdfsubject={Research, publications, teaching and supervision}}
+\urlstyle{same}
+\color{Ink}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\emergencystretch}{2em}
+\clubpenalty=10000
+\widowpenalty=10000
+\raggedbottom
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textsc{Panagiotis Tsoutsanis}}
+\fancyhead[R]{\small\color{Muted}\nouppercase{\leftmark}}
+\fancyfoot[L]{\footnotesize\color{Muted}\textsc{Curriculum vitae}}
+\fancyfoot[R]{\footnotesize\color{Muted}\thepage\,/\,\pageref*{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{opening}{
+  \fancyhf{}
+  \fancyfoot[L]{\footnotesize\color{Muted}\textsc{Curriculum vitae}}
+  \fancyfoot[R]{\footnotesize\color{Muted}\thepage\,/\,\pageref*{LastPage}}
+  \renewcommand{\headrulewidth}{0pt}
+}
+\titleformat{\section}
+  {\Large\bfseries\color{Ink}}{}{0pt}{}
+  [\vspace{3pt}{\color{Rule}\titlerule[0.45pt]}]
+\titlespacing*{\section}{0pt}{17pt}{11pt}
+\newcommand{\cvsection}[1]{%
+  \par\Needspace{10\baselineskip}\section*{#1}\markboth{#1}{}}
+\newlength{\cventrysep}
+\setlength{\cventrysep}{7pt}
+\newenvironment{cventry}{%
+  \par\noindent\begin{minipage}{\linewidth}
+  \RaggedRight\fontsize{9.8}{12.5}\selectfont
+}{\end{minipage}\par\addvspace{\cventrysep}}
+\newcommand{\cvtitle}[1]{{\bfseries #1\par}\vspace{1pt}}
+\newcommand{\cvdetail}[1]{{#1\par}\vspace{1pt}}
+\newcommand{\cvmeta}[1]{{\fontsize{9}{11.5}\selectfont\color{Muted}#1\par}\vspace{1pt}}
+\newcommand{\cvlinks}[1]{{\fontsize{9}{11.5}\selectfont #1\par}}
+\newcommand{\cvyear}[1]{{\color{Teal}\bfseries\fontsize{11}{13}\selectfont #1\par}\vspace{6pt}}
+\newcommand{\cvsubheading}[1]{%
+  \par\Needspace{7\baselineskip}{\large\bfseries\color{Teal}#1\par}\vspace{6pt}}
+\begin{document}
+\thispagestyle{opening}
+\begin{minipage}[t]{0.78\linewidth}\vspace{0pt}
+
+{\small\color{Teal}\textsc{Academic curriculum vitae}\par}\vspace{6pt}
+
+{\fontsize{28}{32}\selectfont\bfseries Panagiotis Tsoutsanis\par}
+
+\vspace{5pt}{\large Professor of Computational Fluid Dynamics\par}
+
+Cranfield University\par
+
+{\small \href{mailto:panagiotis.tsoutsanis@cranfield.ac.uk}{panagiotis.tsoutsanis@cranfield.ac.uk}\par}
+
+\vspace{2pt}{\footnotesize \href{https://orcid.org/0000-0003-3139-9766}{ORCID} \enspace\textperiodcentered{}\enspace \href{https://scholar.google.com/citations?hl=en\&user=0tuYVpAAAAAJ}{Google Scholar} \enspace\textperiodcentered{}\enspace \href{https://www.cranfield.ac.uk/people/professor-panagiotis-tsoutsanis-814715}{Institutional profile} \enspace\textperiodcentered{}\enspace \href{https://ucns3d.com/}{UCNS3D}\par}
+
+\end{minipage}\hfill\begin{minipage}[t]{0.17\linewidth}\vspace{2pt}
+
+\IfFileExists{portrait.png}{\includegraphics[width=\linewidth]{portrait.png}}{\IfFileExists{../images/takis-tsoutsanis.png}{\includegraphics[width=\linewidth]{../images/takis-tsoutsanis.png}}{}}
+
+\end{minipage}
+
+\cvsection{Research overview}
+
+My research focuses on the numerical methods that make complex fluid flows computable: accurate reconstruction on unstructured meshes, stable treatment of shocks and material interfaces, and efficient resolution of turbulence. I develop and analyse high-order finite-volume and discontinuous Galerkin methods, with particular attention to how numerical dissipation and dispersion affect the physics captured by a simulation.
+
+
+
+This work connects algorithm development with applications in compressible, multiphase and high-speed flows. Through UCNS3D, I bring these methods into an open-source simulation framework and investigate how they can run efficiently on both CPUs and GPUs. The aim is to make accurate, robust CFD practical for complex geometries and large-scale calculations.
+
+
+
+\cvsection{Areas of expertise}
+
+\par\Needspace{4\baselineskip}{\bfseries High-order methods on unstructured meshes.} Finite-volume and discontinuous Galerkin formulations, accurate reconstruction and mixed-element meshes.\par\vspace{3pt}
+
+\par\Needspace{4\baselineskip}{\bfseries Shock capturing and adaptive methods.} WENO and CWENO schemes, a posteriori MOOD limiting, and adaptive control of numerical dissipation and dispersion.\par\vspace{3pt}
+
+\par\Needspace{4\baselineskip}{\bfseries Turbulence and aerodynamics.} Implicit large-eddy simulation, RANS modelling and the influence of numerical choices on aerodynamic predictions.\par\vspace{3pt}
+
+\par\Needspace{4\baselineskip}{\bfseries Multiphase and multicomponent flows.} Diffuse-interface capturing, shock--interface interactions, cavitation and complex transient flows.\par\vspace{3pt}
+
+\par\Needspace{4\baselineskip}{\bfseries High-speed and hypersonic flows.} Compressible-flow algorithms, shock--boundary-layer interactions and aerodynamic and thermal prediction.\par\vspace{3pt}
+
+\par\Needspace{4\baselineskip}{\bfseries High-performance scientific computing.} Parallel algorithms, CPU and GPU execution, performance portability and open research software through UCNS3D.\par\vspace{3pt}
+
+\clearpage
+\cvsection{Education and professional development}
+
+\begin{cventry}
+\cvtitle{Professional Certificate in Quantum Computing Fundamentals}
+\cvdetail{MIT xPRO}
+\cvmeta{2024}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Postgraduate Certificate in Academic Practice in Higher Education}
+\cvdetail{Cranfield University}
+\cvmeta{2017--2018}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{PhD in Computational Fluid Dynamics}
+\cvdetail{Cranfield University\par{\small\itshape Thesis: Very high-order methods for 3D arbitrary unstructured grids}}
+\cvmeta{2006--2009}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{MEng in Aerospace Engineering}
+\cvdetail{University of Liverpool}
+\cvmeta{1998--2003}
+\end{cventry}
+
+\cvsection{Selected distinctions}
+
+\begin{cventry}
+\cvtitle{ARCHER2 Image and Video Competition --- Winning Video}
+\cvdetail{Shock wave interaction with cavitation bubble}
+\cvmeta{2021}
+\cvlinks{\href{https://www.archer2.ac.uk/about/gallery/2021-image-comp/}{Award record}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{ARCHER Image and Video Competition --- Winning Early Career Researcher Entry}
+\cvdetail{Supersonic Kelvin--Helmholtz instability simulation}
+\cvmeta{2017}
+\cvlinks{\href{https://www.archer2.ac.uk/about/gallery/winners}{Award record}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Young Scientist Award, HONOM / ECCOMAS}
+\cvdetail{High-order numerical methods for mixed-element unstructured meshes}
+\cvmeta{2009}
+\end{cventry}
+
+\cvsection{Research software}
+
+UCNS3D is an open-source framework for high-order computational fluid dynamics on unstructured meshes. I am its author and lead developer.
+
+\par \href{https://ucns3d.com/}{ucns3d.com}\enspace\textperiodcentered{}\enspace \href{https://github.com/ucns3d-team/UCNS3D}{Source code}
+
+\cvsection{Teaching and supervision}
+
+My teaching connects numerical analysis, fluid physics and scientific software. It covers numerical methods for compressible flows and partial differential equations, high-performance computing, turbulence modelling, mesh generation and simulation practice.
+
+
+
+I am a Fellow of the Higher Education Academy and hold a postgraduate certificate in Academic Practice in Higher Education.
+
+\clearpage
+\cvsection{Research students and alumni}
+
+\cvsubheading{Current research students}
+
+\begin{cventry}
+\cvtitle{William Picarello}
+\cvdetail{Multi-body hypersonic aerodynamics.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2025--2029}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Michal Uminski}
+\cvdetail{Multidimensional optimal order detection techniques for arbitrary Lagrangian--Eulerian schemes for compressible flows.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2024--2028}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Cillian Wang}
+\cvdetail{Multimodality sensing and control for nonlinear systems.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2023--2027}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Jacob Guthrie}
+\cvdetail{Development of a novel short-range dispersal simulation capability.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2023--2027}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Yiren Tong}
+\cvdetail{Development of high-order finite-volume methods for transonic aeronautical flows.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2023--2026}
+\end{cventry}
+
+\cvsubheading{Research alumni}
+
+\begin{cventry}
+\cvtitle{Aaron Feria Alanis}
+\cvdetail{Computational modelling of molecular dynamics in elastomeric seal leakage.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2021--2025}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Vadim Maltsev}
+\cvdetail{High-order hybrid discontinuous Galerkin--finite-volume methods for multiphysics modelling.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2024}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Dean Yuan}
+\cvdetail{High-order hybrid discontinuous Galerkin--finite-volume methods for aeronautical flows.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2024}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Ebenezer Adebayo Mayowa}
+\cvdetail{Development of high-fidelity numerical methods for multicomponent and multiphase flows.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2023}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Paulo A.S.F. Silva}
+\cvdetail{Development of a multiple reference frame technique for high-order CFD solvers.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2021}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Lun Ma}
+\cvdetail{Renewable energy marine structures (REMS).}
+\cvmeta{EngD \,\textperiodcentered{}\, 2021}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Diwakar Singh}
+\cvdetail{Multi-fidelity, multi-objective optimisation of aircraft in formation flight.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2019}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Konstantinos Vasilopoulos}
+\cvdetail{Airflow distribution and hazardous-release dispersion around a city using LES.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2018}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Zhongyuan Wang}
+\cvdetail{Detached-eddy simulation for high-lift devices.}
+\cvmeta{MRes \,\textperiodcentered{}\, 2018}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Nektarios Papantoniou}
+\cvdetail{Assessment of tank projectile aerodynamics using CFD.}
+\cvmeta{MRes \,\textperiodcentered{}\, 2018}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Nicolas Simmonds}
+\cvdetail{Cooling-system optimisation for automotive vehicles.}
+\cvmeta{PhD \,\textperiodcentered{}\, 2017}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Harshavardana Srinivasan}
+\cvdetail{Adaptive mesh refinement using high-order WENO methods.}
+\cvmeta{MPhil \,\textperiodcentered{}\, 2017}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Pablo Leandro Aguado}
+\cvdetail{Large-eddy simulation of air--fuel mixing in a dry low-NOx GTU combustor.}
+\cvmeta{MRes \,\textperiodcentered{}\, 2014}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Dimitris Nakos}
+\cvdetail{High-resolution schemes for bluff-body aerodynamics.}
+\cvmeta{MRes \,\textperiodcentered{}\, 2013}
+\end{cventry}
+
+\clearpage
+\cvsection{Publications}
+
+{\small\color{Muted}Journal articles, preprints and reports, arranged by citation year. Publication status is retained where relevant.}
+
+
+\begin{cventry}
+\cvyear{2026}
+\cvtitle{A hybrid finite-volume reconstruction framework for efficient high-order shock-capturing on unstructured meshes}
+\cvdetail{Yiren Tong and Panagiotis Tsoutsanis}
+\cvmeta{\textit{Computers \& Fluids}, 308, 106988\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.compfluid.2026.106988}{DOI}\enspace\textperiodcentered{}\enspace \href{https://arxiv.org/abs/2510.25906}{Preprint}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{eMOOD: Entropy-Based Multidimensional Optimal Order Detection for High-Order Shock-Capturing Finite-Volume Schemes}
+\cvdetail{Michał Umiński, Panagiotis Tsoutsanis, Ahmed A Sheikh Al-Shabab, and Alan S. Dawes}
+\cvmeta{\textit{arXiv preprint}\par Preprint}
+\cvlinks{\href{https://doi.org/10.48550/arXiv.2610.20133}{DOI}\enspace\textperiodcentered{}\enspace \href{https://arxiv.org/abs/2610.20133}{Preprint}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Towards Heterogeneous Exascale CFD with a Single Fortran Code Base: OpenMP Target Acceleration of the High-Order Unstructured Solver UCNS3D}
+\cvdetail{Panagiotis Tsoutsanis, Michal Uminski, Christopher Day, and David Henty}
+\cvmeta{\textit{arXiv preprint}\par Preprint}
+\cvlinks{\href{https://arxiv.org/abs/2609.07387}{Preprint}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2025}
+\cvtitle{A Review of Diffuse Interface-Capturing Methods for Compressible Multiphase Flows}
+\cvdetail{Ebenezer Mayowa Adebayo, Panagiotis Tsoutsanis, and Karl W. Jenkins}
+\cvmeta{\textit{Fluids}, 10(4), 93\par Journal article}
+\cvlinks{\href{https://doi.org/10.3390/fluids10040093}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Arbitrary-order unstructured finite-volume methods for implicit large eddy simulation of turbulent flows with adaptive dissipation/dispersion adjustment (ADDA)}
+\cvdetail{Panagiotis Tsoutsanis and Xesus Nogueira}
+\cvmeta{\textit{Journal of Computational Physics}, 523, 113653\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.jcp.2024.113653}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2024}
+\cvtitle{A comprehensive CFD investigation of tip vortex trajectory in shrouded wind turbines using compressible RANS solver}
+\cvdetail{Paulo A.S.F. Silva, Panagiotis Tsoutsanis, Jerson R.P. Vaz, and Marianela M. Macias}
+\cvmeta{\textit{Energy}, 294, 130929\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.energy.2024.130929}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{A Mixed-Elastohydrodynamic Lubrication Model of a Capped-T-Ring Seal with a Sectioned Multi-Material Film Thickness in Landing Gear Shock Absorber Applications}
+\cvdetail{Aaron Feria Alanis, Ahmed A. Sheikh Al-Shabab, Antonis F. Antoniadis, Panagiotis Tsoutsanis, and Martin Skote}
+\cvmeta{\textit{Fluids}, 9(12), 271\par Journal article}
+\cvlinks{\href{https://doi.org/10.3390/fluids9120271}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Application of Central-Weighted Essentially Non-Oscillatory Finite-Volume Interface-Capturing Schemes for Modeling Cavitation Induced by an Underwater Explosion}
+\cvdetail{Ebenezer Mayowa Adebayo, Panagiotis Tsoutsanis, and Karl W. Jenkins}
+\cvmeta{\textit{Fluids}, 9(2), 33\par Journal article}
+\cvlinks{\href{https://doi.org/10.3390/fluids9020033}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{High-order hybrid DG-FV framework for compressible multi-fluid problems on unstructured meshes}
+\cvdetail{Vadim Maltsev, Martin Skote, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{Journal of Computational Physics}, 502, 112819\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.jcp.2024.112819}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Study of Orifice Design on Oleo-Pneumatic Shock Absorber}
+\cvdetail{Paulo A. S. F. Silva, Ahmed A. Sheikh Al-Shabab, Panagiotis Tsoutsanis, and Martin Skote}
+\cvmeta{\textit{Fluids}, 9(5), 108\par Journal article}
+\cvlinks{\href{https://doi.org/10.3390/fluids9050108}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Unsteady Multiphase Simulation of Oleo-Pneumatic Shock Absorber Flow}
+\cvdetail{Ahmed A. Sheikh Al-Shabab, Bojan Grenko, Paulo A. S. F. Silva, Antonis F. Antoniadis, Panagiotis Tsoutsanis, and Martin Skote}
+\cvmeta{\textit{Fluids}, 9(3), 68\par Journal article}
+\cvlinks{\href{https://doi.org/10.3390/fluids9030068}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2023}
+\cvtitle{A relaxed a posteriori MOOD algorithm for multicomponent compressible flows using high-order finite-volume methods on unstructured meshes}
+\cvdetail{Panagiotis Tsoutsanis, Machavolu Sai Santosh Pavan Kumar, and Pericles S. Farmakis}
+\cvmeta{\textit{Applied Mathematics and Computation}, 437, 127544\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.amc.2022.127544}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{A short note on a 3D spectral analysis for turbulent flows on unstructured meshes}
+\cvdetail{Panagiotis Tsoutsanis, Xesus Nogueira, and Lin Fu}
+\cvmeta{\textit{Journal of Computational Physics}, 474, 111804\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.jcp.2022.111804}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Hybrid discontinuous Galerkin-finite volume techniques for compressible flows on unstructured meshes}
+\cvdetail{Vadim Maltsev, Dean Yuan, Karl W. Jenkins, Martin Skote, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{Journal of Computational Physics}, 473, 111755\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.jcp.2022.111755}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical Investigation of the Inviscid Taylor-Green Vortex Using an Adaptive Filtering Method for a Modal Discontinuous Galerkin Method}
+\cvdetail{Dean Yuan, Karl W. Jenkins, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{International Journal of Computational Fluid Dynamics}, 37(6), 522--540\par Journal article}
+\cvlinks{\href{https://doi.org/10.1080/10618562.2024.2329775}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2022}
+\cvtitle{Blade-Resolved CFD Simulations of a Periodic Array of NREL 5 MW Rotors with and without Towers}
+\cvdetail{Lun Ma, Pierre-Luc Delafin, Panagiotis Tsoutsanis, Antonis Antoniadis, and Takafumi Nishino}
+\cvmeta{\textit{Wind}, 2(1), 51--67\par Journal article}
+\cvlinks{\href{https://doi.org/10.3390/wind2010004}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{High-order methods for diffuse-interface models in compressible multi-medium flows: A review}
+\cvdetail{V. Maltsev, M. Skote, and P. Tsoutsanis}
+\cvmeta{\textit{Physics of Fluids}, 34(2), 021301\par Journal article}
+\cvlinks{\href{https://doi.org/10.1063/5.0077314}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical investigation of full helicopter with and without the ground effect}
+\cvdetail{Paulo A. S. F. Silva, Panagiotis Tsoutsanis, and Antonios F. Antoniadis}
+\cvmeta{\textit{Aerospace Science and Technology}, 122, 107401\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.ast.2022.107401}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical Investigation of Orifice Nearfield Flow Development in Oleo-Pneumatic Shock Absorbers}
+\cvdetail{Ahmed A. Sheikh Al-Shabab, Bojan Grenko, Dimitrios Vitlaris, Panagiotis Tsoutsanis, Antonios F. Antoniadis, and Martin Skote}
+\cvmeta{\textit{Fluids}, 7(2), 54\par Journal article}
+\cvlinks{\href{https://doi.org/10.3390/fluids7020054}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{UCNS3D: An open-source high-order finite-volume unstructured CFD solver}
+\cvdetail{Antonis F. Antoniadis, Dimitris Drikakis, Pericles S. Farmakis, Lin Fu, Ioannis Kokkinakis, Xesús Nogueira, Paulo A. S. F. Silva, Martin Skote, Vladimir Titarev, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{Computer Physics Communications}, 279, 108453\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.cpc.2022.108453}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2021}
+\cvtitle{A reduced-dissipation WENO scheme with automatic dissipation adjustment}
+\cvdetail{Javier Fernández-Fidalgo, Luis Ramírez, Panagiotis Tsoutsanis, Ignasi Colominas, and Xesús Nogueira}
+\cvmeta{\textit{Journal of Computational Physics}, 425, 109749\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.jcp.2020.109749}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Arbitrary high order central non-oscillatory schemes on mixed-element unstructured meshes}
+\cvdetail{Panagiotis Tsoutsanis and Michael Dumbser}
+\cvmeta{\textit{Computers \& Fluids}, 225, 104961\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.compfluid.2021.104961}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CWENO Finite-Volume Interface Capturing Schemes for Multicomponent Flows Using Unstructured Meshes}
+\cvdetail{Panagiotis Tsoutsanis, Ebenezer Mayowa Adebayo, Adrian Carriba Merino, Agustin Perez Arjona, and Martin Skote}
+\cvmeta{\textit{Journal of Scientific Computing}, 89(3), 64\par Journal article}
+\cvlinks{\href{https://doi.org/10.1007/s10915-021-01673-y}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Large eddy simulation of dispersion of hazardous materials released from a fire accident around a cubical building}
+\cvdetail{Konstantinos Vasilopoulos, Ioannis Lekakis, Ioannis E. Sarris, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{Environmental Science and Pollution Research}, 28(36), 50363--50377\par Journal article}
+\cvlinks{\href{https://doi.org/10.1007/s11356-021-13604-3}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Simple multiple reference frame for high-order solution of hovering rotors with and without ground effect}
+\cvdetail{Paulo A.S.F. Silva, Panagiotis Tsoutsanis, and Antonis F. Antoniadis}
+\cvmeta{\textit{Aerospace Science and Technology}, 111, 106518\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.ast.2021.106518}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2020}
+\cvtitle{Hovering rotor solutions by high-order methods on unstructured grids}
+\cvdetail{Francesco Ricci, Paulo A.S.F. Silva, Panagiotis Tsoutsanis, and Antonis F. Antoniadis}
+\cvmeta{\textit{Aerospace Science and Technology}, 97, 105648\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.ast.2019.105648}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{WENO schemes on unstructured meshes using a relaxed a posteriori MOOD limiting approach}
+\cvdetail{Pericles S. Farmakis, Panagiotis Tsoutsanis, and Xesús Nogueira}
+\cvmeta{\textit{Computer Methods in Applied Mechanics and Engineering}, 363, 112921\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.cma.2020.112921}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2019}
+\cvtitle{Assessment of air flow distribution and hazardous release dispersion around a single obstacle using Reynolds-averaged Navier-Stokes equations}
+\cvdetail{Konstantinos Vasilopoulos, Ioannis E. Sarris, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{Heliyon}, 5(4), e01482\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.heliyon.2019.e01482}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Optimisation of the Higher-Order Finite-Volume Unstructured Code Enhancement for Compressible Turbulent Flows}
+\cvdetail{A. Shamakina and Panagiotis Tsoutsanis}
+\cvmeta{\textit{Partnership for Advanced Computing in Europe (PRACE)}\par Report}
+\cvlinks{\href{https://prace-ri.eu/wp-content/uploads/WP288.pdf}{Publication / event record}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Stencil selection algorithms for WENO schemes on unstructured meshes}
+\cvdetail{Panagiotis Tsoutsanis}
+\cvmeta{\textit{Journal of Computational Physics: X}, 4, 100037\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.jcpx.2019.100037}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2018}
+\cvtitle{A Multi-Fidelity Approach for Aerodynamic Performance Computations of Formation Flight}
+\cvdetail{Diwakar Singh, Antonios F. Antoniadis, Panagiotis Tsoutsanis, Hyo-Sang Shin, Antonios Tsourdos, Samuel Mathekga, and Karl W. Jenkins}
+\cvmeta{\textit{Aerospace}, 5(2), 66\par Journal article}
+\cvlinks{\href{https://doi.org/10.3390/aerospace5020066}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Computational Assessment of the Hazardous Release Dispersion from a Diesel Pool Fire in a Complex Building's Area}
+\cvdetail{Konstantinos Vasilopoulos, Michalis Mentzos, Ioannis E. Sarris, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{Computation}, 6(4), 65\par Journal article}
+\cvlinks{\href{https://doi.org/10.3390/computation6040065}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Extended bounds limiter for high-order finite-volume schemes on unstructured meshes}
+\cvdetail{Panagiotis Tsoutsanis}
+\cvmeta{\textit{Journal of Computational Physics}, 362, 69--94\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.jcp.2018.02.009}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Improvement of the computational performance of a parallel unstructured WENO finite volume CFD code for Implicit Large Eddy Simulation}
+\cvdetail{Panagiotis Tsoutsanis, Antonis F. Antoniadis, and Karl W. Jenkins}
+\cvmeta{\textit{Computers \& Fluids}, 173, 157--170\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.compfluid.2018.03.012}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Low-Mach number treatment for Finite-Volume schemes on unstructured meshes}
+\cvdetail{Nicholas Simmonds, Panagiotis Tsoutsanis, Antonis F. Antoniadis, Karl W. Jenkins, and Adrian Gaylard}
+\cvmeta{\textit{Applied Mathematics and Computation}, 336, 368--393\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.amc.2018.04.076}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2017}
+\cvtitle{Assessment of high-order finite volume methods on unstructured meshes for RANS solutions of aeronautical configurations}
+\cvdetail{Antonis F. Antoniadis, Panagiotis Tsoutsanis, and Dimitris Drikakis}
+\cvmeta{\textit{Computers \& Fluids}, 146, 86--104\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.compfluid.2017.01.002}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Complete Body Aerodynamic Study of three Vehicles}
+\cvdetail{Nicholas Simmonds, John Pitman, Panagiotis Tsoutsanis, Karl Jenkins, Adrian Gaylard, and Wilko Jansen}
+\cvmeta{\textit{SAE International}, 2017-01-1529\par Report}
+\cvlinks{\href{https://doi.org/10.4271/2017-01-1529}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{KNL Performance Comparison: UCNS3D}
+\cvdetail{Panagiotis Tsoutsanis and Antonios Antoniadis}
+\cvmeta{\textit{ARCHER}\par Report}
+\cvlinks{\href{https://www.archer.ac.uk/community/benchmarks/archer-knl/KNL\_perf\_UCNS3D.pdf}{Publication / event record}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2016}
+\cvtitle{A high-order finite-volume method for atmospheric flows on unstructured grids}
+\cvdetail{Panagiotis Tsoutsanis and Dimitris Drikakis}
+\cvmeta{\textit{Journal of Coupled Systems and Multiscale Dynamics}, 4(3), 170--186\par Journal article}
+\cvlinks{\href{https://doi.org/10.1166/jcsmd.2016.1104}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Full Vehicle Aero-Thermal Cooling Drag Sensitivity Analysis for Various Radiator Pressure Drops}
+\cvdetail{Nicholas Simmonds, Panagiotis Tsoutsanis, Dimitris Drikakis, Adrian Gaylard, and Wilko Jansen}
+\cvmeta{\textit{SAE International}, 2016-01-1578\par Report}
+\cvlinks{\href{https://doi.org/10.4271/2016-01-1578}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Optimising UCNS3D, a High-Order finite-Volume WENO Scheme Code for arbitrary unstructured Meshes}
+\cvdetail{Thomas Ponweiser and Panagiotis Tsoutsanis}
+\cvmeta{\textit{Partnership for Advanced Computing in Europe (PRACE)}\par Report}
+\cvlinks{\href{https://prace-ri.eu/wp-content/uploads/WP222.pdf}{Publication / event record}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2015}
+\cvtitle{Comparison of structured- and unstructured-grid, compressible and incompressible methods using the vortex pairing problem}
+\cvdetail{Panagiotis Tsoutsanis, Ioannis W. Kokkinakis, László Könözsy, Dimitris Drikakis, Robin J.R. Williams, and David L. Youngs}
+\cvmeta{\textit{Computer Methods in Applied Mechanics and Engineering}, 293, 207--231\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.cma.2015.04.010}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2014}
+\cvtitle{WENO schemes on arbitrary unstructured meshes for laminar, transitional and turbulent flows}
+\cvdetail{Panagiotis Tsoutsanis, Antonios Foivos Antoniadis, and Dimitris Drikakis}
+\cvmeta{\textit{Journal of Computational Physics}, 256, 254--276\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.jcp.2013.09.002}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2011}
+\cvtitle{WENO schemes on arbitrary mixed-element unstructured meshes in three space dimensions}
+\cvdetail{P. Tsoutsanis, V.A. Titarev, and D. Drikakis}
+\cvmeta{\textit{Journal of Computational Physics}, 230(4), 1585--1601\par Journal article}
+\cvlinks{\href{https://doi.org/10.1016/j.jcp.2010.11.023}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2010}
+\cvtitle{WENO Schemes for Mixed-Element Unstructured Meshes}
+\cvdetail{V. A. Titarev, P. Tsoutsanis, and D. Drikakis}
+\cvmeta{\textit{Communications in Computational Physics}, 8(3), 585--609\par Journal article}
+\cvlinks{\href{https://doi.org/10.4208/cicp.040909.080110a}{DOI}}
+\end{cventry}
+
+\clearpage
+\cvsection{Conference contributions}
+
+{\small\color{Muted}Conference papers and presentations, arranged by citation year. An event year is shown separately when it differs.}
+
+
+\begin{cventry}
+\cvyear{2025}
+\cvtitle{A Modular Multifidelity Approach for Multiphysics Oleo-Pneumatic Shock Absorber Simulations}
+\cvdetail{Ahmed A. Sheikh Al-Shabab, Paulo A. S. F. Silva, Bojan Grenko, Panagiotis Tsoutsanis, and Martin Skote}
+\cvmeta{\textit{Proceedings of the Cambridge Unsteady Flow Symposium 2024}, 137--151\par Conference paper\,\textperiodcentered{}\, Event year: 2024}
+\cvlinks{\href{https://doi.org/10.1007/978-3-031-69035-8\_8}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2024}
+\cvtitle{A Multifidelity Framework For Oleo-Pneumatic Shock Absorber Simulations}
+\cvdetail{A.A.S. Al-Shabab, P. A.S.F. Silva, P. Tsoutsanis, and M. Skote}
+\cvmeta{\textit{Cambridge Unsteady Flow Symposium}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Adaptive Viscosity Methods for Turbulent Compressible Flow Computations}
+\cvdetail{Xesús Nogueira, Javier Fernández Fidalgo, Luis Ramírez, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{ECCOMAS 2024 Congress}\par Conference presentation}
+\cvlinks{\href{https://eccomas2024.org/event/contribution/f74e4a05-aaef-11ee-ac5b-000c29ddfc0c}{Publication / event record}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Adaptively Tuned High-Order Methods for iLES}
+\cvdetail{Panagiotis Tsoutsanis, Lin Fu, and Xesus Nogueira}
+\cvmeta{\textit{ECCOMAS Congress 2024: 9th European Congress on Computational Methods in Applied Sciences and Engineering}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.23967/eccomas.2024.040}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{ADDAptive Numerical Framework for iLES of Compressible Flows}
+\cvdetail{P. Tsoutsanis}
+\cvmeta{\textit{HONOM 2024 Conference}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Automated Flow Physics Identification and Classification in Multiphysics Multifidelity Simulations}
+\cvdetail{Ahmed A. Sheikh Al-Shabab, Paulo A. S. F. Silva, Panagiotis Tsoutsanis, and Martin Skote}
+\cvmeta{\textit{ECCOMAS Congress 2024: 9th European Congress on Computational Methods in Applied Sciences and Engineering}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.23967/eccomas.2024.072}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Comparative Study of Orifice Shapes on Shock Absorber: Impact on Energy Dissipation and Cavitation}
+\cvdetail{Paulo A. S. F. Silva, Ahmed A. Sheikh Al-Shabab, Panagiotis Tsoutsanis, and Martin Skote}
+\cvmeta{\textit{ECCOMAS Congress 2024: 9th European Congress on Computational Methods in Applied Sciences and Engineering}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.23967/eccomas.2024.073}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Computational Analysis of a High-Compression Hydraulic Landing Gear System for Enhanced Aircraft Safety}
+\cvdetail{Y. Wei and P. Tsoutsanis}
+\cvmeta{\textit{19th OpenFoam Conference}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Dynamic swirl distortion characteristics in S-shaped diffusers using UCNS3D and time-resolved, stereo PIV methods}
+\cvdetail{Tommaso Piovesan, Matteo Migliorini, Pavlos K. Zachos, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{AIAA SCITECH 2024 Forum}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.2514/6.2024-1196}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2023}
+\cvtitle{A hybrid DG/FV framework for gas-gas and gas-liquid compressible flows}
+\cvdetail{Vadim Maltsev, Martin Skote, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{CFC 2023 Conference}\par Conference presentation}
+\cvlinks{\href{https://cfc2023.iacm.info/event/contribution/22f331e2-334f-11ed-8e5b-000c29ddfc0c}{Publication / event record}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{A Mixed-Elastohydrodynamic Lubrication Model of a Capped-T-ring Seal Based on a Modified Reynolds Equation}
+\cvdetail{Aaron Feria Alanis, Martin Skote, Panagiotis Tsoutsanis, and Antonis Foivos Antoniadis}
+\cvmeta{\textit{CFC 2023 Conference}\par Conference presentation}
+\cvlinks{\href{https://cfc2023.iacm.info/event/contribution/92a1822e-48a6-11ed-9b3c-000c29ddfc0c}{Publication / event record}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Adaptive Filtering for Hybrid DG-FV methods for Turbulent flows on Unstructured Meshes}
+\cvdetail{Dean Yuan, Panagiotis Tsoutsanis, and Xesus Nogueira}
+\cvmeta{\textit{CFC 2023 Conference}\par Conference presentation}
+\cvlinks{\href{https://cfc2023.iacm.info/event/contribution/1844a0ab-38c8-11ed-8e5b-000c29ddfc0c}{Publication / event record}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Automatic Dissipation/Dispersion Control for High-Order Finite-Volume Schemes using Unstructured Meshes for Turbulent Flows}
+\cvdetail{Panagiotis Tsoutsanis, Dean Yuan, and Xesus Nogueira}
+\cvmeta{\textit{CFC 2023 Conference}\par Conference presentation}
+\cvlinks{\href{https://cfc2023.iacm.info/event/contribution/1a714b46-3348-11ed-8e5b-000c29ddfc0c}{Publication / event record}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Multi-Physics and Multi-Fidelity Considerations in Oleo-Pneumatic Shock Absorber Orifice Flow}
+\cvdetail{Ahmed A. Sheikh Al-Shabab, Bojan Grenko, Antonis Antoniadis, Panagiotis Tsoutsanis, and Martin Skote}
+\cvmeta{\textit{CFC 2023 Conference}\par Conference presentation}
+\cvlinks{\href{https://cfc2023.iacm.info/event/contribution/2a8ddc78-489c-11ed-9b3c-000c29ddfc0c}{Publication / event record}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Tip-vortex interaction on Shrouded Wind-Turbines}
+\cvdetail{Paulo Silva, Panagiotis Tsoutsanis, and Karl Jenkins}
+\cvmeta{\textit{CFC 2023 Conference}\par Conference presentation}
+\cvlinks{\href{https://cfc2023.iacm.info/event/contribution/2b310242-38d2-11ed-8e5b-000c29ddfc0c}{Publication / event record}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2022}
+\cvtitle{A posteriori MOOD limiting approach for multicomponent flows on unstructured meshes}
+\cvdetail{P. Tsoutsanis and P. S. Farmakis}
+\cvmeta{\textit{ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.23967/eccomas.2022.026}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{An adaptive-dissipation WENO scheme for the numerical simulation of compressible turbulent flows}
+\cvdetail{Javier Fernandez-Fidalgo, Luis Ramirez, P. Tsoutsanis, Ignasi Colominas, and Xesus Nogueira}
+\cvmeta{\textit{HONOM 2022 Conference}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Application of interface capturing schemes on multiphase/multicomponent compressible flow of underwater explosion}
+\cvdetail{E. M. Adebayo, P. Tsoutsanis, and K. W. Jenkins}
+\cvmeta{\textit{ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.23967/eccomas.2022.052}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Hybrid Finite-Volume/Discontinuous Galerkin framework for the solution of Multiphysics problems using unstructured meshes}
+\cvdetail{V. Maltsev, P. Tsoutsanis, and M. Skote}
+\cvmeta{\textit{ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.23967/eccomas.2022.140}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Hybrid High-Order Finite Volume/Discontinuous Galerkin Methods for Turbulent Flows}
+\cvdetail{Dean Yuan, Panagiotis Tsoutsanis, and Karl W. Jenkins}
+\cvmeta{\textit{ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.23967/eccomas.2022.141}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical Investigation of Oleo-Pneumatic Shock Absorber: A Multifidelity Approach}
+\cvdetail{Ahmed A. Sheikh Al-Shabab, Bojan Grenko, Dimitrios Vitlaris, Panagiotis Tsoutsanis, Antonis F. Antoniadis, and Martin Skote}
+\cvmeta{\textit{ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.23967/eccomas.2022.201}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{UCNS3D:A High-Order Finite-Volume CFD solver for Compressible flows}
+\cvdetail{P. Tsoutsanis}
+\cvmeta{\textit{SHARK FV 2022 Conference}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Unstructured high-order solutions of hovering rotors with and without ground effect}
+\cvdetail{Paulo A. S. F. Silva, Panagiotis Tsoutsanis, Antonis F. Antoniadis, and Karl W. Jenkins}
+\cvmeta{\textit{ECCOMAS Congress 2022: 8th European Congress on Computational Methods in Applied Sciences and Engineering}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.23967/eccomas.2022.283}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2021}
+\cvtitle{Multiphysics Unsteady Simulation of an Oleo Pneumatic Shock Absorber}
+\cvdetail{A. A. S. Al-Shabab, Z. Liu, P. Tsoutsanis, A. F. Antoniadis, and M. Skote}
+\cvmeta{\textit{14th World Congress on Computational Mechanics and ECCOMAS Congress 2020}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical Investigation of Oleo-Pneumatic Shock Absorber: Setup and Validation}
+\cvdetail{Ahmed A. Sheikh Al-Shabab, Dimitrios Vitlaris, Zhonglu Lin, Bojan Grenko, Panagiotis Tsoutsanis, Antonis Antoniadis, and Martin Skote}
+\cvmeta{\textit{14th World Congress on Computational Mechanics and ECCOMAS Congress 2020}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.23967/wccm-eccomas.2020.231}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical Simulation of Oleo Pneumatic Shock Absorber: Validation and Case Setup}
+\cvdetail{Z. Liu, A. A. S. Al-Shabab, P. Tsoutsanis, A. F. Antoniadis, and M. Skote}
+\cvmeta{\textit{14th World Congress on Computational Mechanics and ECCOMAS Congress 2020}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Withdrawn: Effects of Heat-Conductive Obstacles on Conjugate Heat Transfer of Backward-Facing Step Flow}
+\cvdetail{Zhonglu Lin, Ahmed A. Al-Shabab, Dimitrios Vitlaris, Panagiotis Tsoutsanis, Antonis Antoniadis, and Martin Skote}
+\cvmeta{\textit{AIAA Scitech 2021 Forum}\par Conference paper \,\textperiodcentered{}\, WITHDRAWN}
+\cvlinks{\href{https://doi.org/10.2514/6.2021-2007}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2019}
+\cvtitle{Computational Aerodynamics Solutions of Hovering Rotors by high-order schemes on unstructured grids}
+\cvdetail{P. A.S.F. Silva, F. Ricci, P. Tsoutsanis, K. W. Jenkins, and A. F. Antoniadis}
+\cvmeta{\textit{UK FLUIDS 2019}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Diesel Pool Fire Incident Inside an Urban Street Canyon}
+\cvdetail{Konstantinos Vasilopoulos, Ioannis E. Sarris, Ioannis Lekakis, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{Proceedings of the 1st International Conference on Numerical Modelling in Engineering}, 339--350\par Conference paper\,\textperiodcentered{}\, Event year: 2018}
+\cvlinks{\href{https://doi.org/10.1007/978-981-13-2273-0\_26}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2018}
+\cvtitle{High-Order Accurate Reconstruction Scheme for the Rayleigh-Taylor and Richtmyer-Meshkov Instabilities Using Arbitrary Unstructured Meshes}
+\cvdetail{Pericles S. Farmakis and Panagiotis Tsoutsanis}
+\cvmeta{\textit{11th Panhellenic Conference on Fluid Mechanics}\par Conference paper}
+\cvlinks{\href{https://flow2018.mech.uowm.gr/wp-content/uploads/2018/11/19.-HIGH-ORDER-ACCURATE-RECONSTRUCTION-SCHEME-FOR-THE-RAYLEIGH-TAYLOR-AND-RICHTMYER-MESHKOV-INSTABILITIES-USING-ARBITARILY-UNSTRCTURED-MESHES.pdf}{Publication / event record}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2017}
+\cvtitle{Improvement of the Computational Performance of a Parallel Unstructured WENO Finite Volume CFD code on Knights Landing Processors}
+\cvdetail{A. F. Antoniadis, K.W. Jenkins, and P. Tsoutsanis}
+\cvmeta{\textit{ParCFD conference}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Improving the Curing Cycle Time through the Numerical Modeling of air Flow in Industrial Continuous Convection Ovens}
+\cvdetail{Yuan Yi, Konstantinos Salonitis, Panagiotis Tsoutsanis, Lampros Litos, and John Patsavelas}
+\cvmeta{\textit{Procedia CIRP}, 63, 499--504\par Conference paper}
+\cvlinks{\href{https://doi.org/10.1016/j.procir.2017.03.167}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2016}
+\cvtitle{Adaptive mesh refinement techniques for high-order finite-volume WENO scheme}
+\cvdetail{Harshavardhana Srinivasan and Panagiotis Tsoutsanis}
+\cvmeta{\textit{Proceedings of the VII European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS Congress 2016)}, 2883--2899\par Conference paper}
+\cvlinks{\href{https://doi.org/10.7712/100016.2003.8544}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Addressing the Challenges of Implementation of High-Order Finite-Volume Schemes for Atmospheric Dynamics on Unstructured Meshes}
+\cvdetail{Panagiotis Tsoutsanis and Dimitris Drikakis}
+\cvmeta{\textit{Proceedings of the VII European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS Congress 2016)}, 684--708\par Conference paper}
+\cvlinks{\href{https://doi.org/10.7712/100016.1846.8406}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Implementation of a low-Mach number modification for High-Order Finite-Volume Schemes for Arbitrary Hybrid Unstructured Meshes}
+\cvdetail{Nicholas Simmonds, Panagiotis Tsoutsanis, and Adrian Gaylard}
+\cvmeta{\textit{Proceedings of the VII European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS Congress 2016)}, 2900--2915\par Conference paper}
+\cvlinks{\href{https://doi.org/10.7712/100016.2004.8545}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2015}
+\cvtitle{A Multi-Fidelity, Multi-Disciplinary Analysis and Optimization Framework for the Design of Morphing UAV Wing}
+\cvdetail{Andrea Ciarella, Christos Tsotskas, Marco Hahn, Noud Werter, Roeland De Breuker, Chris Beaverstock, Michael I. Friswell, Yosheph Yang, Serkan Özgen, Antonios Antoniadis, Dimitris Drikakis, and Panagiotis Tsoutsanis}
+\cvmeta{\textit{16th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.2514/6.2015-2326}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Azure: An Advanced CFD Software Suite Based on High-Resolution and High-Order Methods}
+\cvdetail{Dimitris Drikakis, Antonios F. Antoniadis, Panagiotis Tsoutsanis, Ioannis Kokkinakis, and Zeeshan A. Rana}
+\cvmeta{\textit{53rd AIAA Aerospace Sciences Meeting}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.2514/6.2015-0813}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{High-order methods for hypersonic shock wave turbulent boundary layer interaction}
+\cvdetail{Ioannis W. Kokkinakis, Antonios F. Antoniadis, Dimitris Drikakis, Panagiotis Tsoutsanis, and Zeeshan A. Rana}
+\cvmeta{\textit{20th AIAA International Space Planes and Hypersonic Systems and Technologies Conference}, 262--280\par Conference paper}
+\cvlinks{\href{https://doi.org/10.2514/6.2015-3524}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical Accuracy in RANS Computations of High-Lift Multi-element Airfoil and Aircraft Configurations}
+\cvdetail{Antonis F. Antoniadis, Panagiotis Tsoutsanis, and Dimitris Drikakis}
+\cvmeta{\textit{53rd AIAA Aerospace Sciences Meeting}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.2514/6.2015-0317}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2014}
+\cvtitle{High-order RANS Solutions for Full Aircraft and High-Lift Devices}
+\cvdetail{A. F. Antoniadis, P. Tsoutsanis, and D. Drikakis}
+\cvmeta{\textit{Proceeding of the Royal Aeronautical Society Applied Aerodynamics Conference}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2012}
+\cvtitle{High-order Schemes on Mixed-element Unstructured Grids for Aerodynamic Flows}
+\cvdetail{Antonios Antoniadis, Panagiotis Tsoutsanis, and Dimitrios Drikakis}
+\cvmeta{\textit{42nd AIAA Fluid Dynamics Conference and Exhibit}\par Conference paper}
+\cvlinks{\href{https://doi.org/10.2514/6.2012-2833}{DOI}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Large eddy simulation of turbulent flows on 3D hybrid unstructured meshes}
+\cvdetail{P. Tsoutsanis, D. Drikakis, and J. Lelieveld}
+\cvmeta{\textit{ECCOMAS 2012 Congress}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Modelling atmospheric flows on 3D hybrid unstructured meshes using high-order methods}
+\cvdetail{P. Tsoutsanis, D. Drikakis, and J. Lelieveld}
+\cvmeta{\textit{3rd International EULAG Workshop}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2009}
+\cvtitle{WENO Methods on 3D Unstructured Hexahedral Meshes}
+\cvdetail{P. Tsoutsanis, V. Titarev, and D. Drikakis}
+\cvmeta{\textit{HONOM2009 ECCOMAS Thematic Conference}\par Conference presentation}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2008}
+\cvtitle{Very High-Order Godunov-Type Methods on Unstructured Hexahedral Meshes in Three Space Dimensions}
+\cvdetail{P. Tsoutsanis, V. Titarev, and D. Drikakis}
+\cvmeta{\textit{ECCOMAS 2008 Congress}\par Conference presentation}
+\end{cventry}
+
+\clearpage
+\cvsection{Invited talks and seminars}
+
+\begin{cventry}
+\cvtitle{ADDAptive Numerical Framework for iLES of Compressible Flows}
+\cvdetail{HONOM 2024 \,\textperiodcentered{}\, Chania, Greece}
+\cvmeta{September 2024 \,\textperiodcentered{}\, Keynote}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{High-Order Non-Linear Methods on Unstructured Meshes for Compressible Flows}
+\cvdetail{Hong Kong University of Science and Technology \,\textperiodcentered{}\, Hong Kong}
+\cvmeta{November 2023 \,\textperiodcentered{}\, Invited seminar}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Compact Methods for Compressible Flows}
+\cvdetail{University of Waterloo \,\textperiodcentered{}\, Waterloo, Canada}
+\cvmeta{November 2023 \,\textperiodcentered{}\, Invited seminar}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{High-Order Methods for Compressible Flows}
+\cvdetail{Department of Physics, Cavendish Laboratory, University of Cambridge \,\textperiodcentered{}\, Cambridge, UK}
+\cvmeta{March 2023 \,\textperiodcentered{}\, Invited seminar}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD Research Capabilities at ANM Group}
+\cvdetail{AWE \,\textperiodcentered{}\, UK}
+\cvmeta{October 2022 \,\textperiodcentered{}\, Invited seminar}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Advancement of Adaptive Dissipation for Turbulent Flows}
+\cvdetail{University of A Coruña \,\textperiodcentered{}\, A Coruña, Spain}
+\cvmeta{October 2022 \,\textperiodcentered{}\, Invited seminar}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{UCNS3D: An Open-Source High-Order Finite-Volume Unstructured CFD Solver}
+\cvdetail{Computer Physics Communications Seminar Series}
+\cvmeta{October 2022 \,\textperiodcentered{}\, Invited seminar}
+\cvlinks{\href{https://cassyni.com/events/8cngqLg9KGot2xMcdR3CH3}{Recording}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{UCNS3D: An Open-Source High-Order Framework: Philosophy and Future}
+\cvdetail{CRUNCH Seminar Series, Brown University \,\textperiodcentered{}\, Providence, USA}
+\cvmeta{September 2022 \,\textperiodcentered{}\, Invited seminar}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{UCNS3D: An Overview of the Methods and Capabilities}
+\cvdetail{SHARK-FV workshop \,\textperiodcentered{}\, Porto, Portugal}
+\cvmeta{June 2022 \,\textperiodcentered{}\, Workshop talk}
+\cvlinks{\href{https://shark-fv.eu/home-shark/}{Event}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Turbulence at the Exascale}
+\cvdetail{Excalibur podcast}
+\cvmeta{June 2021 \,\textperiodcentered{}\, Podcast}
+\cvlinks{\href{https://www.youtube.com/watch?v=Z-w4qeNR6pg}{Recording}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{UCNS3D: A High-Order Compressible Open Source CFD: Past, Present and Future}
+\cvdetail{International Society for CFD}
+\cvmeta{April 2021 \,\textperiodcentered{}\, Invited seminar}
+\cvlinks{\href{https://www.youtube.com/watch?v=LGPYExd8XEo}{Recording}}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Stencil Selection Algorithm for Unstructured Meshes}
+\cvdetail{Barcelona Supercomputing Centre \,\textperiodcentered{}\, Barcelona, Spain}
+\cvmeta{March 2020 \,\textperiodcentered{}\, Invited seminar}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Compute for Cosmos}
+\cvdetail{Department of Physics, Cavendish Laboratory, University of Cambridge \,\textperiodcentered{}\, Cambridge, UK}
+\cvmeta{December 2019 \,\textperiodcentered{}\, Invited seminar}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Optimisation of High-Order Finite Volume Methods for Compressible Flows}
+\cvdetail{Perm University \,\textperiodcentered{}\, Perm, Russia}
+\cvmeta{November 2013 \,\textperiodcentered{}\, Invited seminar}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Addressing the Challenges of Implementation of High-Order Finite-Volume Schemes for Atmospheric Dynamics on Unstructured Meshes}
+\cvdetail{Loughborough University \,\textperiodcentered{}\, Loughborough, UK}
+\cvmeta{December 2012 \,\textperiodcentered{}\, Invited seminar}
+\end{cventry}
+
+\clearpage
+\cvsection{MSc research topics}
+
+\setlength{\cventrysep}{5pt}
+
+{\small\color{Muted}Topics from individual and group MSc research projects, organised by academic year.}
+
+
+\begin{cventry}
+\cvyear{2023-24}
+\cvtitle{CFD modelling of H\textsubscript{2} deflagrations in enclosures}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Decomposition of an organic pollutant by photocatalysis within a Taylor--Couette flow reactor}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD modelling of liquid springs for landing gear}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Advancing hypersonic modelling with high-order methods using UCNS3D}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Effects of bleed-plenum geometry on boundary-layer formation}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{High-fidelity CFD modelling of stealth intakes}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Finite-element analysis: correlation between simulation and experimental testing}
+\cvmeta{MSc in ACE}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Creation and calibration of different types of soil}
+\cvmeta{MSc in ACE}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Development and application of bleed control for supersonic intakes using UCNS3D}
+\cvmeta{MSc in ACE}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Mesh generation for numerical simulation in aerodynamics}
+\cvmeta{MSc in ACE}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD modelling of liquid springs}
+\cvmeta{MSc in ACE}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Sloshing effects in a cryogenic hydrogen-storage tank for commercial aircraft}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Air--hydrogen mixing modelling in a dry low-NOx GTU combustor}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2022-23}
+\cvtitle{CFD simulation of a closing valve through space- and time-dependent porosity convection: a preliminary study for fluid--structure interaction in two-phase flows}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Using CFD to assess the hydrodynamic impact of the implementation and strategic placement of flow injection over a flapped rudder}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{RANS modelling of HiFIRE hypersonic geometry}
+\cvmeta{MSc in ACE}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical simulation of cavitation on rotors}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Impact of numerical schemes and grid design on oil--gas interface monitoring in landing-gear shock absorbers}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Cavitation modelling for landing-gear shock absorbers}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Assessment of high-order Godunov-type numerical methods in the strong-shock regime}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD analysis of a supersonic civil airliner}
+\cvmeta{MSc in ACE}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2021-22}
+\cvtitle{AMR for CFD modelling of sonic booms for supersonic civil airliners}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Development of new robust Riemann solvers for high-speed flows for nuclear fusion}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Optimisation of existing Riemann solvers for high-speed flows found in nuclear fusion}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Target-design modelling for nuclear fusion using high-order finite-volume WENO methods}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Target-design modelling for nuclear fusion using the MOOD framework with UCNS3D}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Sonic-boom prediction for civil supersonic cruisers using RANS simulations}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Fluid--structure interaction of rapid aircraft decompression in a civil airliner}
+\cvmeta{MSc in ACE}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD modelling of the SpaceX heavy launch vehicle with high-order Euler methods using UCNS3D}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD modelling of the SpaceX heavy launch vehicle with RANS models}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2020-21}
+\cvtitle{Cooling optimisation for battery electric vehicles through duct-shape optimisation}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Adjoint optimisation of constraining flows pertinent to motorsport racing}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical calculation and evaluation of extrapolation coefficients used in speed-powering predictions based on model tests}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Cooling optimisation for battery electric vehicles through duct-size optimisation}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD modelling of COVID spread in university lecture theatres and analysis of ventilation impact}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2019-20}
+\cvtitle{In situ visualisation for massively parallel simulations using UCNS3D}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{High-order discretisation optimisation for the ADIGMA flow solver}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD modelling of rapid aircraft-cabin decompression using inviscid Euler equations}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Ducting optimisation for battery electric vehicles using the SAE body model}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Development of multiphysics models for liquid--gas compressible flows}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Development of multiphysics models for gases using a compressible-flow solver for landing-gear shock absorbers}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD for fish-farm modelling}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Development of high-order discretisation for a Python traffic-flow modelling tool using high-resolution numerical methods}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD investigation of the directional stability of high-speed craft}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Rapid aircraft-decompression modelling}
+\cvmeta{MSc in ACE}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Influence of F1 wheel design under the 2021 FIA rules}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{F1 race-car aerodynamics: front-wing design under the 2021 FIA rules}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2018-19}
+\cvtitle{CFD simulation of rapid and explosive aircraft decompression}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Development of a Python traffic-flow modelling tool using high-resolution numerical methods}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2017-18}
+\cvtitle{CFD simulation of the first stage of a deflector-jet servo-valve at nominal and reduced temperatures}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{High-order a posteriori limited reconstruction for Rayleigh--Taylor and Richtmyer--Meshkov flows}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{A single rotating reference frame in a high-resolution CFD solver}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Application of hybrid LES--RANS methods to a realistic car model in realistic on-road conditions}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Influence of wheel modelling for the DrivAer model under realistic motorway conditions}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical simulation of the estate DrivAer model under realistic motorway conditions}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2016-17}
+\cvtitle{A simple rotated-hybrid HLL--HLLC Riemann solver for curing carbuncle and shock instability on high-order unstructured meshes for supersonic and hypersonic flows}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical investigation of flow past a generic notchback geometry under side-wind conditions}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Computational investigation of severe crosswind influence on the fastback DrivAer car model using DDES}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD simulation of the interaction between a ship airwake and a helicopter}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Aerodynamic effects of accreted ice shapes on a NACA 0012 aerofoil using CFD}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Aerodynamic investigation of the DrivAer car model using DDES}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2015-16}
+\cvtitle{The impact of unsteadiness on uncertainty in automotive aerodynamic simulation using OpenFOAM}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD analysis of mass-burning-rate and ventilation coupling in confined and ventilated enclosures}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Analysis and comparison of dynamic parameters of an aerofoil undergoing plunging, pitching and flapping motion}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Assessment of AMR techniques using unstructured meshes for RANS simulations}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Assessment of scale-resolving turbulence-modelling approaches with implicit subgrid-scale models for CFD simulations of flow over bluff bodies}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{CFD simulation of interaction between a ship airwake and an aircraft}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Development and optimisation of a medical device for decontamination and sterilisation of indoor spaces}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Improving accuracy and computation time for hydrofoil simulations for the America's Cup at NUMECA International}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2014-15}
+\cvtitle{Evaluation of the Spalart correction term for different turbulence models}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Impact of curvature correction on wingtip-vortex flow}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Implementation of the Chien low-Re k--\ensuremath{\varepsilon} turbulence model in UCNS3D}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Implementation of the Wilcox k--\ensuremath{\omega} turbulence model in UCNS3D}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Slope limiters for higher-order methods on unstructured grids}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Simulation of two-dimensional unsteady flow past a heated cylinder in a laminar vortex-shedding regime, Re = 80--140}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Aerodynamic performance prediction using a sweeping method: improving the efficiency of RANS near stall}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2013-14}
+\cvtitle{Effects of numerical discretisation in vortical flows}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Performance assessment of a higher-order scheme turbulence model for automotive flow}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Drag prediction of a full aircraft configuration using higher-order methods}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Modern parallelisation strategies for CFD applications}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Low-Reynolds-number separation around aerofoils}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Design-of-experiments-based optimisation for hydrofoils}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Turbulent mixing in a gas-turbine combustor using high-order discretisation methods}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Impact of numerics on turbulent mixing in a dry low-NOx gas-turbine-unit combustor}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Assessment of high-order CFD methods against experimental flow measurements for automotive applications}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical study of shock-wave/boundary-layer interaction at Mach 5}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Detailed description of the vortex topology inside simplified wheelhouses}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvyear{2012-13}
+\cvtitle{Investigation of high-order schemes on unstructured grids for shock-wave/turbulent-boundary-layer interaction flows}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Numerical simulation of the HyShot-2 scramjet configuration using high-order schemes}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Drag evaluation on a Windsor body with wheels within wheel housings}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Interaction of a Formula 1 car front wing and an exposed wheel}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\begin{cventry}
+\cvtitle{Aerodynamic force modification through base roughness}
+\cvmeta{MSc in CFD}
+\end{cventry}
+
+\end{document}

@@ -1,0 +1,93 @@
+- id: jet-comparison
+  type: video
+  title: Jet-flow comparison
+  caption: Three side-by-side flow visualisations labelled CWENOZ3, CWENOZ5 and CWENOZ7, showing the evolving jet
+    and surrounding structures.
+  award: ''
+  url: /assets/videos/jet-flow-comparison.mp4
+  poster: /assets/images/video/jet-flow-poster.png
+  width: 2400
+  height: 1612
+  source_url: ''
+  credit: Animation supplied by Panagiotis Tsoutsanis
+  research_path: /research/high-order-methods/
+  wide: true
+- id: near-wall-flow
+  title: Near-wall flow evolution
+  caption: Three-dimensional structures and a coloured flow section evolve through the computational domain.
+  url: /assets/videos/near-wall-flow.mp4
+  poster: /assets/images/video/near-wall-poster.png
+  width: 1900
+  height: 1068
+  research_path: /research/high-speed-flows/
+  type: video
+  award: ''
+  source_url: ''
+  credit: Animation supplied by Panagiotis Tsoutsanis
+- id: cylinder-wake
+  title: Cylinder wake
+  caption: An evolving wake behind a cylinder, shown through three-dimensional structures and a planar flow visualisation.
+  url: /assets/videos/cylinder-wake.mp4
+  poster: /assets/images/video/cylinder-poster.png
+  width: 1280
+  height: 854
+  research_path: /research/turbulence-multiphase/
+  type: video
+  award: ''
+  source_url: ''
+  credit: Animation supplied by Panagiotis Tsoutsanis
+- id: interface-evolution
+  title: Interface evolution
+  caption: 'An evolving interface shown in two panels: density-gradient magnitude above and density below, with
+    the plotted scales retained.'
+  url: /assets/videos/interface-evolution.mp4
+  poster: /assets/images/video/interface-poster.png
+  width: 2042
+  height: 794
+  research_path: /research/turbulence-multiphase/
+  wide: true
+  type: video
+  award: ''
+  source_url: ''
+  credit: Animation supplied by Panagiotis Tsoutsanis
+- id: three-dimensional-interface
+  type: video
+  title: Three-dimensional interface evolution
+  caption: Evolving three-dimensional interfaces above a coloured flow section, with the original plotted scales retained.
+  url: /assets/videos/three-dimensional-interface.mp4
+  poster: /assets/images/video/three-dimensional-interface-poster.png
+  width: 1600
+  height: 800
+  wide: true
+  credit: Animation supplied by Panagiotis Tsoutsanis
+  research_path: /research/turbulence-multiphase/
+- id: aircraft-top-view
+  type: video
+  title: Flow over an aircraft
+  caption: A top view of evolving flow structures around an aircraft geometry, with its surface mesh visible.
+  url: /assets/videos/aircraft-top-view.mp4
+  poster: /assets/images/video/aircraft-top-view-poster.png
+  width: 1280
+  height: 1138
+  wide: true
+  credit: Animation supplied by Panagiotis Tsoutsanis
+  research_path: /research/turbulence-multiphase/
+- id: shock-bubble
+  title: Shock wave interaction with cavitation bubble
+  year: 2021
+  caption: A UCNS3D simulation of a Mach 2.4 shock interacting with a gas-filled bubble in water.
+  award: ARCHER2 2021 · Winning Video
+  url: https://www.youtube.com/watch?v=WNRggplDTos
+  source_url: https://www.archer2.ac.uk/about/gallery/2021-image-comp/
+  credit: Panagiotis Tsoutsanis · UCNS3D
+  research_path: /research/turbulence-multiphase/
+- id: kelvin-helmholtz
+  title: Supersonic Kelvin–Helmholtz instability
+  year: 2017
+  caption: Shear-layer instabilities develop into interacting vortical structures and pressure waves in a UCNS3D
+    simulation.
+  award: ARCHER 2017 · Winning Early Career Researcher Entry
+  url: https://www.youtube.com/watch?v=mq1q7QAFEZM
+  source_url: https://www.archer2.ac.uk/about/gallery/winners
+  credit: Panagiotis Tsoutsanis · UCNS3D
+  research_path: /research/high-speed-flows/

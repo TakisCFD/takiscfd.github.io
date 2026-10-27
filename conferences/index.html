@@ -1,0 +1,10 @@
+---
+title: Conference contributions
+description: Conference papers, proceedings and presentations in computational fluid dynamics and numerical methods.
+---
+<a class="back-link" href="{{ '/publications/' | relative_url }}">← All publications</a>
+<header class="page-intro"><p class="overline">Conferences</p><h1>Research in conversation</h1><p>Conference papers and presentations, with links to published proceedings where available. Citation years follow the published record; an event year is shown separately when it differs.</p><div class="profile-links"><a href="{{ '/talks/' | relative_url }}">Invited talks and recordings →</a></div></header>
+{% assign conference_records = site.data.publications | where: 'conference', true %}
+{% include publication-controls.html records=conference_records %}
+<section aria-label="Conference contributions" id="publication-list">{% for pub in conference_records %}{% include publication.html pub=pub %}{% endfor %}</section>
+<p class="empty-message" id="publication-empty" hidden>No contributions match these filters. Try another term, year, type or topic.</p>

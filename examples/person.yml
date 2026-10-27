@@ -1,0 +1,11 @@
+# Copy this record into _data/people.yml and replace every example value.
+# The file _data/people.yml is a YAML list: remove its initial [] before adding records.
+- name: "Full name"
+  role: "PhD researcher"
+  status: "current" # Use current or alumni.
+  years: "2024–2028"
+  research_topic: "One sentence about the research."
+  profile_url: ""
+  photo: "" # Optional: /assets/images/people/name.jpg
+  thesis_url: ""
+  first_destination: "" # For alumni, the role and organisation after leaving.

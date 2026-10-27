@@ -1,0 +1,10 @@
+---
+title: Privacy
+---
+<header class="page-intro"><p class="overline">Website information</p><h1>Privacy and analytics</h1></header>
+<div class="prose">
+{% if jekyll.environment == 'production' and site.analytics.enabled == true and site.analytics.goatcounter_code != '' and site.analytics.goatcounter_code and site.url and site.url != '' %}
+<h2>Visitor analytics</h2><p>This website uses GoatCounter to understand aggregate interest in research pages and selected links. Measurements may include page visits, referring websites, broad location, browser information and clicks on links such as papers, slides and UCNS3D.</p><p>For information about the service, see <a href="https://www.goatcounter.com/privacy" target="_blank" rel="noopener noreferrer">GoatCounter's privacy information</a>. Analytics indicate visits and clicks; they do not establish whether a linked publication was read.</p>
+{% else %}<h2>Visitor analytics</h2><p>This version of the website does not load a visitor analytics script.</p>{% endif %}
+<h2>Hosting and external links</h2><p>When hosted on GitHub Pages, the hosting provider may process technical information for security and service operation. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub's privacy statement</a>.</p><p>Links to publishers, repositories, ORCID and other external websites are governed by those services' own policies.</p><h2>Contact</h2><p>For questions about this website, contact <a href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a>.</p>
+</div>

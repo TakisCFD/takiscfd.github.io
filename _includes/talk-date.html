@@ -1,0 +1,7 @@
+{%- if include.talk.date_precision == 'month' -%}
+<time datetime="{{ include.talk.event_date | date: '%Y-%m' }}">{{ include.talk.event_date | date: '%B %Y' }}</time>
+{%- elsif include.talk.date_precision == 'year' -%}
+<time datetime="{{ include.talk.event_date | date: '%Y' }}">{{ include.talk.event_date | date: '%Y' }}</time>
+{%- else -%}
+<time datetime="{{ include.talk.event_date | date: '%Y-%m-%d' }}">{{ include.talk.event_date | date: '%d %B %Y' }}</time>
+{%- endif -%}

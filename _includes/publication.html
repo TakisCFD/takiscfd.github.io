@@ -1,0 +1,18 @@
+<article class="publication" id="{{ include.pub.id }}" data-publication data-year="{{ include.pub.year }}" data-type="{{ include.pub.type | escape }}" data-topics="{{ include.pub.topics | join: '|' | escape }}" data-search="{{ include.pub.title | append: ' ' | append: include.pub.authors | append: ' ' | append: include.pub.venue | downcase | escape }}">
+  <div class="publication-year">{{ include.pub.year }}</div>
+  <div class="publication-body">
+    <p class="overline publication-type">{{ include.pub.type | capitalize }}{% if include.pub.status and include.pub.status != '' %} <span class="publication-status">{{ include.pub.status | capitalize }}</span>{% endif %}</p>
+    <h3>{% if include.pub.url and include.pub.url != '' %}<a href="{{ include.pub.url | relative_url | escape }}" target="_blank" rel="noopener noreferrer" data-goatcounter-click="paper-{{ include.pub.id }}">{{ include.pub.title | escape }}</a>{% else %}{{ include.pub.title | escape }}{% endif %}</h3>
+    <p class="publication-authors">{{ include.pub.authors | escape }}</p>
+    <p class="publication-venue">{{ include.pub.venue | escape }}{% if include.pub.citation_details and include.pub.citation_details != '' %} · {{ include.pub.citation_details | escape }}{% endif %}</p>
+    {% assign citation_year = include.pub.year | append: '' %}{% if include.pub.event_year and include.pub.event_year != '' and include.pub.event_year != citation_year %}<p class="publication-venue">Event year: {{ include.pub.event_year | escape }}</p>{% endif %}
+    {% unless include.compact %}<ul class="topic-list" aria-label="Research topics">{% for topic in include.pub.topics %}<li><a href="{{ '/publications/' | relative_url }}?topic={{ topic | url_encode }}">{{ topic | escape }}</a></li>{% endfor %}</ul>{% endunless %}
+    <div class="publication-links">
+      {% if include.pub.doi_url and include.pub.doi_url != '' %}<a href="{{ include.pub.doi_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer" data-goatcounter-click="doi-{{ include.pub.id }}">DOI ↗</a>{% endif %}
+      {% if include.pub.preprint_url and include.pub.preprint_url != '' %}<a href="{{ include.pub.preprint_url | relative_url | escape }}" target="_blank" rel="noopener noreferrer" data-goatcounter-click="preprint-{{ include.pub.id }}">Preprint ↗</a>{% elsif include.pub.type == 'preprint' and include.pub.url and include.pub.url != '' %}<a href="{{ include.pub.url | relative_url | escape }}" target="_blank" rel="noopener noreferrer" data-goatcounter-click="preprint-{{ include.pub.id }}">Preprint ↗</a>{% endif %}
+      {% if include.pub.pdf and include.pub.pdf != '' %}<a href="{{ include.pub.pdf | relative_url | escape }}" target="_blank" rel="noopener noreferrer" data-goatcounter-click="pdf-{{ include.pub.id }}">PDF ↗</a>{% endif %}
+      {% if include.pub.code and include.pub.code != '' %}<a href="{{ include.pub.code | relative_url | escape }}" target="_blank" rel="noopener noreferrer" data-goatcounter-click="code-{{ include.pub.id }}">Code ↗</a>{% endif %}
+      <a href="{{ include.pub.bibtex_url | relative_url }}" download data-goatcounter-click="bibtex-{{ include.pub.id }}">BibTeX</a>
+    </div>
+  </div>
+</article>

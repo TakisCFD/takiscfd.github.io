@@ -1,0 +1,143 @@
+# Suggested destination: .github/workflows/pages.yml
+# Builds are safe to run before GitHub Pages is enabled.
+# Publication is OFF until repository variable PUBLISH_SITE is exactly true.
+name: Build and optionally publish personal website
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish this build (also requires PUBLISH_SITE=true)
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: personal-site-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    env:
+      PUBLISH_REQUESTED: ${{ vars.PUBLISH_SITE == 'true' && github.ref == 'refs/heads/main' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish)) }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Ruby and install the site's declared dependencies
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Set up Python for publications, public CV and content checks
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-cv.txt
+
+      - name: Install publication import and public CV dependencies
+        run: python -m pip install -r requirements.txt -r requirements-cv.txt
+
+      - name: Install XeLaTeX and academic serif fonts for the public CV
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y texlive-xetex texlive-latex-extra fonts-texgyre
+
+      - name: Test publication import and citation downloads
+        run: python -W ignore::DeprecationWarning -m unittest discover -s tests -v
+
+      - name: Generate publication data from BibTeX
+        run: python scripts/import_publications.py
+
+      - name: Validate editable content
+        run: |
+          if [ "$PUBLISH_REQUESTED" = "true" ]; then
+            python scripts/validate_content.py --for-publish
+          else
+            python scripts/validate_content.py
+          fi
+
+      - name: Regenerate the public CV from approved website data
+        run: python scripts/build_public_cv.py
+
+      # configure-pages reads Pages metadata only when publishing is requested.
+      # It would otherwise fail for a new repository with Pages still disabled.
+      - name: Read GitHub Pages URL
+        id: pages
+        if: env.PUBLISH_REQUESTED == 'true'
+        uses: actions/configure-pages@v5
+        with:
+          enablement: false
+
+      - name: Build site
+        env:
+          PAGES_ORIGIN: ${{ steps.pages.outputs.origin }}
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: |
+          if [ "$PUBLISH_REQUESTED" = "true" ]; then
+            # YAML generation avoids interpolation or escaping errors in URLs.
+            ruby -ryaml -e 'File.write("_config.deploy.yml", {"url" => ENV.fetch("PAGES_ORIGIN"), "baseurl" => ENV.fetch("PAGES_BASE_PATH")}.to_yaml)'
+            JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter --config _config.yml,_config.deploy.yml
+          else
+            JEKYLL_ENV=development bundle exec jekyll build --strict_front_matter
+          fi
+
+      - name: Check generated pages and internal references
+        run: python scripts/check_site.py _site
+
+      - name: Check output and ensure previews contain no analytics loader
+        run: |
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+          site = Path('_site')
+          home = site / 'index.html'
+          if not home.is_file() or not home.stat().st_size:
+              raise SystemExit('The build did not produce _site/index.html')
+          if os.environ['PUBLISH_REQUESTED'] != 'true':
+              offenders = [str(p) for p in site.rglob('*.html') if 'gc.zgo.at/count.js' in p.read_text(encoding='utf-8')]
+              if offenders:
+                  raise SystemExit('Analytics loader found in preview: ' + ', '.join(offenders))
+          print('Website output is present; preview analytics check passed.')
+          PY
+
+      - name: Upload the website for publication
+        if: env.PUBLISH_REQUESTED == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    if: vars.PUBLISH_SITE == 'true' && github.ref == 'refs/heads/main' && (github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish))
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages-production
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish the checked build
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<a class="back-link" href="{{ '/research/' | relative_url }}">← All research</a>
+<header class="page-intro"><p class="overline">Research theme</p><h1>{{ page.title }}</h1><p>{{ page.description }}</p></header>
+<div class="prose">{{ content }}</div>
+{% if page.publication_ids.size > 0 %}<section class="section"><div class="section-heading"><h2>Related publications</h2></div>{% for pub in site.data.publications %}{% if page.publication_ids contains pub.id %}{% include publication.html pub=pub compact=true %}{% endif %}{% endfor %}</section>{% endif %}
+<div class="actions"><a class="button" href="{{ '/gallery/' | relative_url }}">Research gallery</a><a class="button" href="{{ site.software.url }}" target="_blank" rel="noopener noreferrer" data-goatcounter-click="outbound-ucns3d">UCNS3D ↗</a></div>

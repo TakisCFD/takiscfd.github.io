@@ -1,0 +1,4 @@
+# Optional: only needed to rebuild the public LaTeX CV.
+PyYAML==6.0.3
+# System requirement: TeX Live with XeLaTeX and latex-extra (see generator help).
+# TeX Gyre Pagella is optional; Latin Modern provides the portable font fallback.

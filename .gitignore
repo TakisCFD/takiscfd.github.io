@@ -1,0 +1,13 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.openai/
+_data/publications.yml
+assets/bibtex/
+_config.deploy.yml
