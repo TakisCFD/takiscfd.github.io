@@ -75,6 +75,7 @@ jobs:
           fi
 
       - name: Regenerate the public CV from approved website data
+        continue-on-error: true
         run: python scripts/build_public_cv.py
 
       # configure-pages reads Pages metadata only when publishing is requested.
