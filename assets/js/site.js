@@ -94,7 +94,8 @@
       image.alt = link.querySelector("img").alt;
       title.textContent = link.dataset.title;
       caption.textContent = link.dataset.caption;
-      credit.textContent = link.dataset.credit;
+      credit.textContent = link.dataset.credit || "";
+      credit.hidden = !credit.textContent.trim();
       dialog.showModal();
       close.focus();
     }));

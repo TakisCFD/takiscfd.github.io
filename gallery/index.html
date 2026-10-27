@@ -39,7 +39,7 @@ description: Scientific images and animations from computational fluid dynamics 
       {% if item.award and item.award != '' %}<p class="overline">{{ item.award | escape }}</p>{% endif %}
       <h3>{{ item.title | escape }}</h3>
       <p id="animation-caption-{{ item.id | escape }}">{{ item.caption | escape }}</p>
-      {% if item.credit and item.credit != '' %}{% if item.credit and item.credit != '' %}<p class="image-credit">{{ item.credit | escape }}</p>{% endif %}{% endif %}
+      {% if item.credit and item.credit != '' %}<p class="image-credit">{{ item.credit | escape }}</p>{% endif %}
       <div class="publication-links">
         {% if item.type == 'video' %}<a href="{{ item.url | relative_url | escape }}" download>Download animation · MP4</a>{% endif %}
         {% if item.source_url and item.source_url != '' %}<a href="{{ item.source_url | escape }}" target="_blank" rel="noopener noreferrer">Award record ↗</a>{% endif %}
