@@ -1,15 +1,13 @@
 - id: jet-comparison
   type: video
   title: Jet-flow comparison
-  caption: Three side-by-side flow visualisations labelled CWENOZ3, CWENOZ5 and CWENOZ7, showing the evolving jet
-    and surrounding structures.
+  caption: Three side-by-side flow visualisations labelled CWENOZ3, CWENOZ5 and CWENOZ7, showing the evolving jet and surrounding structures.
   award: ''
   url: /assets/videos/jet-flow-comparison.mp4
   poster: /assets/images/video/jet-flow-poster.png
   width: 2400
   height: 1612
   source_url: ''
-  credit: ''
   research_path: /research/high-order-methods/
   wide: true
 - id: near-wall-flow
@@ -23,7 +21,6 @@
   type: video
   award: ''
   source_url: ''
-  credit: ''
 - id: cylinder-wake
   title: Cylinder wake
   caption: An evolving wake behind a cylinder, shown through three-dimensional structures and a planar flow visualisation.
@@ -35,11 +32,9 @@
   type: video
   award: ''
   source_url: ''
-  credit: ''
 - id: interface-evolution
   title: Interface evolution
-  caption: 'An evolving interface shown in two panels: density-gradient magnitude above and density below, with
-    the plotted scales retained.'
+  caption: 'An evolving interface shown in two panels: density-gradient magnitude above and density below, with the plotted scales retained.'
   url: /assets/videos/interface-evolution.mp4
   poster: /assets/images/video/interface-poster.png
   width: 2042
@@ -49,18 +44,15 @@
   type: video
   award: ''
   source_url: ''
-  credit: ''
 - id: three-dimensional-interface
   type: video
   title: Three-dimensional interface evolution
-  caption: Evolving three-dimensional interfaces above a coloured flow section, with the original plotted scales
-    retained.
+  caption: Evolving three-dimensional interfaces above a coloured flow section, with the original plotted scales retained.
   url: /assets/videos/three-dimensional-interface.mp4
   poster: /assets/images/video/three-dimensional-interface-poster.png
   width: 1600
   height: 800
   wide: true
-  credit: ''
   research_path: /research/turbulence-multiphase/
 - id: aircraft-top-view
   type: video
@@ -71,7 +63,6 @@
   width: 1280
   height: 1138
   wide: true
-  credit: ''
   research_path: /research/turbulence-multiphase/
 - id: shock-bubble
   title: Shock wave interaction with cavitation bubble
@@ -80,15 +71,12 @@
   award: ARCHER2 2021 · Winning Video
   url: https://www.youtube.com/watch?v=WNRggplDTos
   source_url: https://www.archer2.ac.uk/about/gallery/2021-image-comp/
-  credit: ''
   research_path: /research/turbulence-multiphase/
 - id: kelvin-helmholtz
   title: Supersonic Kelvin–Helmholtz instability
   year: 2017
-  caption: Shear-layer instabilities develop into interacting vortical structures and pressure waves in a UCNS3D
-    simulation.
+  caption: Shear-layer instabilities develop into interacting vortical structures and pressure waves in a UCNS3D simulation.
   award: ARCHER 2017 · Winning Early Career Researcher Entry
   url: https://www.youtube.com/watch?v=mq1q7QAFEZM
   source_url: https://www.archer2.ac.uk/about/gallery/winners
-  credit: ''
   research_path: /research/high-speed-flows/

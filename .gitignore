@@ -8,5 +8,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .openai/
+_data/publications.yml
 assets/bibtex/
 _config.deploy.yml

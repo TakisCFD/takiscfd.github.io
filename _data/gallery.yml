@@ -6,7 +6,6 @@
   height: 1820
   alt: Grayscale wave fronts curve around a central rolled-up structure beside a white solid obstacle.
   caption: Grayscale flow visualisation showing curved wave fronts and a rolled-up structure beside a solid obstacle.
-  credit: ''
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: sphere-wake
@@ -16,9 +15,7 @@
   width: 1829
   height: 605
   alt: Green and blue coiled structures extend from a spherical body through a black unstructured mesh.
-  caption: Coloured three-dimensional structures extend downstream of a spherical body, shown together with the
-    computational mesh.
-  credit: ''
+  caption: Coloured three-dimensional structures extend downstream of a spherical body, shown together with the computational mesh.
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: vortex-roll-up
@@ -28,9 +25,7 @@
   width: 1962
   height: 1952
   alt: Red and yellow bands curl around several dark vortex cores, with fine filaments along their edges.
-  caption: A flow visualisation showing large rolled-up structures and fine-scale filaments within the surrounding
-    layers.
-  credit: ''
+  caption: A flow visualisation showing large rolled-up structures and fine-scale filaments within the surrounding layers.
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: wave-boundary-layer
@@ -41,7 +36,6 @@
   height: 1382
   alt: Orange and yellow field slices intersect blue and purple three-dimensional structures above two grey surfaces.
   caption: A combined view of a coloured flow-field section and three-dimensional structures near solid surfaces.
-  credit: ''
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: near-wall-flow
@@ -51,9 +45,7 @@
   width: 1000
   height: 889
   alt: A yellow field lies between grey surfaces with many blue and grey structures along the upper and lower boundaries.
-  caption: A close view of interacting flow features near walls, combining a field slice with three-dimensional
-    visualisation.
-  credit: ''
+  caption: A close view of interacting flow features near walls, combining a field slice with three-dimensional visualisation.
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: three-dimensional-bubble
@@ -62,10 +54,8 @@
   image: /assets/images/research/three-dimensional-bubble.png
   width: 2048
   height: 1820
-  alt: A turquoise rounded interface is surrounded by coloured section planes, with pressure and density legends
-    at the right.
+  alt: A turquoise rounded interface is surrounded by coloured section planes, with pressure and density legends at the right.
   caption: A rounded three-dimensional interface with surrounding section planes and pressure and density legends.
-  credit: ''
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: interface-deformation
@@ -74,10 +64,8 @@
   image: /assets/images/research/interface-deformation.jpg
   width: 2048
   height: 1788
-  alt: Blue and red contours form a deformed rounded boundary with elongated curling structures extending to the
-    right.
+  alt: Blue and red contours form a deformed rounded boundary with elongated curling structures extending to the right.
   caption: A deformed interface and the surrounding rolled-up flow structures, shown in a coloured planar visualisation.
-  credit: ''
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: ring-interface
@@ -88,7 +76,6 @@
   height: 1000
   alt: A gold ring-shaped surface sits between red and blue field slices, above concentric rings on a black plane.
   caption: A ring-shaped interface presented with orthogonal field views and a planar section beneath it.
-  credit: ''
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: wedge-flow
@@ -99,7 +86,6 @@
   height: 800
   alt: A pink wedge points into a yellow and pink field, with symmetric blue curling layers on either side.
   caption: A planar view of wave fronts and paired rolled-up structures around a wedge-shaped obstacle.
-  credit: ''
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: wedge-flow-detail
@@ -110,7 +96,6 @@
   height: 800
   alt: A red wedge lies below a pale curved surface and dark curled structures with smaller rolls along the edges.
   caption: A detailed rendering of curved and rolled-up flow structures adjacent to a wedge-shaped obstacle.
-  credit: ''
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: paired-vortices
@@ -121,7 +106,6 @@
   height: 400
   alt: A white triangular obstacle stands beside two bright orange rolled-up patterns against a dark background.
   caption: Paired vortical structures and curved wave patterns around a triangular obstacle.
-  credit: ''
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: aircraft-mesh
@@ -131,9 +115,7 @@
   width: 2048
   height: 1821
   alt: A colour-mapped aircraft nose, wings and engine inlets are surrounded by a mixed-cell mesh in a frontal view.
-  caption: A frontal view of an aircraft configuration, combining surface colouring with the surrounding computational
-    mesh.
-  credit: ''
+  caption: A frontal view of an aircraft configuration, combining surface colouring with the surrounding computational mesh.
   source_url: ''
   project_path: /research/high-order-methods/
 - id: nacelle-mesh
@@ -142,10 +124,8 @@
   image: /assets/images/research/nacelle-mesh.jpg
   width: 1500
   height: 1486
-  alt: A grey engine nacelle beneath a wing is intersected by a triangular mesh plane and several coloured cell
-    groups.
+  alt: A grey engine nacelle beneath a wing is intersected by a triangular mesh plane and several coloured cell groups.
   caption: A nacelle geometry shown with a section of the unstructured mesh and highlighted neighbouring cells.
-  credit: ''
   source_url: ''
   project_path: /research/high-order-methods/
 - id: blunt-body-sections
@@ -155,9 +135,7 @@
   width: 1500
   height: 1500
   alt: A grey rounded body is surrounded by a curved coloured field and intersecting translucent section planes.
-  caption: A rounded body and several intersecting views of the surrounding flow field. The original vector figure
-    is available as a PDF.
-  credit: ''
+  caption: A rounded body and several intersecting views of the surrounding flow field. The original vector figure is available as a PDF.
   source_url: ''
   project_path: /research/high-speed-flows/
   original_url: /assets/files/research/zoom2.pdf
@@ -168,9 +146,7 @@
   width: 1500
   height: 1321
   alt: A curved surface is covered with triangular cells and dense rows of coloured points near a geometric transition.
-  caption: An unstructured mesh on a curved geometry, with local refinement and point distributions visible across
-    the surface.
-  credit: ''
+  caption: An unstructured mesh on a curved geometry, with local refinement and point distributions visible across the surface.
   source_url: ''
   project_path: /research/high-order-methods/
 - id: surface-grid-points
@@ -181,7 +157,6 @@
   height: 1321
   alt: A curved grey surface carries a quadrilateral grid and many small blue and turquoise points.
   caption: A close view of a surface grid and the distribution of points within its cells.
-  credit: ''
   source_url: ''
   project_path: /research/high-order-methods/
 - id: directional-stencils
@@ -191,9 +166,7 @@
   width: 1087
   height: 949
   alt: Translucent coloured groups of cells sit inside a mixed mesh, with matching projections onto the floor plane.
-  caption: Highlighted stencil cells within a mixed-element mesh. The supplied figure identifies strong-directionality
-    stencils for prismatic and tetrahedral elements.
-  credit: ''
+  caption: Highlighted stencil cells within a mixed-element mesh. The supplied figure identifies strong-directionality stencils for prismatic and tetrahedral elements.
   source_url: ''
   project_path: /research/high-order-methods/
 - id: polyhedral-stencil
@@ -204,7 +177,6 @@
   height: 761
   alt: Several grey block-like cells connect around a central cell in a three-dimensional arrangement.
   caption: A three-dimensional illustration of a cell neighbourhood used to explain reconstruction stencils.
-  credit: ''
   source_url: ''
   project_path: /research/high-order-methods/
 - id: triangular-face-stencil
@@ -213,10 +185,8 @@
   image: /assets/images/research/triangular-face-stencil.png
   width: 850
   height: 756
-  alt: Grey polyhedral cells with triangular faces meet around a central region, with black outlines marking their
-    edges.
+  alt: Grey polyhedral cells with triangular faces meet around a central region, with black outlines marking their edges.
   caption: Neighbouring cells with triangular faces illustrate a second three-dimensional stencil configuration.
-  credit: ''
   source_url: ''
   project_path: /research/high-order-methods/
 - id: aircraft-graded-mesh
@@ -226,9 +196,7 @@
   width: 2048
   height: 1820
   alt: A slender grey aircraft sits within a mesh that becomes finer around the fuselage, wings and engine inlets.
-  caption: An aircraft configuration within a graded computational mesh, showing the transition between fine cells
-    near the geometry and larger surrounding cells.
-  credit: ''
+  caption: An aircraft configuration within a graded computational mesh, showing the transition between fine cells near the geometry and larger surrounding cells.
   source_url: ''
   project_path: /research/high-order-methods/
 - id: interface-planar-field
@@ -239,7 +207,6 @@
   height: 1024
   alt: A pink and white rounded interface stands above a blue planar flow field with bright curved and curled features.
   caption: A three-dimensional interface rendered alongside a planar view of the surrounding flow structures.
-  credit: ''
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: interface-section-views
@@ -248,10 +215,8 @@
   image: /assets/images/research/interface-section-views.png
   width: 2048
   height: 827
-  alt: Pink and pale blue three-dimensional surfaces are shown between dark rolled-up patterns above and blue planar
-    contours below.
+  alt: Pink and pale blue three-dimensional surfaces are shown between dark rolled-up patterns above and blue planar contours below.
   caption: A detailed interface rendering with complementary section views showing the surrounding flow features.
-  credit: ''
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: deformed-interface
@@ -260,10 +225,8 @@
   image: /assets/images/research/deformed-interface.png
   width: 2048
   height: 827
-  alt: A gold folded surface is displayed above a red field plane with blue curling features and a grey background
-    section.
+  alt: A gold folded surface is displayed above a red field plane with blue curling features and a grey background section.
   caption: A deformed three-dimensional interface presented with two orthogonal field views.
-  credit: ''
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: wing-flow-mesh
@@ -272,11 +235,8 @@
   image: /assets/images/research/wing-flow-mesh.png
   width: 2048
   height: 1152
-  alt: Fine blue, green and yellow structures cover aircraft wings beside a grey fuselage and a visible background
-    mesh.
-  caption: A close view of an aircraft configuration combining three-dimensional flow structures with computational-mesh
-    detail.
-  credit: ''
+  alt: Fine blue, green and yellow structures cover aircraft wings beside a grey fuselage and a visible background mesh.
+  caption: A close view of an aircraft configuration combining three-dimensional flow structures with computational-mesh detail.
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: waves-curved-boundary
@@ -285,10 +245,8 @@
   image: /assets/images/research/waves-curved-boundary.png
   width: 2048
   height: 2047
-  alt: Two dark blue wavy curves lie outside a quarter-circle boundary, with finer pale curves across axes labelled
-    X and Y.
+  alt: Two dark blue wavy curves lie outside a quarter-circle boundary, with finer pale curves across axes labelled X and Y.
   caption: A planar flow visualisation showing curved wave patterns around a rounded boundary.
-  credit: ''
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: wake-mesh-refinement
@@ -297,10 +255,8 @@
   image: /assets/images/research/wake-mesh-refinement.png
   width: 2048
   height: 1202
-  alt: Green coiled structures extend from an orange translucent flow surface within a grey mesh of differently
-    sized cells.
+  alt: Green coiled structures extend from an orange translucent flow surface within a grey mesh of differently sized cells.
   caption: Three-dimensional flow structures displayed within a locally refined unstructured mesh.
-  credit: ''
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: tapered-body-mesh
@@ -309,10 +265,8 @@
   image: /assets/images/research/tapered-body-mesh.png
   width: 2048
   height: 1280
-  alt: A grey tapered body with a rounded nose is surrounded by dense near-surface grid lines and a yellow and purple
-    field.
+  alt: A grey tapered body with a rounded nose is surrounded by dense near-surface grid lines and a yellow and purple field.
   caption: A tapered geometry shown with its surface grid, surrounding mesh and a coloured flow-field section.
-  credit: ''
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: aircraft-surface-grid
@@ -323,7 +277,6 @@
   height: 881
   alt: A yellow-green aircraft nose, wing and nacelle carry a fine surface grid within a larger mixed-cell mesh.
   caption: A close view of surface discretisation and surrounding mesh cells on an aircraft configuration.
-  credit: ''
   source_url: ''
   project_path: /research/high-order-methods/
   original_url: /assets/files/research/fv-grid1.pdf
@@ -335,7 +288,6 @@
   height: 757
   alt: Red and purple three-dimensional structures spread across and behind the wings of a complete aircraft.
   caption: A full-aircraft visualisation showing fine-scale structures across the wings and downstream of the configuration.
-  credit: ''
   source_url: ''
   project_path: /research/turbulence-multiphase/
   original_url: /assets/files/research/ultra-crm-wmles.pdf
@@ -347,7 +299,6 @@
   height: 500
   alt: A long pointed axisymmetric body intersects red and orange field sections, with legends at the left and right.
   caption: Several intersecting field sections reveal the flow around a slender axisymmetric geometry.
-  credit: ''
   source_url: ''
   project_path: /research/high-speed-flows/
   original_url: /assets/files/research/will-mach5-hifire.pdf
@@ -358,9 +309,7 @@
   width: 1500
   height: 500
   alt: White three-dimensional structures appear inside a curved translucent duct with coloured cross sections.
-  caption: A curved duct visualisation combining interior flow structures with a sequence of cross-sectional field
-    views.
-  credit: ''
+  caption: A curved duct visualisation combining interior flow structures with a sequence of cross-sectional field views.
   source_url: ''
   project_path: /research/turbulence-multiphase/
   original_url: /assets/files/research/sduct-hoddes.pdf
@@ -370,11 +319,8 @@
   image: /assets/images/research/scalar-field-mesh.png
   width: 1500
   height: 1500
-  alt: A yellow square region lies within a turquoise irregular mesh, with a band of red, blue and orange cells
-    along its edge.
-  caption: An irregular mesh carrying a scalar field, with the transition between the central region and its surroundings
-    visible at cell level.
-  credit: ''
+  alt: A yellow square region lies within a turquoise irregular mesh, with a band of red, blue and orange cells along its edge.
+  caption: An irregular mesh carrying a scalar field, with the transition between the central region and its surroundings visible at cell level.
   source_url: ''
   project_path: /research/high-order-methods/
   original_url: /assets/files/research/initial-condition-high.pdf
@@ -384,11 +330,8 @@
   image: /assets/images/research/rounded-body-mesh.png
   width: 1500
   height: 1240
-  alt: An orange elongated body with a rounded nose is surrounded by tightly layered cells and a coarser grey unstructured
-    mesh.
-  caption: A rounded geometry and its surrounding mesh, showing near-surface layers and the transition to larger
-    cells farther away.
-  credit: ''
+  alt: An orange elongated body with a rounded nose is surrounded by tightly layered cells and a coarser grey unstructured mesh.
+  caption: A rounded geometry and its surrounding mesh, showing near-surface layers and the transition to larger cells farther away.
   source_url: ''
   project_path: /research/high-order-methods/
   original_url: /assets/files/research/hb2-mesh.pdf
@@ -400,7 +343,6 @@
   height: 844
   alt: Purple flow structures extend across and behind an aircraft, superimposed on a graded background mesh.
   caption: An aircraft and its downstream flow structures shown together with the computational mesh.
-  credit: ''
   source_url: ''
   project_path: /research/turbulence-multiphase/
   original_url: /assets/files/research/toubano7.pdf
@@ -411,9 +353,7 @@
   width: 1500
   height: 844
   alt: Turquoise and green structures surround a complete aircraft inside a grey mesh with triangular cell faces.
-  caption: A full-aircraft rendering combining three-dimensional flow structures with the surrounding unstructured
-    mesh.
-  credit: ''
+  caption: A full-aircraft rendering combining three-dimensional flow structures with the surrounding unstructured mesh.
   source_url: ''
   project_path: /research/turbulence-multiphase/
   original_url: /assets/files/research/crm-nice-q2.pdf
@@ -424,9 +364,7 @@
   width: 2048
   height: 1024
   alt: A pink and pale rounded interface stands above a red planar field with bright curved and curled patterns.
-  caption: A three-dimensional interface shown together with curved wave patterns and rolled-up structures in a
-    planar field view.
-  credit: ''
+  caption: A three-dimensional interface shown together with curved wave patterns and rolled-up structures in a planar field view.
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: curved-boundary-layered-mesh
@@ -436,9 +374,7 @@
   width: 2048
   height: 1820
   alt: A grey mixed-cell mesh contains a large rounded central region and several closely spaced curved layers.
-  caption: A close view of a mixed-element mesh, showing curved layers and the transition between different cell
-    arrangements.
-  credit: ''
+  caption: A close view of a mixed-element mesh, showing curved layers and the transition between different cell arrangements.
   source_url: ''
   project_path: /research/high-order-methods/
 - id: cylinder-wake-structures
@@ -447,10 +383,8 @@
   image: /assets/images/research/cylinder-wake-structures.png
   width: 2048
   height: 1024
-  alt: Dense blue, grey and gold curved structures extend downstream of a cylinder against pale coloured flow-field
-    sections.
+  alt: Dense blue, grey and gold curved structures extend downstream of a cylinder against pale coloured flow-field sections.
   caption: A cylinder wake visualisation combining three-dimensional flow structures with intersecting field sections.
-  credit: ''
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: cylinder-wake-field
@@ -460,9 +394,7 @@
   width: 2048
   height: 1024
   alt: Blue, grey and gold structures extend from a cylinder against orange, red and purple field sections.
-  caption: A second rendering of the cylinder wake, presenting the three-dimensional structures alongside a coloured
-    surrounding field.
-  credit: ''
+  caption: A second rendering of the cylinder wake, presenting the three-dimensional structures alongside a coloured surrounding field.
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: turbulent-flow

@@ -106,7 +106,7 @@ def main() -> int:
 
     for filename, required_fields in [
         ("_data/people.yml", ["name", "role", "research_topic"]),
-        ("_data/gallery.yml", ["id", "title", "category", "image", "alt", "caption", "credit"]),
+        ("_data/gallery.yml", ["id", "title", "category", "image", "alt", "caption"]),
     ]:
         records = read_yaml(filename)
         if not isinstance(records, list):
@@ -183,7 +183,7 @@ def main() -> int:
             if not isinstance(record, dict):
                 fail(f"{label}: expected a mapping.")
                 continue
-            required(record, ["id", "title", "caption", "url", "credit"], label)
+            required(record, ["id", "title", "caption", "url"], label)
             is_local_video = record.get("type") == "video"
             url(record.get("url"), f"{label}.url", local=is_local_video, must_exist=is_local_video)
             url(record.get("source_url"), f"{label}.source_url")

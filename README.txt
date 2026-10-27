@@ -1,13 +1,13 @@
-TakisCFD website update
+TakisCFD website update v2 — corrected
 
-Copy EVERYTHING inside this folder into the root of your local takiscfd.github.io repository, replacing files when asked.
-Important: show hidden files in Finder (Command+Shift+.) so .github and .gitignore are copied.
-Do NOT replace or delete the repository's .git folder.
+This package fixes the failed validation shown on GitHub Actions:
+- restores the COMPLETE _data folder, including people.yml, navigation.yml, msc_topics.yml and public_profile.yml;
+- keeps the 90-record publications.yml fallback;
+- removes Panagiotis Tsoutsanis self-credit fields from gallery images/videos;
+- makes gallery/video credit optional in scripts/validate_content.py;
+- renders credit text only when a real credit exists;
+- retains the fast Pages workflow and separate CV workflow.
 
-This update:
-- tracks a 90-record _data/publications.yml fallback
-- keeps BibTeX regeneration in GitHub Actions
-- fails the Pages build if publication data or rendered publication cards are missing
-- makes Pages builds fast by removing CV/TeX installation
-- adds a separate manual CV workflow with texlive-fonts-recommended
-- removes Panagiotis Tsoutsanis self-credit text from gallery images/videos
+Copy EVERYTHING inside this folder into the root of your local takiscfd.github.io repository. Do not touch .git.
+Because this package contains the complete _data folder, choosing Replace for _data is safe this time.
+Commit and Push origin in GitHub Desktop.
