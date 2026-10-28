@@ -4,8 +4,8 @@
   image: /assets/images/research/schardin-flow.png
   width: 2048
   height: 1820
-  alt: Grayscale wave fronts curve around a central rolled-up structure beside a white solid obstacle.
-  caption: Grayscale flow visualisation showing curved wave fronts and a rolled-up structure beside a solid obstacle.
+  alt: Grayscale wave fronts curve around a central rolled-up structure beside a triangular wedge.
+  caption: Grayscale Schlieren flow visualisation showing curved wave fronts and a rolled-up structure beside a triangular wedge.
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: sphere-wake
@@ -14,38 +14,38 @@
   image: /assets/images/research/sphere-wake.png
   width: 1829
   height: 605
-  alt: Green and blue coiled structures extend from a spherical body through a black unstructured mesh.
-  caption: Coloured three-dimensional structures extend downstream of a spherical body, shown together with the computational mesh.
+  alt: Iso-surfaces of q-criterion coloured by Mach number around a spherical body in an unstructured mesh.
+  caption: Coloured iso-surfaces of q-criterion by Mach number that extend downstream of a spherical body, shown together with the computational mesh.
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: vortex-roll-up
-  title: Vortex roll-up across scales
+  title: Supersonic Kelvin-Helmholtz
   category: Turbulence
   image: /assets/images/research/vortex-roll-up.jpg
   width: 1962
   height: 1952
-  alt: Red and yellow bands curl around several dark vortex cores, with fine filaments along their edges.
-  caption: A flow visualisation showing large rolled-up structures and fine-scale filaments within the surrounding layers.
+  alt: Contour plot of density for the supersonic Kelvin-Helmholtz instability.
+  caption: A flow visualisation showing large rolled-up instabilities, shockwaves and fine-scale filaments within the surrounding layers.
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: wave-boundary-layer
-  title: Waves and near-wall structures
+  title: Hypersonic shock-wave boundary layer interaction.
   category: Shock interactions
   image: /assets/images/research/wave-boundary-layer.png
   width: 1900
   height: 1382
-  alt: Orange and yellow field slices intersect blue and purple three-dimensional structures above two grey surfaces.
-  caption: A combined view of a coloured flow-field section and three-dimensional structures near solid surfaces.
+  alt: Instabilities and vortical structures from SWBLI of hypersonic intake with iLES-CWENOZ.
+  caption: Instabilities and vortical structures from SWBLI of hypersonic intake with iLES-CWENOZ.
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: near-wall-flow
-  title: Near-wall flow detail
+  title: SWBLI
   category: Shock interactions
   image: /assets/images/research/near-wall-flow.png
   width: 1000
   height: 889
-  alt: A yellow field lies between grey surfaces with many blue and grey structures along the upper and lower boundaries.
-  caption: A close view of interacting flow features near walls, combining a field slice with three-dimensional visualisation.
+  alt: Instabilities and vortical structures from SWBLI of hypersonic intake with iLES-WENO.
+  caption: Instabilities and vortical structures from SWBLI of hypersonic intake with iLES-WENO.
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: three-dimensional-bubble
@@ -54,8 +54,8 @@
   image: /assets/images/research/three-dimensional-bubble.png
   width: 2048
   height: 1820
-  alt: A turquoise rounded interface is surrounded by coloured section planes, with pressure and density legends at the right.
-  caption: A rounded three-dimensional interface with surrounding section planes and pressure and density legends.
+  alt: ICF modelling of shock wave interaction with hydrogen derived target.
+  caption: ICF modelling of shock wave interaction with hydrogen derived target.
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: interface-deformation
@@ -64,8 +64,8 @@
   image: /assets/images/research/interface-deformation.jpg
   width: 2048
   height: 1788
-  alt: Blue and red contours form a deformed rounded boundary with elongated curling structures extending to the right.
-  caption: A deformed interface and the surrounding rolled-up flow structures, shown in a coloured planar visualisation.
+  alt: Water droplet interaction with an air cavity interaction with a shock wave.
+  caption: Water droplet interaction with an air cavity interaction with a shock wave.
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: ring-interface
@@ -74,38 +74,28 @@
   image: /assets/images/research/ring-interface.png
   width: 1000
   height: 1000
-  alt: A gold ring-shaped surface sits between red and blue field slices, above concentric rings on a black plane.
-  caption: A ring-shaped interface presented with orthogonal field views and a planar section beneath it.
+  alt: Nuclear fusion ICF target interaction with shock wave.
+  caption: Nuclear fusion ICF target interaction with shock wave.
   source_url: ''
   project_path: /research/turbulence-multiphase/
-- id: wedge-flow
-  title: Flow around a wedge
-  category: Shock interactions
-  image: /assets/images/research/wedge-flow.png
-  width: 800
-  height: 800
-  alt: A pink wedge points into a yellow and pink field, with symmetric blue curling layers on either side.
-  caption: A planar view of wave fronts and paired rolled-up structures around a wedge-shaped obstacle.
-  source_url: ''
-  project_path: /research/high-speed-flows/
 - id: wedge-flow-detail
-  title: Wedge-flow detail
+  title: Triple Material Flow
   category: Shock interactions
   image: /assets/images/research/wedge-flow-detail.jpeg
   width: 800
   height: 800
-  alt: A red wedge lies below a pale curved surface and dark curled structures with smaller rolls along the edges.
-  caption: A detailed rendering of curved and rolled-up flow structures adjacent to a wedge-shaped obstacle.
+  alt: Triple material flow with a high-order DG-FV method.
+  caption: Triple material flow with a high-order DG-FV method.
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: paired-vortices
-  title: Paired vortical structures
+  title: Schardi's test
   category: Shock interactions
   image: /assets/images/research/paired-vortices.png
   width: 400
   height: 400
-  alt: A white triangular obstacle stands beside two bright orange rolled-up patterns against a dark background.
-  caption: Paired vortical structures and curved wave patterns around a triangular obstacle.
+  alt: Schardin's test problem of shock wave interaction with triangular wedge.
+  caption: Schardin's test problem of shock wave interaction with triangular wedge.
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: aircraft-mesh
@@ -114,8 +104,8 @@
   image: /assets/images/research/aircraft-mesh.png
   width: 2048
   height: 1821
-  alt: A colour-mapped aircraft nose, wings and engine inlets are surrounded by a mixed-cell mesh in a frontal view.
-  caption: A frontal view of an aircraft configuration, combining surface colouring with the surrounding computational mesh.
+  alt: NASA-CRM and mesh used for high-order CFD simulation.
+  caption: A frontal view of NASA-CRM aircraft configuration, combining surface colouring with the surrounding computational mesh.
   source_url: ''
   project_path: /research/high-order-methods/
 - id: nacelle-mesh
