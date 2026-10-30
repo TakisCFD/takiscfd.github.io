@@ -48,16 +48,6 @@
   caption: Instabilities and vortical structures from SWBLI of hypersonic intake with iLES-WENO.
   source_url: ''
   project_path: /research/high-speed-flows/
-- id: three-dimensional-bubble
-  title: Three-dimensional bubble visualisation
-  category: Multiphase flows
-  image: /assets/images/research/three-dimensional-bubble.png
-  width: 2048
-  height: 1820
-  alt: ICF modelling of shock wave interaction with hydrogen derived target.
-  caption: ICF modelling of shock wave interaction with hydrogen derived target.
-  source_url: ''
-  project_path: /research/turbulence-multiphase/
 - id: interface-deformation
   title: Interface deformation and roll-up
   category: Multiphase flows
@@ -229,16 +219,6 @@
   caption: A close view of an aircraft configuration combining three-dimensional flow structures with computational-mesh detail.
   source_url: ''
   project_path: /research/turbulence-multiphase/
-- id: waves-curved-boundary
-  title: Waves around a curved boundary
-  category: Shock interactions
-  image: /assets/images/research/waves-curved-boundary.png
-  width: 2048
-  height: 2047
-  alt: Two dark blue wavy curves lie outside a quarter-circle boundary, with finer pale curves across axes labelled X and Y.
-  caption: A planar flow visualisation showing curved wave patterns around a rounded boundary.
-  source_url: ''
-  project_path: /research/high-speed-flows/
 - id: wake-mesh-refinement
   title: Wake structures and mesh refinement
   category: Turbulence
@@ -347,16 +327,6 @@
   source_url: ''
   project_path: /research/turbulence-multiphase/
   original_url: /assets/files/research/crm-nice-q2.pdf
-- id: interface-wave-detail
-  title: Interface detail and surrounding waves
-  category: Multiphase flows
-  image: /assets/images/research/interface-wave-detail.png
-  width: 2048
-  height: 1024
-  alt: A pink and pale rounded interface stands above a red planar field with bright curved and curled patterns.
-  caption: A three-dimensional interface shown together with curved wave patterns and rolled-up structures in a planar field view.
-  source_url: ''
-  project_path: /research/turbulence-multiphase/
 - id: curved-boundary-layered-mesh
   title: Layered mesh around a curved boundary
   category: Meshes and methods
@@ -387,25 +357,3 @@
   caption: A second rendering of the cylinder wake, presenting the three-dimensional structures alongside a coloured surrounding field.
   source_url: ''
   project_path: /research/turbulence-multiphase/
-- id: turbulent-flow
-  title: Turbulent flow visualisation
-  category: Turbulence
-  image: /assets/images/turbulent-flow.png
-  alt: Red and yellow vortical structures in a turbulent flow visualisation.
-  caption: Turbulent flow visualisation from the UCNS3D project.
-  credit: UCNS3D team
-  source_url: https://ucns3d.com/wp-content/uploads/2019/09/TC43copy-1024x637.png
-  project_path: /research/turbulence-multiphase/
-  width: 1024
-  height: 637
-- id: mesh-reconstruction
-  title: Meshes and numerical reconstruction
-  category: Meshes and methods
-  image: /assets/images/mesh-reconstruction.png
-  alt: Coloured mesh and numerical reconstruction illustration from UCNS3D.
-  caption: Mesh and numerical reconstruction illustration from the UCNS3D project.
-  credit: UCNS3D team
-  source_url: https://ucns3d.com/wp-content/uploads/2019/09/TC402-300x181.png
-  project_path: /research/high-order-methods/
-  width: 300
-  height: 181
