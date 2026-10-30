@@ -83,14 +83,14 @@
   title: Triple Material Flow
   category: Shock interactions
   image: /assets/images/research/wedge-flow-detail.jpeg
-  width: 800
-  height: 800
+  width: 400
+  height: 400
   alt: Triple material flow with a high-order DG-FV method.
   caption: Triple material flow with a high-order DG-FV method.
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: paired-vortices
-  title: Schardi's test
+  title: Schardin's test
   category: Shock interactions
   image: /assets/images/research/paired-vortices.png
   width: 400
