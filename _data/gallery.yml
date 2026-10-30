@@ -12,8 +12,8 @@
   title: Sphere Re=10000
   category: Aerodynamics
   image: /assets/images/research/sphere2.png
-  width: 1600
-  height: 1000
+  width: 2048
+  height: 1820
   alt: Iso-surface of Q-criterion coloured by u-velocity  for flow past sphere at RE=10000 with iLES using UCNS3D.
   caption: Iso-surface of Q-criterion coloured by u-velocity for flow past sphere at RE=10000 with iLES using UCNS3D.
   source_url: ''
