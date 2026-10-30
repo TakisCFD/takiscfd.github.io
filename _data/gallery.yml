@@ -8,6 +8,17 @@
   caption: Grayscale Schlieren flow visualisation showing curved wave fronts and a rolled-up structure beside a triangular wedge.
   source_url: ''
   project_path: /research/high-speed-flows/
+- id: sphere2
+  title: Sphere Re=10000
+  category: Aerodynamics
+  image: /assets/images/research/sphere2.png
+  width: 1600
+  height: 1000
+  alt: Iso-surface of Q-criterion coloured by u-velocity for flow past sphere at RE=10000 with iLES using UCNS3D.
+  caption: Iso-surface of Q-criterion coloured by u-velocity for flow past sphere at RE=10000 with iLES using UCNS3D.
+  source_url: ''
+  project_path: /research/turbulence-multiphase/
+  original_url: /assets/files/research/sphere2.pdf
 - id: sphere-wake
   title: Wake structures behind a sphere
   category: Turbulence
