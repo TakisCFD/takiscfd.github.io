@@ -19,16 +19,6 @@
   source_url: ''
   project_path: /research/turbulence-multiphase/
   original_url: /assets/files/research/sphere2.pdf
-- id: sphere-wake
-  title: Wake structures behind a sphere
-  category: Turbulence
-  image: /assets/images/research/sphere-wake.png
-  width: 1829
-  height: 605
-  alt: Iso-surfaces of q-criterion coloured by Mach number around a spherical body in an unstructured mesh.
-  caption: Coloured iso-surfaces of q-criterion by Mach number that extend downstream of a spherical body, shown together with the computational mesh.
-  source_url: ''
-  project_path: /research/turbulence-multiphase/
 - id: vortex-roll-up
   title: Supersonic Kelvin-Helmholtz
   category: Turbulence
@@ -47,16 +37,6 @@
   height: 1382
   alt: Instabilities and vortical structures from SWBLI of hypersonic intake with iLES-CWENOZ.
   caption: Instabilities and vortical structures from SWBLI of hypersonic intake with iLES-CWENOZ.
-  source_url: ''
-  project_path: /research/high-speed-flows/
-- id: near-wall-flow
-  title: SWBLI
-  category: Shock interactions
-  image: /assets/images/research/near-wall-flow.png
-  width: 1000
-  height: 889
-  alt: Instabilities and vortical structures from SWBLI of hypersonic intake with iLES-WENO.
-  caption: Instabilities and vortical structures from SWBLI of hypersonic intake with iLES-WENO.
   source_url: ''
   project_path: /research/high-speed-flows/
 - id: interface-deformation
@@ -150,16 +130,6 @@
   caption: A close view of a surface grid and the distribution of points within its cells.
   source_url: ''
   project_path: /research/high-order-methods/
-- id: directional-stencils
-  title: Directional reconstruction stencils
-  category: Meshes and methods
-  image: /assets/images/research/directional-stencils.png
-  width: 1087
-  height: 949
-  alt: Translucent coloured groups of cells sit inside a mixed mesh, with matching projections onto the floor plane.
-  caption: Highlighted stencil cells within a mixed-element mesh. The supplied figure identifies strong-directionality stencils for prismatic and tetrahedral elements.
-  source_url: ''
-  project_path: /research/high-order-methods/
 - id: polyhedral-stencil
   title: Polyhedral stencil neighbourhood
   category: Meshes and methods
@@ -168,16 +138,6 @@
   height: 761
   alt: Several grey block-like cells connect around a central cell in a three-dimensional arrangement.
   caption: A three-dimensional illustration of a cell neighbourhood used to explain reconstruction stencils.
-  source_url: ''
-  project_path: /research/high-order-methods/
-- id: triangular-face-stencil
-  title: A stencil of neighbouring cells
-  category: Meshes and methods
-  image: /assets/images/research/triangular-face-stencil.png
-  width: 850
-  height: 756
-  alt: Grey polyhedral cells with triangular faces meet around a central region, with black outlines marking their edges.
-  caption: Neighbouring cells with triangular faces illustrate a second three-dimensional stencil configuration.
   source_url: ''
   project_path: /research/high-order-methods/
 - id: aircraft-graded-mesh
@@ -200,16 +160,6 @@
   caption: A three-dimensional interface rendered alongside a planar view of the surrounding flow structures.
   source_url: ''
   project_path: /research/turbulence-multiphase/
-- id: interface-section-views
-  title: Interface structure with section views
-  category: Multiphase flows
-  image: /assets/images/research/interface-section-views.png
-  width: 2048
-  height: 827
-  alt: Pink and pale blue three-dimensional surfaces are shown between dark rolled-up patterns above and blue planar contours below.
-  caption: A detailed interface rendering with complementary section views showing the surrounding flow features.
-  source_url: ''
-  project_path: /research/turbulence-multiphase/
 - id: deformed-interface
   title: Deformed interface in three dimensions
   category: Multiphase flows
@@ -218,16 +168,6 @@
   height: 827
   alt: A gold folded surface is displayed above a red field plane with blue curling features and a grey background section.
   caption: A deformed three-dimensional interface presented with two orthogonal field views.
-  source_url: ''
-  project_path: /research/turbulence-multiphase/
-- id: wing-flow-mesh
-  title: Wing flow structures and mesh detail
-  category: Aerodynamics
-  image: /assets/images/research/wing-flow-mesh.png
-  width: 2048
-  height: 1152
-  alt: Fine blue, green and yellow structures cover aircraft wings beside a grey fuselage and a visible background mesh.
-  caption: A close view of an aircraft configuration combining three-dimensional flow structures with computational-mesh detail.
   source_url: ''
   project_path: /research/turbulence-multiphase/
 - id: wake-mesh-refinement
@@ -261,17 +201,6 @@
   source_url: ''
   project_path: /research/high-order-methods/
   original_url: /assets/files/research/fv-grid1.pdf
-- id: aircraft-flow-structures
-  title: Flow structures around an aircraft
-  category: Aerodynamics
-  image: /assets/images/research/aircraft-flow-structures.png
-  width: 1500
-  height: 757
-  alt: Red and purple three-dimensional structures spread across and behind the wings of a complete aircraft.
-  caption: A full-aircraft visualisation showing fine-scale structures across the wings and downstream of the configuration.
-  source_url: ''
-  project_path: /research/turbulence-multiphase/
-  original_url: /assets/files/research/ultra-crm-wmles.pdf
 - id: axisymmetric-field-sections
   title: Field sections around an axisymmetric body
   category: Shock interactions
@@ -356,15 +285,5 @@
   height: 1024
   alt: Dense blue, grey and gold curved structures extend downstream of a cylinder against pale coloured flow-field sections.
   caption: A cylinder wake visualisation combining three-dimensional flow structures with intersecting field sections.
-  source_url: ''
-  project_path: /research/turbulence-multiphase/
-- id: cylinder-wake-field
-  title: Cylinder wake and surrounding field
-  category: Turbulence
-  image: /assets/images/research/cylinder-wake-field.png
-  width: 2048
-  height: 1024
-  alt: Blue, grey and gold structures extend from a cylinder against orange, red and purple field sections.
-  caption: A second rendering of the cylinder wake, presenting the three-dimensional structures alongside a coloured surrounding field.
   source_url: ''
   project_path: /research/turbulence-multiphase/
